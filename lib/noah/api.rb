@@ -9,5 +9,9 @@ module Noah
     def self.doppler
       get '/doppler'
     end
+
+    def self.mtsat
+      get '/mtsat'
+    end
   end
 end

@@ -1,5 +1,6 @@
 require 'pry'
 require 'vcr'
+require 'json'
 
 require_relative '../lib/noah/api'
 
