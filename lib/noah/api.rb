@@ -13,5 +13,9 @@ module Noah
     def self.mtsat
       get '/mtsat'
     end
+
+    def self.latest_contour
+      get '/latest_contour'
+    end
   end
 end

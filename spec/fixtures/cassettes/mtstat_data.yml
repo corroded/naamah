@@ -1,0 +1,33 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beta.noah.dost.gov.ph/api/mtstat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.0
+      Date:
+      - Sun, 23 Nov 2014 16:59:00 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"69f117d572501f74136642db506732c3cc90dc8f"'
+    body:
+      encoding: US-ASCII
+      string: ! '{"data": {"error_code": 2010, "error_msg": "Sorry api/mtstat can''t
+        be found."}, "success": false}'
+    http_version: 
+  recorded_at: Sun, 23 Nov 2014 16:59:03 GMT
+recorded_with: VCR 2.5.0

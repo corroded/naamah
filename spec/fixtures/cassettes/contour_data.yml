@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beta.noah.dost.gov.ph/api/latest_contour
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.0
+      Date:
+      - Mon, 24 Nov 2014 22:52:57 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '704'
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"0c9e31dc8a125af6bda755994670671fc88c3e46"'
+    body:
+      encoding: US-ASCII
+      string: ! '[{"url": "http://mahar.pscigrid.gov.ph/static/img/air_temperature_contour.png",
+        "verbose_name": "Temperature Contour", "extent": [115.2, 3.89, 128.135, 21.528],
+        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/air_pressure_contour.png",
+        "verbose_name": "Pressure Contour", "extent": [115.2, 3.89, 128.135, 21.528],
+        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/air_humidity_contour.png",
+        "verbose_name": "Humidity Contour", "extent": [115.2, 3.89, 128.135, 21.528],
+        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/rain_value_contour.png",
+        "verbose_name": "Rainfall Contour", "extent": [115.2, 3.89, 128.135, 21.528],
+        "size": [400, 549]}]'
+    http_version: 
+  recorded_at: Mon, 24 Nov 2014 22:53:01 GMT
+recorded_with: VCR 2.5.0

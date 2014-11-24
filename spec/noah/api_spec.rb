@@ -33,4 +33,20 @@ RSpec.describe Noah::Api do
       expect(JSON.parse(@mtsat_data).size).to eq(3)
     end
   end
+
+  describe '#latest_contour' do
+    before do
+      VCR.use_cassette 'contour_data' do
+        @contour_data = Noah::Api.latest_contour
+      end
+    end
+
+    it 'should have 4 contours: Temperature, Pressure, Humidity and Rainfall' do
+      expect(@contour_data).to include('Temperature Contour')
+      expect(@contour_data).to include('Pressure Contour')
+      expect(@contour_data).to include('Humidity Contour')
+      expect(@contour_data).to include('Rainfall Contour')
+      expect(JSON.parse(@contour_data).size).to eq(4)
+    end
+  end
 end
