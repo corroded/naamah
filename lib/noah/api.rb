@@ -17,5 +17,13 @@ module Noah
     def self.latest_contour
       get '/latest_contour'
     end
+
+    def self.cumulative_rainfall
+      get '/cumulative_rainfall'
+    end
+
+    def self.stations
+      get '/stations'
+    end
   end
 end

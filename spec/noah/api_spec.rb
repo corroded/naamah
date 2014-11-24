@@ -49,4 +49,40 @@ RSpec.describe Noah::Api do
       expect(JSON.parse(@contour_data).size).to eq(4)
     end
   end
+
+  describe '#cumulative_rainfall' do
+    before do
+      VCR.use_cassette 'rainfall_data' do
+        @rainfall_data = Noah::Api.cumulative_rainfall
+      end
+    end
+
+    it 'should have 4 timeframes of rainfall data' do
+      expect(@rainfall_data).to include('3-hour Rainfall')
+      expect(@rainfall_data).to include('6-hour Rainfall')
+      expect(@rainfall_data).to include('12-hour Rainfall')
+      expect(@rainfall_data).to include('24-hour Rainfall')
+      expect(JSON.parse(@rainfall_data).size).to eq(4)
+    end
+  end
+
+  describe '#stations' do
+    before do
+      VCR.use_cassette 'station_data' do
+        @station_data = Noah::Api.stations
+      end
+    end
+
+    it 'should have a list of weather stations that have the ff: coordinates, url, name, id' do
+      json_data = JSON.parse(@station_data)
+
+      sample_station = json_data.first['stations'].first
+
+      expect(sample_station['lat']).to_not be_nil
+      expect(sample_station['lng']).to_not be_nil
+      expect(sample_station['url']).to_not be_nil
+      expect(sample_station['verbose_name']).to_not be_nil
+      expect(sample_station['station_id']).to_not be_nil
+    end
+  end
 end
