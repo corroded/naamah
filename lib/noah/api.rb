@@ -6,24 +6,13 @@ module Noah
 
     base_uri 'beta.noah.dost.gov.ph/api'
 
-    def self.doppler
-      get '/doppler'
+    class << self
+      %w(doppler mtsat latest_contour cumulative_rainfall stations).each do |endpoint|
+        define_method endpoint do
+          get "/#{endpoint}"
+        end
+      end
     end
 
-    def self.mtsat
-      get '/mtsat'
-    end
-
-    def self.latest_contour
-      get '/latest_contour'
-    end
-
-    def self.cumulative_rainfall
-      get '/cumulative_rainfall'
-    end
-
-    def self.stations
-      get '/stations'
-    end
   end
 end
