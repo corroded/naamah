@@ -5,7 +5,7 @@ RSpec.describe Noah::Api do
     VCR.eject_cassette
   end
 
-  describe '#doppler' do
+  describe '.doppler' do
     before do
       record_api_call_for 'doppler'
     end
@@ -16,7 +16,7 @@ RSpec.describe Noah::Api do
     end
   end
 
-  describe '#mtsat' do
+  describe '.mtsat' do
     before do
       record_api_call_for 'mtsat'
     end
@@ -30,7 +30,7 @@ RSpec.describe Noah::Api do
     end
   end
 
-  describe '#latest_contour' do
+  describe '.latest_contour' do
     before do
       record_api_call_for 'latest_contour'
     end
@@ -44,7 +44,7 @@ RSpec.describe Noah::Api do
     end
   end
 
-  describe '#cumulative_rainfall' do
+  describe '.cumulative_rainfall' do
     before do
       record_api_call_for 'cumulative_rainfall'
     end
@@ -58,7 +58,7 @@ RSpec.describe Noah::Api do
     end
   end
 
-  describe '#stations' do
+  describe '.stations' do
     before do
       record_api_call_for 'stations'
     end
@@ -76,9 +76,39 @@ RSpec.describe Noah::Api do
     end
   end
 
-  describe '#four_day_forecast' do
+  describe '.four_day_forecast' do
     before do
+      record_api_call_for 'four_day_forecast'
+    end
 
+    it 'should have seven top level fields: last_update, source, location, lat, lng, icon, data' do
+      json_data = JSON.parse(@api_response).first
+
+      expect(json_data['lat']).to_not be_nil
+      expect(json_data['lng']).to_not be_nil
+      expect(json_data['last_update']).to_not be_nil
+      expect(json_data['source']).to_not be_nil
+      # expect(json_data['icon']).to_not be_nil commenting out bec we don't receive the icon field as of now 11/29/2014
+      expect(json_data['data']).to_not be_nil
+      expect(json_data['location']).to_not be_nil
+    end
+  end
+
+  describe '.four_hour_forecast' do
+    before do
+      record_api_call_for 'four_hour_forecast'
+    end
+
+    it 'should have seven top level fields: last_update, source, location, lat, lng, icon, data' do
+      json_data = JSON.parse(@api_response).first
+
+      expect(json_data['lat']).to_not be_nil
+      expect(json_data['lng']).to_not be_nil
+      expect(json_data['last_update']).to_not be_nil
+      expect(json_data['source']).to_not be_nil
+      # expect(json_data['icon']).to_not be_nil commenting out bec we don't receive the icon field as of now 11/29/2014
+      expect(json_data['data']).to_not be_nil
+      expect(json_data['location']).to_not be_nil
     end
   end
 end

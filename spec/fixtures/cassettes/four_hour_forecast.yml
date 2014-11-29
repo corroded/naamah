@@ -1,0 +1,1412 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beta.noah.dost.gov.ph/api/four_hour_forecast
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.0
+      Date:
+      - Sat, 29 Nov 2014 00:55:47 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '111492'
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"36deebccafa0cc92564774b258b317049fb21068"'
+    body:
+      encoding: US-ASCII
+      string: ! '[{"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Alabel, Sarangani", "lat": "6.083333", "lng": "125.283333", "data":
+        []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Alaminos, Pangasinan", "lat": "16.160278", "lng": "119.980278",
+        "data": [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Angeles, Pampanga", "lat": "15.15", "lng": "120.583333", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Antipolo, Rizal", "lat": "14.583333", "lng": "121.166667", "data": [{"percent_chance_of_rain":
+        "95.0", "chance_of_rain": "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "90.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Aparri, Cagayan", "lat": "18.314722", "lng": "121.7125", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Bacolod,
+        Negros Occidental", "lat": "10.666667", "lng": "122.95", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bago, Negros Occidental", "lat": "10.533333", "lng": "122.833333", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Baguio, Benguet", "lat": "16.416667", "lng": "120.6", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bais, Negros Oriental", "lat": "9.583333", "lng": "123.116667", "data": [{"percent_chance_of_rain":
+        "95.0", "chance_of_rain": "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Balanga, Bataan", "lat": "14.683333", "lng": "120.533333", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bangued, Abra", "lat": "17.6", "lng": "120.613889", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Basco, Batanes", "lat": "20.45", "lng": "121.966667", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Batac City, Ilocos Norte", "lat": "18.05", "lng": "120.566667", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Batangas City, Batangas", "lat": "13.757211", "lng": "121.058111", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bayawan, Negros Oriental", "lat": "9.363611", "lng": "122.801111", "data":
+        [{"percent_chance_of_rain": "70.0", "chance_of_rain": "Medium Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/13.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bayombong, Nueva Vizcaya", "lat": "16.483333", "lng": "121.15", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Binan, Laguna", "lat": "14.333333", "lng": "121.083333", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bislig, Surigao del Sur", "lat": "8.213136", "lng": "126.315939", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Boac, Marinduque", "lat": "13.449167", "lng": "121.837222", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bongao, Tawi-Tawi", "lat": "5.033333", "lng": "119.766667", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bontoc, Mountain Province", "lat": "17.087222", "lng": "120.975556", "data":
+        []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Borongan, Eastern Samar", "lat": "11.6", "lng": "125.433333",
+        "data": [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Bulalacao, Oriental Mindoro", "lat": "12.333333", "lng": "121.35", "data":
+        [{"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Butuan, Agusan del Norte", "lat": "8.95", "lng": "125.533333", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Cabanatuan, Nueva Ecija", "lat": "15.489722", "lng": "120.970556", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Cabarroguis, Quirino", "lat": "16.583333", "lng": "121.5", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Cadiz,
+        Negros Occidental", "lat": "10.95", "lng": "123.3", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Cagayan de Oro, Misamis Oriental", "lat": "8.483333", "lng": "124.65", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Calamba, Laguna", "lat": "14.216667", "lng": "121.166667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Calapan, Oriental Mindoro", "lat": "13.366667", "lng": "121.2", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Calbayog, Samar", "lat": "12.066667", "lng": "124.6", "data": [{"percent_chance_of_rain":
+        "50.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Caloocan, Metro Manila", "lat": "14.65", "lng": "120.966667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "60.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Candon, Ilocos Sur", "lat": "17.2", "lng": "120.45", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Canlaon,
+        Negros Oriental", "lat": "10.383333", "lng": "123.2", "data": [{"percent_chance_of_rain":
+        "70.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Catanauan, Quezon", "lat": "13.591667", "lng": "122.325", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Catarman,
+        Northern Samar", "lat": "12.566944", "lng": "125", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Cauayan,
+        Isabela", "lat": "16.766667", "lng": "121.783333", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Cavite
+        City, Cavite", "lat": "14.483333", "lng": "120.9", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Cebu City, Cebu", "lat": "10.283333", "lng": "123.9", "data": [{"percent_chance_of_rain":
+        "70.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Claveria, Masbate", "lat": "12.903", "lng": "123.247", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Coron,
+        Palawan", "lat": "11.6", "lng": "120.12", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Cotabato City, Maguindanao", "lat": "7.216667", "lng": "124.25", "data":
+        []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Daet, Camarines Norte", "lat": "14.116667", "lng": "122.95",
+        "data": []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Dagupan, Pangasinan", "lat": "16.05", "lng": "120.333333", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Danao, Cebu", "lat": "10.516667", "lng": "124.033333", "data": [{"percent_chance_of_rain":
+        "50.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Dapitan, Zamboanga del Norte", "lat": "8.65", "lng": "123.416667", "data":
+        [{"percent_chance_of_rain": "50.0", "chance_of_rain": "Medium Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/12.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Dasmarinas, Cavite", "lat": "14.326389", "lng": "120.936111", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Davao City, Davao", "lat": "7.064444", "lng": "125.607778", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Digos, Davao del Sur", "lat": "6.76", "lng": "125.35", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Dipolog,
+        Zamboanga del Norte", "lat": "8.583333", "lng": "123.333333", "data": [{"percent_chance_of_rain":
+        "95.0", "chance_of_rain": "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Dumaguete, Negros Oriental", "lat": "9.316667", "lng": "123.3", "data": [{"percent_chance_of_rain":
+        "70.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "El Nido, Palawan", "lat": "11.333333", "lng": "119.683333", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Escalante, Negros Occidental", "lat": "10.840278", "lng": "123.499167", "data":
+        [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Gapan, Nueva Ecija", "lat": "15.283333", "lng": "120.966667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "General Santos, South Cotabato", "lat": "6.116667", "lng": "125.166667",
+        "data": []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Gingoog, Misamis Oriental", "lat": "8.833333", "lng": "125.1",
+        "data": [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Guimba, Nueva Ecija", "lat": "15.658056", "lng": "120.768889", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Himamaylan, Negros Occidental", "lat": "10.098889", "lng": "122.870556",
+        "data": [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Iba, Zambales", "lat": "15.323889", "lng": "119.98", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Ilagan City, Isabela", "lat": "17.133333", "lng": "122.133333", "data": []},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Iligan, Lanao del Norte", "lat": "8.216667", "lng": "124.233333", "data":
+        [{"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Iloilo City, Iloilo", "lat": "10.69", "lng": "122.55", "data": [{"percent_chance_of_rain":
+        "50.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Infanta, Quezon", "lat": "14.7425", "lng": "121.649444", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Iriga,
+        Camarines Sur", "lat": "13.416667", "lng": "123.416667", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Isabela, Basilan", "lat": "6.705556", "lng": "121.970833", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Isulan, Sultan Kudarat", "lat": "6.629444", "lng": "124.605", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Jolo, Sulu", "lat": "6.052", "lng": "121.002", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Jordan, Guimaras", "lat": "10.6", "lng": "122.616667", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Kabankalan, Negros Occidental", "lat": "9.988889", "lng": "122.812222", "data":
+        [{"percent_chance_of_rain": "70.0", "chance_of_rain": "Medium Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/13.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Kabugao, Apayao", "lat": "18.016667", "lng": "121.183333", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Kalibo,
+        Aklan", "lat": "11.706111", "lng": "122.364444", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Kalilangan, Bukidnon", "lat": "7.821", "lng": "124.731", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Kidapawan, Cotabato", "lat": "7.011111", "lng": "125.091111", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Koronadal, South Cotabato", "lat": "6.500556", "lng": "124.851667", "data":
+        []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "La Carlota, Negros Occidental", "lat": "10.416667", "lng": "122.916667",
+        "data": [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Lagawe, Ifugao", "lat": "16.816667", "lng": "121.1", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Laoag,
+        Ilocos Norte", "lat": "18.183333", "lng": "120.583333", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Lapu-Lapu City, Cebu", "lat": "10.316667", "lng": "123.95", "data": [{"percent_chance_of_rain":
+        "70.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Las Pinas, Metro Manila", "lat": "14.444013", "lng": "120.994186", "data":
+        [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "60.0", "chance_of_rain": "Medium
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Legazpi, Albay", "lat": "13.133333", "lng": "123.733333", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Ligao,
+        Albay", "lat": "13.216667", "lng": "123.516667", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Lipa, Batangas", "lat": "13.933333", "lng": "121.166667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Lucena, Quezon", "lat": "13.933333", "lng": "121.616667", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Maasin, Southern Leyte", "lat": "10.164692", "lng": "124.840646", "data":
+        [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Maitum, Sarangani", "lat": "6.033333", "lng": "124.483333", "data": []},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Makati, Metro Manila", "lat": "14.55", "lng": "121.033333", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "70.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Malabon, Metro Manila", "lat": "14.6625", "lng": "120.956667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "50.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "70.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Malaybalay, Bukidnon", "lat": "8.109781", "lng": "125.139769", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Malolos, Bulacan", "lat": "14.843333", "lng": "120.811389", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Mamburao, Occidental Mindoro", "lat": "13.222167", "lng": "120.597167", "data":
+        []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Mandaluyong, Metro Manila", "lat": "14.578267", "lng": "121.047026",
+        "data": [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "50.0", "chance_of_rain": "Medium
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Mandaue, Cebu", "lat": "10.333333", "lng": "123.933333", "data": [{"percent_chance_of_rain":
+        "70.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Manila, Metro Manila", "lat": "14.583333", "lng": "120.966667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Marawi, Lanao del Sur", "lat": "8", "lng": "124", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Marikina,
+        Metro Manila", "lat": "14.64", "lng": "121.097222", "data": [{"percent_chance_of_rain":
+        "60.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Masbate City, Masbate", "lat": "13.616667", "lng": "123.166667", "data":
+        [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Mati, Davao Oriental", "lat": "6.953056", "lng": "126.216111", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Meycauayan, Bulacan", "lat": "14.733333", "lng": "120.95", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Munoz, Nueva Ecija", "lat": "15.716111", "lng": "120.903056", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Muntinlupa, Metro Manila", "lat": "14.383333", "lng": "121.05", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "60.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Naga, Camarines Sur", "lat": "13.616667", "lng": "123.166667", "data": []},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Naval, Biliran", "lat": "11.583333", "lng": "124.45", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Navotas, Metro Manila", "lat": "14.667662", "lng": "120.942195", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "50.0", "chance_of_rain": "Medium Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain": "High
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Olongapo, Zambales", "lat": "14.833333", "lng": "120.283333", "data": []},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Ormoc, Leyte", "lat": "11.005", "lng": "124.608889", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Oroquieta, Misamis Occidental", "lat": "8.483333", "lng": "123.8", "data":
+        [{"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Ozamiz City, Misamis Occidental", "lat": "8.15", "lng": "123.85", "data":
+        [{"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Pagadian, Zamboanga del Sur", "lat": "7.828333", "lng": "123.334614", "data":
+        []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Pagudpud, Ilocos Norte", "lat": "18.558056", "lng": "120.785",
+        "data": []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "Palayan, Nueva Ecija", "lat": "15.533333", "lng": "121.083333",
+        "data": [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Panabo, Davao del Norte", "lat": "7.308056", "lng": "125.683889", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Paranaque, Metro Manila", "lat": "14.466667", "lng": "121.016667", "data":
+        [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain": "High
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Pasay, Metro Manila", "lat": "14.55", "lng": "121", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "90.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Pasig, Metro Manila", "lat": "14.587222", "lng": "121.061111", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "60.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Passi, Iloilo", "lat": "11.106667", "lng": "122.641667", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Prosperidad, Agusan del Sur", "lat": "8.582222", "lng": "125.892778", "data":
+        [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Puerto Princesa, Palawan", "lat": "9.733333", "lng": "118.733333", "data":
+        [{"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Quezon City, Metro Manila", "lat": "14.64633", "lng": "121.050125", "data":
+        [{"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "70.0", "chance_of_rain": "Medium Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png", "time":
+        "by 10:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain": "High
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "80.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Romblon, Romblon", "lat": "12.576", "lng": "122.271", "data": [{"percent_chance_of_rain":
+        "30.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Roxas City, Capiz", "lat": "11.583333", "lng": "122.75", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Sagay, Negros Occidental", "lat": "10.9", "lng": "123.416667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Salcedo, Eastern Samar", "lat": "11.147", "lng": "125.665", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Samal, Davao del Norte", "lat": "7.05", "lng": "125.733333", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Carlos, Negros Occidental", "lat": "10.416667", "lng": "123.383333",
+        "data": [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Carlos, Pangasinan", "lat": "15.928056", "lng": "120.348889", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Fernando, La Union", "lat": "16.616667", "lng": "120.316667", "data":
+        []}, {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH",
+        "location": "San Fernando, Pampanga", "lat": "15.02007", "lng": "120.69923",
+        "data": [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Jose del Monte, Bulacan", "lat": "14.813889", "lng": "121.045278", "data":
+        [{"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Jose, Antique", "lat": "10.752", "lng": "121.941", "data": [{"percent_chance_of_rain":
+        "50.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Jose, Nueva Ecija", "lat": "15.783333", "lng": "121", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Juan, Metro Manila", "lat": "14.599344", "lng": "121.036833", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "90.0", "chance_of_rain": "High Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain": "High
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Mateo, Rizal", "lat": "14.716667", "lng": "121.116667", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "60.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "40.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "San Pablo City, Laguna", "lat": "14.066667", "lng": "121.333333", "data":
+        [{"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "30.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Sta Rosa, Laguna", "lat": "14.278611", "lng": "121.096667", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Santiago, Isabela", "lat": "16.692778", "lng": "121.548611", "data": []},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Silay, Negros Occidental", "lat": "10.8", "lng": "122.966667", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Sindangan, Zamboanga del Norte", "lat": "8.233333", "lng": "123", "data":
+        [{"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Sipalay, Negros Occidental", "lat": "9.751944", "lng": "122.404167", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Sorsogon, Sorsogon", "lat": "12.833333", "lng": "123.916667", "data": []},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Surigao City, Surigao del Norte", "lat": "9.783333", "lng": "125.483333",
+        "data": [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tabaco, Albay", "lat": "13.359358", "lng": "123.730292", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Tabuk,
+        Kalinga", "lat": "17.45", "lng": "121.458333", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Tacloban,
+        Leyte", "lat": "11.25", "lng": "125", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tacurong, Sultan Kudarat", "lat": "6.683333", "lng": "124.666667", "data":
+        [{"percent_chance_of_rain": "30.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Tagaytay,
+        Cavite", "lat": "14.1", "lng": "120.933333", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tagbilaran, Bohol", "lat": "9.65", "lng": "123.85", "data": [{"percent_chance_of_rain":
+        "95.0", "chance_of_rain": "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Taguig, Metro Manila", "lat": "14.55", "lng": "121.083333", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "70.0", "chance_of_rain":
+        "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "95.0", "chance_of_rain":
+        "High Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tagum, Davao del Norte", "lat": "7.447778", "lng": "125.807778", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Talisay, Cebu", "lat": "10.3", "lng": "123.9", "data": [{"percent_chance_of_rain":
+        "70.0", "chance_of_rain": "Medium Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/13.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Talisay, Negros Occidental", "lat": "10.737222", "lng": "122.966389", "data":
+        [{"percent_chance_of_rain": "40.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/28.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tanauan, Batangas", "lat": "14.082778", "lng": "121.150556", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tangub, Misamis Occidental", "lat": "8.066667", "lng": "123.75", "data":
+        [{"percent_chance_of_rain": "50.0", "chance_of_rain": "Medium Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/12.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tanjay, Negros Oriental", "lat": "9.515278", "lng": "123.158333", "data":
+        [{"percent_chance_of_rain": "50.0", "chance_of_rain": "Medium Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/12.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/12.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tarlac, Tarlac", "lat": "15.466667", "lng": "120.583333", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Toledo, Cebu", "lat": "10.383333", "lng": "123.65", "data": [{"percent_chance_of_rain":
+        "40.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/28.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/28.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Trece Martires, Cavite", "lat": "14.283333", "lng": "120.85", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tuguegarao, Cagayan", "lat": "17.616667", "lng": "121.716667", "data": []},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Tungawan, Zamboanga Sibugay", "lat": "7.5", "lng": "122.366667", "data":
+        [{"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Urdaneta, Pangasinan", "lat": "15.976111", "lng": "120.571111", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Valencia, Bukidnon", "lat": "7.906389", "lng": "125.094167", "data": [{"percent_chance_of_rain":
+        "10.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "10.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/32.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Valenzuela, Metro Manila", "lat": "14.682778", "lng": "120.966944", "data":
+        [{"percent_chance_of_rain": "10.0", "chance_of_rain": "Low Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/32.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "60.0", "chance_of_rain": "Medium Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "60.0", "chance_of_rain": "Medium
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/12.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/32.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Victorias, Negros Occidental", "lat": "10.9", "lng": "123.083333", "data":
+        [{"percent_chance_of_rain": "80.0", "chance_of_rain": "High Chance of Rain",
+        "icon": "http://nababaha.appspot.com/static/img/13.png", "time": "by 09:40
+        AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance of
+        Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time": "by
+        10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low Chance
+        of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png", "time":
+        "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain": "Low
+        Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/13.png"},
+        {"last_update": "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location":
+        "Vigan, Ilocos Sur", "lat": "17.575", "lng": "120.388", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Virac,
+        Catanduanes", "lat": "13.579", "lng": "124.231", "data": []}, {"last_update":
+        "08:40 AM November 29, 2014", "source": "ClimateX.PH", "location": "Zamboanga
+        City, Zamboanga", "lat": "6.9", "lng": "122.066667", "data": [{"percent_chance_of_rain":
+        "20.0", "chance_of_rain": "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 09:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 10:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 11:40 AM"}, {"percent_chance_of_rain": "20.0", "chance_of_rain":
+        "Low Chance of Rain", "icon": "http://nababaha.appspot.com/static/img/30.png",
+        "time": "by 12:40 PM"}], "icon": "http://nababaha.appspot.com/static/img/30.png"}]'
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 00:55:52 GMT
+recorded_with: VCR 2.9.3
