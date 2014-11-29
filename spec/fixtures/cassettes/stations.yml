@@ -1,0 +1,2198 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beta.noah.dost.gov.ph/api/stations
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.0
+      Date:
+      - Sat, 29 Nov 2014 00:19:38 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '173156'
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"1d0764d473cd09d74e7ec2ef405b7b5f64db8ccb"'
+    body:
+      encoding: US-ASCII
+      string: ! '[{"stations": [{"lat": 10.772267, "url": "/api/station/1/12", "lng":
+        122.5793, "verbose_name": "Jaro, Iloilo City, Iloilo", "station_id": 12},
+        {"lat": 6.05314, "url": "/api/station/1/17", "lng": 121.007, "verbose_name":
+        "Brgy San Raymundo,  Jolo, Sulu", "station_id": 17}, {"lat": 11.697217, "url":
+        "/api/station/1/21", "lng": 122.3676, "verbose_name": "Kalibo Capitol Plaza,
+        Kalibo, Aklan", "station_id": 21}, {"lat": 11.872883, "url": "/api/station/1/23",
+        "lng": 121.905817, "verbose_name": "Kabulihan Sanitary Landfill, Brgy. Kabulihan,
+        Malay, Aklan", "station_id": 23}, {"lat": 10.660233, "url": "/api/station/1/24",
+        "lng": 122.320283, "verbose_name": "Port Area, Guimbal, Iloilo", "station_id":
+        24}, {"lat": 13.854639, "url": "/api/station/1/25", "lng": 120.632222, "verbose_name":
+        "Brgy. Balitoc, Calatagan, Batangas", "station_id": 25}, {"lat": 14.494444,
+        "url": "/api/station/1/26", "lng": 120.899222, "verbose_name": "Sangley Point,  Cavite
+        City, Cavite", "station_id": 26}, {"lat": 10.51265, "url": "/api/station/1/27",
+        "lng": 122.5241, "verbose_name": "Igang Elementary School, Nueva Valencia,
+        Guimaras", "station_id": 27}, {"lat": 14.696847, "url": "/api/station/1/28",
+        "lng": 122.338889, "verbose_name": "Brgy. Talisoy, Jomalig, Quezon", "station_id":
+        28}, {"lat": 14.551283, "url": "/api/station/1/29", "lng": 121.48285, "verbose_name":
+        "Brgy. Magsaysay, Infanta, Quezon", "station_id": 29}, {"lat": 13.346306,
+        "url": "/api/station/1/30", "lng": 122.530833, "verbose_name": "Brgy. Inabuan,
+        San Francisco, Quezon", "station_id": 30}, {"lat": 13.602, "url": "/api/station/1/31",
+        "lng": 122.295, "verbose_name": "Matandang Sabang National High School, Catanauan,
+        Quezon", "station_id": 31}, {"lat": 14.168583, "url": "/api/station/1/32",
+        "lng": 121.596567, "verbose_name": "Brgy. Lita, Tayabas, Quezon", "station_id":
+        32}, {"lat": 15.218984, "url": "/api/station/1/33", "lng": 120.694932, "verbose_name":
+        "Pampanga Agricultural College, Magalang, Pampanga", "station_id": 33}, {"lat":
+        13.78215, "url": "/api/station/1/34", "lng": 123.85735, "verbose_name": "Partido
+        State University Caramoan Campus, Caramoan, Camarines Sur", "station_id":
+        34}, {"lat": 13.823667, "url": "/api/station/1/36", "lng": 122.733194, "verbose_name":
+        "Ragay National Agricultural And Fisheries School, Ragay, Camarines Sur",
+        "station_id": 36}, {"lat": 13.8845, "url": "/api/station/1/37", "lng": 123.700389,
+        "verbose_name": "Garchitorena Municipal Grounds, Garchitorena, Camarines Sur",
+        "station_id": 37}, {"lat": 8.459917, "url": "/api/station/1/38", "lng": 123.743361,
+        "verbose_name": "Brgy. Villaflor, Oroquieta City, Misamis Occidental", "station_id":
+        38}, {"lat": 7.7383, "url": "/api/station/1/39", "lng": 123.064, "verbose_name":
+        "Buug, Zamboanga Sibugay", "station_id": 39}, {"lat": 7.5239, "url": "/api/station/1/40",
+        "lng": 123.186, "verbose_name": "Vicenzo, Sagun, Zamboanga Del Sur", "station_id":
+        40}, {"lat": 8.0967, "url": "/api/station/1/41", "lng": 123.486, "verbose_name":
+        "Dipolo, Molave, Zamboanga Del Sur", "station_id": 41}, {"lat": 7.1279, "url":
+        "/api/station/1/47", "lng": 125.655, "verbose_name": "Pagasa Davao Office,
+        Catitipan, Davao City", "station_id": 47}, {"lat": 11.166528, "url": "/api/station/1/48",
+        "lng": 123.716861, "verbose_name": "Brgy. Suba, Bantayan, Cebu", "station_id":
+        48}, {"lat": 10.322383, "url": "/api/station/1/49", "lng": 123.980222, "verbose_name":
+        "Pagasa Mactan Station, Mactan, Cebu", "station_id": 49}, {"lat": 11.864,
+        "url": "/api/station/1/50", "lng": 120.249, "verbose_name": "Coron, Busuanga,
+        Palawan", "station_id": 50}, {"lat": 12.5055, "url": "/api/station/1/51",
+        "lng": 124.628611, "verbose_name": "Pagasa Catarman, Catarman, Northern Samar",
+        "station_id": 51}, {"lat": 14.435583, "url": "/api/station/1/52", "lng": 120.499167,
+        "verbose_name": "Authority Of Freeport Area Of Bataan, Mariveles, Bataan",
+        "station_id": 52}, {"lat": 14.676167, "url": "/api/station/1/53", "lng": 120.517889,
+        "verbose_name": "Bataan National High School, Balanga, Bataan", "station_id":
+        53}, {"lat": 7.008, "url": "/api/station/1/62", "lng": 121.923, "verbose_name":
+        "Wmsu Compound, San Ramon, Zamboanga City", "station_id": 62}, {"lat": 7.589194,
+        "url": "/api/station/1/63", "lng": 122.15075, "verbose_name": "Brgy. San Vicente,
+        Sirawai, Zamboanga Del Norte", "station_id": 63}, {"lat": 5.046167, "url":
+        "/api/station/1/64", "lng": 119.74125, "verbose_name": "Toetical Operation
+        Group Sanga-Sanga Airbase, Sanga-Sanga, Tawi-Tawi", "station_id": 64}, {"lat":
+        15.493, "url": "/api/station/1/65", "lng": 120.971, "verbose_name": "Pagasa
+        Cabanatuan Station, Cabanatuan City, Nueva Ecija", "station_id": 65}, {"lat":
+        16.14, "url": "/api/station/1/66", "lng": 121.9534, "verbose_name": "Dinalungan
+        National High School, Dinalungan, Aurora", "station_id": 66}, {"lat": 15.4077,
+        "url": "/api/station/1/67", "lng": 121.3765, "verbose_name": "Dingalan Central
+        School, Dingalan, Aurora", "station_id": 67}, {"lat": 8.687528, "url": "/api/station/1/68",
+        "lng": 117.643778, "verbose_name": "Palawan State University, Bataraza, Palawan",
+        "station_id": 68}, {"lat": 11.272, "url": "/api/station/1/69", "lng": 119.517,
+        "verbose_name": "Jtfm Villa Libertad, El Nido, Palawan", "station_id": 69},
+        {"lat": 12.397278, "url": "/api/station/1/70", "lng": 121.985, "verbose_name":
+        "Odiongan, Romblon", "station_id": 70}, {"lat": 14.288625, "url": "/api/station/1/71",
+        "lng": 122.685567, "verbose_name": "Cnsc, Jose Panganiban, Camarines Norte",
+        "station_id": 71}, {"lat": 13.813892, "url": "/api/station/1/72", "lng": 123.340575,
+        "verbose_name": "Partido State University Tinambac, Tinambac, Camarines Sur",
+        "station_id": 72}, {"lat": 11.225417, "url": "/api/station/1/73", "lng": 125.024972,
+        "verbose_name": "Pagasa Tacloban Station, Tacloban City, Leyte", "station_id":
+        73}, {"lat": 10.322917, "url": "/api/station/1/74", "lng": 125.117111, "verbose_name":
+        "St. Bernard, Southern Leyte", "station_id": 74}, {"lat": 10.197306, "url":
+        "/api/station/1/75", "lng": 124.845194, "verbose_name": "City Forest Park,
+        Maasin City, Southern Leyte", "station_id": 75}, {"lat": 11.775139, "url":
+        "/api/station/1/76", "lng": 124.88436, "verbose_name": "Pagasa Catbalogan
+        Station, Catbalogan City, Samar", "station_id": 76}, {"lat": 11.15525, "url":
+        "/api/station/1/77", "lng": 125.639361, "verbose_name": "Essu, Salcedo, Eastern
+        Samar", "station_id": 77}, {"lat": 17.3682, "url": "/api/station/1/104", "lng":
+        120.47505, "verbose_name": "Ispsc, Sta. Maria, Ilocos Sur", "station_id":
+        104}, {"lat": 18.589778, "url": "/api/station/1/105", "lng": 120.78475, "verbose_name":
+        "Brgy. Saud, Pagudpud, Ilocos Norte", "station_id": 105}, {"lat": 16.603889,
+        "url": "/api/station/1/106", "lng": 121.143333, "verbose_name": "Quirino State
+        College, Diffun, Quirino", "station_id": 106}, {"lat": 18.457, "url": "/api/station/1/107",
+        "lng": 122.143, "verbose_name": "Sta. Ana Municipal Grounds, Sta. Ana, Cagayan",
+        "station_id": 107}, {"lat": 11.455472, "url": "/api/station/1/108", "lng":
+        123.147278, "verbose_name": "Iloilo East Costal-Capiz Road, Estancia, Iloilo",
+        "station_id": 108}, {"lat": 7.603306, "url": "/api/station/1/109", "lng":
+        120.983583, "verbose_name": "Bangued East Central School, Bangued, Abra",
+        "station_id": 109}, {"lat": 8.947538, "url": "/api/station/1/110", "lng":
+        125.540623, "verbose_name": "Butuan Pagasa Coumpound, Butuan, Agusan Del Norte",
+        "station_id": 110}, {"lat": 7.983333, "url": "/api/station/1/111", "lng":
+        126.033333, "verbose_name": "Sta. Josefa Government Site, Sta. Josefa, Agusan
+        Del Norte", "station_id": 111}, {"lat": 8.731382, "url": "/api/station/1/112",
+        "lng": 126.202814, "verbose_name": "San Agustin Municipal  Town Square, San
+        Agustin, Surigao Del Sur", "station_id": 112}, {"lat": 8.213136, "url": "/api/station/1/113",
+        "lng": 126.315939, "verbose_name": "Bislig City National High School, Bislig
+        City, Surigao Del Sur", "station_id": 113}, {"lat": 7.63291, "url": "/api/station/1/114",
+        "lng": 126.536683, "verbose_name": "Baganga Municipal Grounds, Baganga, Davao
+        Oriental", "station_id": 114}, {"lat": 15.327, "url": "/api/station/1/150",
+        "lng": 119.968, "verbose_name": "Pagasa Iba Station, Iba, Zambales", "station_id":
+        150}, {"lat": 16.0436287, "url": "/api/station/1/151", "lng": 120.343506,
+        "verbose_name": "Tondaligan Park, Dagupan City, Pangasinan", "station_id":
+        151}, {"lat": 8.583333, "url": "/api/station/1/157", "lng": 123.333333, "verbose_name":
+        "City Agriculture Office, Dipolog City, Zamboanga Del Norte", "station_id":
+        157}, {"lat": 10.021806, "url": "/api/station/1/158", "lng": 124.462722, "verbose_name":
+        "Uwasco, Calanggaman, Ubay, Bohol", "station_id": 158}, {"lat": 9.754972,
+        "url": "/api/station/1/159", "lng": 122.399556, "verbose_name": "Brgy. Five,
+        Sipalay City, Negros Occidental", "station_id": 159}, {"lat": 10.877722, "url":
+        "/api/station/1/160", "lng": 123.411167, "verbose_name": "New Government Center,
+        Sagay City, Negros Occidental", "station_id": 160}, {"lat": 10.002325, "url":
+        "/api/station/1/161", "lng": 122.848778, "verbose_name": "Brgy. Hilamonan,
+        Kabankalan City, Negros Occidental", "station_id": 161}, {"lat": 10.51025,
+        "url": "/api/station/1/162", "lng": 123.435583, "verbose_name": "Brgy. Punao,
+        San Carlos City, Negros Occidental", "station_id": 162}, {"lat": 7.83, "url":
+        "/api/station/1/163", "lng": 123.462, "verbose_name": "Pagadian Airport, Pagadian
+        City, Zamboanga Del Sur", "station_id": 163}, {"lat": 6.101278, "url": "/api/station/1/164",
+        "lng": 125.273083, "verbose_name": "Sarangani Province Capitol, Alabel, Sarangani",
+        "station_id": 164}, {"lat": 11.175167, "url": "/api/station/1/166", "lng":
+        123.023361, "verbose_name": "Urban Center Poblacion, Ajuy, Iloilo", "station_id":
+        166}, {"lat": 9.757131, "url": "/api/station/1/167", "lng": 125.513767, "verbose_name":
+        "Siargao Island, Surigao Del Norte", "station_id": 167}, {"lat": 12.2805,
+        "url": "/api/station/1/168", "lng": 123.355556, "verbose_name": "Debemscat
+        Mandaon, Mandaon, Masbate", "station_id": 168}, {"lat": 13.456861, "url":
+        "/api/station/1/169", "lng": 123.680056, "verbose_name": "San Rafael St.,
+        Tiwi, Albay", "station_id": 169}, {"lat": 13.117778, "url": "/api/station/1/170",
+        "lng": 123.7282, "verbose_name": "Magayon Drive, Legazpi City, Albay", "station_id":
+        170}, {"lat": 13.2995, "url": "/api/station/1/171", "lng": 123.436889, "verbose_name":
+        "Libon, Albay", "station_id": 171}, {"lat": 12.867333, "url": "/api/station/1/172",
+        "lng": 124.14425, "verbose_name": "Barcelona Park, Barcelona, Sorsogon", "station_id":
+        172}, {"lat": 6.055425, "url": "/api/station/1/173", "lng": 125.097478, "verbose_name":
+        "General Santos Airport, General Santos City, General Santos City", "station_id":
+        173}, {"lat": 6.221722, "url": "/api/station/1/174", "lng": 124.207, "verbose_name":
+        "Brgy. Bandiangon, Palimbang, Sultan Kudarat", "station_id": 174}, {"lat":
+        7.196167, "url": "/api/station/1/175", "lng": 124.235167, "verbose_name":
+        "People''S Palace Grounds, Cotabato City, Cotabato", "station_id": 175}, {"lat":
+        13.324, "url": "/api/station/1/176", "lng": 121.308, "verbose_name": "Brgy.
+        Santiago, Naujan, Oriental Mindoro", "station_id": 176}, {"lat": 8.332417,
+        "url": "/api/station/1/181", "lng": 124.7485, "verbose_name": "Libona Municipal
+        Hall Compound, Libona, Bukidnon", "station_id": 181}, {"lat": 5.916667, "url":
+        "/api/station/1/182", "lng": 125.65, "verbose_name": "Jose Abad Santos, Davao
+        Del Sur", "station_id": 182}, {"lat": 17.091361, "url": "/api/station/1/196",
+        "lng": 120.983583, "verbose_name": "Bontoc Government Center, Bontoc, Mountain
+        Province", "station_id": 196}, {"lat": 14.48966, "url": "/api/station/1/198",
+        "lng": 121.05227, "verbose_name": "Dost Bicutan, Taguig City, Metro Manila",
+        "station_id": 198}, {"lat": 7.8615, "url": "/api/station/1/222", "lng": 123.035861,
+        "verbose_name": "Bayog, Zamboanga Del Sur", "station_id": 222}, {"lat": 15.0784,
+        "url": "/api/station/1/227", "lng": 120.954167, "verbose_name": "Nswrrdc San
+        Ildefonso, San Ildefonso, Bulacan", "station_id": 227}, {"lat": 7.495, "url":
+        "/api/station/1/247", "lng": 125.598222, "verbose_name": "Sto Tomas, Davao
+        Del Norte", "station_id": 247}, {"lat": 17.328194, "url": "/api/station/1/248",
+        "lng": 122.296194, "verbose_name": "Divilacan, Isabela", "station_id": 248},
+        {"lat": 9.995278, "url": "/api/station/1/249", "lng": 124.408667, "verbose_name":
+        "Ubay, Bohol", "station_id": 249}, {"lat": 13.920611, "url": "/api/station/1/257",
+        "lng": 120.885694, "verbose_name": "Lemery, Batangas", "station_id": 257},
+        {"lat": 14.275278, "url": "/api/station/1/258", "lng": 121.400556, "verbose_name":
+        "Sta. Cruz, Laguna", "station_id": 258}, {"lat": 14.116222, "url": "/api/station/1/259",
+        "lng": 121.541278, "verbose_name": "Lucban, Quezon", "station_id": 259}, {"lat":
+        13.885167, "url": "/api/station/1/260", "lng": 121.311556, "verbose_name":
+        "San Antonio, Quezon", "station_id": 260}, {"lat": 17.05814, "url": "/api/station/1/262",
+        "lng": 121.0848667, "verbose_name": "Barlig, Mountain Province", "station_id":
+        262}, {"lat": 17.4801, "url": "/api/station/1/263", "lng": 121.23247, "verbose_name":
+        "Balbalan, Kalinga", "station_id": 263}, {"lat": 16.908783, "url": "/api/station/1/264",
+        "lng": 120.462683, "verbose_name": "Sudipen, La Union", "station_id": 264},
+        {"lat": 15.966926, "url": "/api/station/1/265", "lng": 120.46673, "verbose_name":
+        "Sta. Barbara, Pangasinan", "station_id": 265}, {"lat": 15.952567, "url":
+        "/api/station/1/266", "lng": 120.680417, "verbose_name": "Sta. Maria, Pangasinan",
+        "station_id": 266}, {"lat": 16.068922, "url": "/api/station/1/267", "lng":
+        120.084092, "verbose_name": "Sual, Pangasinan", "station_id": 267}, {"lat":
+        17.368347, "url": "/api/station/1/268", "lng": 120.475647, "verbose_name":
+        "Sta. Maria, Sta. Maria-Ispsc, Ilocos Sur", "station_id": 268}, {"lat": 13.467056,
+        "url": "/api/station/1/269", "lng": 123.412889, "verbose_name": "Pamplona,
+        Camarines Sur", "station_id": 269}, {"lat": 14.166671, "url": "/api/station/1/270",
+        "lng": 122.800232, "verbose_name": "Labo, Camarines Norte", "station_id":
+        270}, {"lat": 12.982194, "url": "/api/station/1/271", "lng": 123.794583, "verbose_name":
+        "Castilla, Sorsogon", "station_id": 271}, {"lat": 12.982194, "url": "/api/station/1/272",
+        "lng": 123.794583, "verbose_name": "Pandan, Catanduanes", "station_id": 272},
+        {"lat": 9.203833, "url": "/api/station/1/274", "lng": 123.484056, "verbose_name":
+        "Siquijor, Siquijor", "station_id": 274}, {"lat": 9.766944, "url": "/api/station/1/275",
+        "lng": 124.205389, "verbose_name": "Carmen, Bohol", "station_id": 275}, {"lat":
+        10.16725, "url": "/api/station/1/276", "lng": 124.986611, "verbose_name":
+        "Malitbog, Southern Leyte", "station_id": 276}, {"lat": 11.592528, "url":
+        "/api/station/1/277", "lng": 124.421167, "verbose_name": "Naval, Biliran",
+        "station_id": 277}, {"lat": 7.917861, "url": "/api/station/1/278", "lng":
+        122.531944, "verbose_name": "Kalawit, Zamboanga Del Norte", "station_id":
+        278}, {"lat": 8.546028, "url": "/api/station/1/279", "lng": 123.404139, "verbose_name":
+        "Polanco, Zamboanga Del Norte", "station_id": 279}, {"lat": 8.153944, "url":
+        "/api/station/1/280", "lng": 123.338889, "verbose_name": "Dumingag, Zamboanga
+        Del Sur", "station_id": 280}, {"lat": 7.797222, "url": "/api/station/1/281",
+        "lng": 122.603639, "verbose_name": "Ipil, Zamboanga Sibugay", "station_id":
+        281}, {"lat": 7.379278, "url": "/api/station/1/282", "lng": 122.293444, "verbose_name":
+        "Vitali District, , Zamboanga City", "station_id": 282}, {"lat": 7.794056,
+        "url": "/api/station/1/283", "lng": 126.391611, "verbose_name": "Cateel, Davao
+        Oriental", "station_id": 283}, {"lat": 6.6005, "url": "/api/station/1/284",
+        "lng": 125.347806, "verbose_name": "Sulop, Poblacion, Sulop, Davao Del Sur",
+        "station_id": 284}, {"lat": 7.289972, "url": "/api/station/1/285", "lng":
+        126.153333, "verbose_name": "Maragusan, Compostela Valley", "station_id":
+        285}, {"lat": 7.36288, "url": "/api/station/1/286", "lng": 125.70438, "verbose_name":
+        "Ising. Carmen, , Davao Del Norte", "station_id": 286}, {"lat": 8.586833,
+        "url": "/api/station/1/287", "lng": 123.709083, "verbose_name": "Plaridel,
+        Misamis Occidental", "station_id": 287}, {"lat": 8.974722, "url": "/api/station/1/288",
+        "lng": 125.588611, "verbose_name": "Kitcharao, Agusan Del Norte", "station_id":
+        288}, {"lat": 9.777528, "url": "/api/station/1/289", "lng": 125.416583, "verbose_name":
+        "San Francisco, Surigao Del Norte", "station_id": 289}, {"lat": 17.064733,
+        "url": "/api/station/1/290", "lng": 121.589333, "verbose_name": "Roxas, Isabela",
+        "station_id": 290}, {"lat": 14.600278, "url": "/api/station/1/291", "lng":
+        121.345556, "verbose_name": "Tanay, Rizal", "station_id": 291}, {"lat": 10.919056,
+        "url": "/api/station/1/293", "lng": 125.010111, "verbose_name": "Dulag, Leyte",
+        "station_id": 293}, {"lat": 7.297361, "url": "/api/station/1/294", "lng":
+        124.414917, "verbose_name": "Pigcawayan, Cotabato", "station_id": 294}, {"lat":
+        11.050917, "url": "/api/station/1/295", "lng": 114.2837, "verbose_name": "Brgy.
+        Pag-Asa Island, Kalayaan, Palawan", "station_id": 295}, {"lat": 13.698333,
+        "url": "/api/station/1/297", "lng": 123.509722, "verbose_name": "San Jose,
+        Camarines Sur", "station_id": 297}, {"lat": 8.9167, "url": "/api/station/1/298",
+        "lng": 119.9167, "verbose_name": "Ranger Station, Tubbataha Reef, Puerto Princesa
+        City, Palawan", "station_id": 298}, {"lat": 7.345111, "url": "/api/station/1/299",
+        "lng": 125.140917, "verbose_name": "Arakan, Cotabato", "station_id": 299},
+        {"lat": 9.379917, "url": "/api/station/1/300", "lng": 123.2167, "verbose_name":
+        "San Jose, Negros Oriental", "station_id": 300}, {"lat": 16.600136, "url":
+        "/api/station/1/410", "lng": 121.283478, "verbose_name": "Bagabag, Nueva Vizcaya",
+        "station_id": 410}, {"lat": 16.40658, "url": "/api/station/1/411", "lng":
+        121.65485, "verbose_name": "Aglipay, Quirino", "station_id": 411}, {"lat":
+        18.34707, "url": "/api/station/1/765", "lng": 121.42722, "verbose_name": "Abulug,
+        Cagayan", "station_id": 765}, {"lat": 5.978222, "url": "/api/station/1/532",
+        "lng": 124.676611, "verbose_name": "Kiamba, Sarangani", "station_id": 532},
+        {"lat": 16.475167, "url": "/api/station/1/543", "lng": 120.633194, "verbose_name":
+        "Acop, Tublay, Benguet", "station_id": 543}, {"lat": 16.500469, "url": "/api/station/1/544",
+        "lng": 120.63325, "verbose_name": "Daclan, Tublay, Benguet", "station_id":
+        544}, {"lat": 16.530278, "url": "/api/station/1/545", "lng": 120.619625, "verbose_name":
+        "Tublay Central, Tublay, Benguet", "station_id": 545}, {"lat": 16.520444,
+        "url": "/api/station/1/546", "lng": 120.651389, "verbose_name": "Ba-Ayan,
+        Tublay, Benguet", "station_id": 546}, {"lat": 16.534111, "url": "/api/station/1/547",
+        "lng": 120.603, "verbose_name": "Ambongdolan, Tublay, Benguet", "station_id":
+        547}, {"lat": 11.635778, "url": "/api/station/1/744", "lng": 122.330969, "verbose_name":
+        "Banga, Aklan", "station_id": 744}, {"lat": 17.413861, "url": "/api/station/1/753",
+        "lng": 121.435611, "verbose_name": "Tabuk, Kalinga", "station_id": 753}, {"lat":
+        17.123, "url": "/api/station/1/756", "lng": 121.8909, "verbose_name": "Ilagan,
+        Isabela", "station_id": 756}, {"lat": 9.105367, "url": "/api/station/1/757",
+        "lng": 124.770617, "verbose_name": "Guinsiliban, Camiguin", "station_id":
+        757}, {"lat": 7.577611, "url": "/api/station/1/758", "lng": 124.999528, "verbose_name":
+        "Dangcagan, Bukidnon", "station_id": 758}, {"lat": 8.209583, "url": "/api/station/1/759",
+        "lng": 125.033694, "verbose_name": "Malaybalay, Bukidnon", "station_id": 759},
+        {"lat": 7.899167, "url": "/api/station/1/760", "lng": 123.766861, "verbose_name":
+        "Kapatagan, Lanao Del Norte", "station_id": 760}, {"lat": 7.740333, "url":
+        "/api/station/1/761", "lng": 124.745167, "verbose_name": "Kalilangan, Bukidnon",
+        "station_id": 761}, {"lat": 8.811611, "url": "/api/station/1/762", "lng":
+        125.108778, "verbose_name": "Gingoog City, Gingoog City, Misamis Oriental",
+        "station_id": 762}, {"lat": 17.28422, "url": "/api/station/1/763", "lng":
+        121.82525, "verbose_name": "Tumauini, Isabela", "station_id": 763}, {"lat":
+        18.07157, "url": "/api/station/1/764", "lng": 121.61935, "verbose_name": "Lasam,
+        Cagayan", "station_id": 764}, {"lat": 6.459944, "url": "/api/station/1/767",
+        "lng": 124.321583, "verbose_name": "Sen. Ninoy Aquino, Sultan Kudarat", "station_id":
+        767}, {"lat": 6.664722, "url": "/api/station/1/768", "lng": 124.6295, "verbose_name":
+        "Tacurong City, Sultan Kudarat", "station_id": 768}, {"lat": 6.213194, "url":
+        "/api/station/1/769", "lng": 124.822944, "verbose_name": "T''Boli, South Cotabato",
+        "station_id": 769}, {"lat": 6.519778, "url": "/api/station/1/770", "lng":
+        124.859333, "verbose_name": "Koronadal, South Cotabato", "station_id": 770},
+        {"lat": 7.16025, "url": "/api/station/1/771", "lng": 125.068083, "verbose_name":
+        "Kidapawan, South Cotabato", "station_id": 771}, {"lat": 9.537972, "url":
+        "/api/station/1/772", "lng": 125.556361, "verbose_name": "Mainit, Surigao
+        Del Norte", "station_id": 772}, {"lat": 9.338611, "url": "/api/station/1/773",
+        "lng": 125.968306, "verbose_name": "Cantilan, Surigao Del Sur", "station_id":
+        773}, {"lat": 8.678833, "url": "/api/station/1/776", "lng": 125.657833, "verbose_name":
+        "Esperanza, Agusan Del Sur", "station_id": 776}, {"lat": 8.552306, "url":
+        "/api/station/1/779", "lng": 125.943417, "verbose_name": "Prosperidad, Agusan
+        Del Norte", "station_id": 779}, {"lat": 10.132767, "url": "/api/station/1/781",
+        "lng": 123.544767, "verbose_name": "Barili, Cebu", "station_id": 781}, {"lat":
+        10.687722, "url": "/api/station/1/782", "lng": 124.958111, "verbose_name":
+        "Abuyog, Leyte", "station_id": 782}, {"lat": 11.356944, "url": "/api/station/1/783",
+        "lng": 124.813194, "verbose_name": "San Miguel, Leyte", "station_id": 783},
+        {"lat": 12.015667, "url": "/api/station/1/784", "lng": 125.418889, "verbose_name":
+        "Can-Avid, Eastern Samar", "station_id": 784}, {"lat": 12.424889, "url": "/api/station/1/785",
+        "lng": 125.035472, "verbose_name": "Catubig, Northern Samar", "station_id":
+        785}, {"lat": 15.60337, "url": "/api/station/1/786", "lng": 120.49715, "verbose_name":
+        "Gerona, Tarlac", "station_id": 786}, {"lat": 15.243, "url": "/api/station/1/787",
+        "lng": 120.024617, "verbose_name": "Botolan, Zambales", "station_id": 787},
+        {"lat": 15.238317, "url": "/api/station/1/793", "lng": 120.705683, "verbose_name":
+        "Magalang, Pampanga", "station_id": 793}, {"lat": 11.12217, "url": "/api/station/1/794",
+        "lng": 122.54108, "verbose_name": "Calinog, Iloilo", "station_id": 794}, {"lat":
+        15.708633, "url": "/api/station/1/795", "lng": 121.522, "verbose_name": "San
+        Luis, Aurora", "station_id": 795}, {"lat": 10.90615, "url": "/api/station/1/796",
+        "lng": 121.986, "verbose_name": "Patnongon, Antique", "station_id": 796},
+        {"lat": 10.337111, "url": "/api/station/1/798", "lng": 119.253611, "verbose_name":
+        "Roxas, Palawan", "station_id": 798}, {"lat": 11.29133, "url": "/api/station/1/799",
+        "lng": 122.76047, "verbose_name": "Panit-An, Capiz", "station_id": 799}, {"lat":
+        10.58102, "url": "/api/station/1/802", "lng": 122.9418, "verbose_name": "Bago
+        City, Negros Occidental", "station_id": 802}, {"lat": 15.56583, "url": "/api/station/1/803",
+        "lng": 121.09438, "verbose_name": "Palayan City, Nueva Ecija", "station_id":
+        803}, {"lat": 7.02586, "url": "/api/station/1/806", "lng": 124.16647, "verbose_name":
+        "Upi, Maguindanao", "station_id": 806}, {"lat": 13.45103, "url": "/api/station/1/835",
+        "lng": 122.07881, "verbose_name": "Sta. Cruz, Marinduque", "station_id": 835},
+        {"lat": 7.79722, "url": "/api/station/1/851", "lng": 122.60364, "verbose_name":
+        "Basilan, Isabela City", "station_id": 851}, {"lat": 13.04725, "url": "/api/station/1/869",
+        "lng": 121.42503, "verbose_name": "Pinamalayan, Oriental Mindoro", "station_id":
+        869}, {"lat": 12.86036, "url": "/api/station/1/870", "lng": 120.78947, "verbose_name":
+        "Sablayan, Occidental Mindoro", "station_id": 870}, {"lat": 12.45022, "url":
+        "/api/station/1/871", "lng": 121.043222, "verbose_name": "San Jose, Occidental
+        Mindoro", "station_id": 871}, {"lat": 12.26455, "url": "/api/station/1/914",
+        "lng": 122.04757, "verbose_name": "Alcantara, Romblon", "station_id": 914},
+        {"lat": 10.79147, "url": "/api/station/1/927", "lng": 122.50781, "verbose_name":
+        "Sta. Barbara, Iloilo", "station_id": 927}, {"lat": 12.28508, "url": "/api/station/1/929",
+        "lng": 123.55047, "verbose_name": "Masbate, Masbate", "station_id": 929},
+        {"lat": 14.98747, "url": "/api/station/1/1259", "lng": 120.5321, "verbose_name":
+        "Da-Rfu Florida Blanca, Pampanga", "station_id": 1259}, {"lat": 15.10342,
+        "url": "/api/station/1/1260", "lng": 120.8349, "verbose_name": "Da-Rfu Candaba,
+        Pampanga", "station_id": 1260}], "icon": "blue.png", "verbose_name": "Automated
+        Weather Stations", "type_id": 1}, {"stations": [{"lat": 14.763161, "url":
+        "/api/station/2/8", "lng": 121.159708, "verbose_name": "Mt. Oro, Rizal", "station_id":
+        8}, {"lat": 14.662644, "url": "/api/station/2/9", "lng": 121.168919, "verbose_name":
+        "Aries, Rizal", "station_id": 9}, {"lat": 14.639419, "url": "/api/station/2/10",
+        "lng": 121.222047, "verbose_name": "Boso Boso, Rizal", "station_id": 10},
+        {"lat": 10.6614, "url": "/api/station/2/13", "lng": 123.079, "verbose_name":
+        "Alangilan, Bacolod City, Negros Occidental", "station_id": 13}, {"lat": 10.6697,
+        "url": "/api/station/2/14", "lng": 122.987, "verbose_name": "Estefania, Bacolod
+        City, Negros Occidental", "station_id": 14}, {"lat": 10.6413, "url": "/api/station/2/15",
+        "lng": 122.924, "verbose_name": "Tangub, Bacolod City, Negros Occidental",
+        "station_id": 15}, {"lat": 6.05425, "url": "/api/station/2/18", "lng": 121.002,
+        "verbose_name": "Jolo Municipal Hall, Jolo, Sulu", "station_id": 18}, {"lat":
+        11.2517, "url": "/api/station/2/19", "lng": 122.676, "verbose_name": "Brgy.
+        Codingle, Dumarao, Capiz", "station_id": 19}, {"lat": 11.526, "url": "/api/station/2/20",
+        "lng": 122.307, "verbose_name": "Madalag Plaza Poblacion, Madalag, Aklan",
+        "station_id": 20}, {"lat": 14.628917, "url": "/api/station/2/35", "lng": 120.471861,
+        "verbose_name": "Brgy Cabog-Cabog, Balanga, Bataan", "station_id": 35}, {"lat":
+        17.652, "url": "/api/station/2/42", "lng": 121.754, "verbose_name": "Dost
+        Ro 2, Tuguegarao City, Cagayan", "station_id": 42}, {"lat": 20.333108, "url":
+        "/api/station/2/43", "lng": 121.873333, "verbose_name": "Lgu Sabtang, Sabtang,
+        Batanes", "station_id": 43}, {"lat": 16.727306, "url": "/api/station/2/44",
+        "lng": 121.696, "verbose_name": "Cvaard Complex Isu, Echague, Isabela", "station_id":
+        44}, {"lat": 16.279361, "url": "/api/station/2/45", "lng": 121.656444, "verbose_name":
+        "Maddela Institute Of Technology, Maddela, Quirino", "station_id": 45}, {"lat":
+        16.333, "url": "/api/station/2/46", "lng": 121.1, "verbose_name": "Brgy. Holywood,
+        Dupax Del Norte, Nueva Vizcaya", "station_id": 46}, {"lat": 12.5089005, "url":
+        "/api/station/2/54", "lng": 124.6667575, "verbose_name": "Agromet Station,
+        University Of Eastern Philippines, Catarman Samar, Catarman, Northern Samar",
+        "station_id": 54}, {"lat": 17.612411, "url": "/api/station/2/55", "lng": 120.736219,
+        "verbose_name": "Abra State Institute Of Science And Technology, Lagangilang,
+        Abra", "station_id": 55}, {"lat": 18.01203, "url": "/api/station/2/56", "lng":
+        121.171039, "verbose_name": "Luna, Apayao", "station_id": 56}, {"lat": 16.557726,
+        "url": "/api/station/2/57", "lng": 120.803947, "verbose_name": "Dost Regional
+        Office, La Trinidad, Benguet", "station_id": 57}, {"lat": 16.833079, "url":
+        "/api/station/2/58", "lng": 121.171039, "verbose_name": "Ifugao State University,
+        Lamut, Ifugao", "station_id": 58}, {"lat": 17.391858, "url": "/api/station/2/59",
+        "lng": 121.227275, "verbose_name": "Bulanao, Tabuk City, Kalinga", "station_id":
+        59}, {"lat": 17.066343, "url": "/api/station/2/60", "lng": 121.03351, "verbose_name":
+        "Government Center, Bontoc, Mountain Province", "station_id": 60}, {"lat":
+        16.402333, "url": "/api/station/2/61", "lng": 120.596007, "verbose_name":
+        "Irisan, Baguio City, Benguet", "station_id": 61}, {"lat": 14.668917, "url":
+        "/api/station/2/79", "lng": 120.468278, "verbose_name": "Brgy Dangcol, Balanga,
+        Bataan", "station_id": 79}, {"lat": 14.659917, "url": "/api/station/2/80",
+        "lng": 120.493917, "verbose_name": "Brgy Cataning, Balanga, Bataan", "station_id":
+        80}, {"lat": 10.334621, "url": "/api/station/2/81", "lng": 125.170874, "verbose_name":
+        "Pstc Southern Leyte, Maasin, Southern Leyte", "station_id": 81}, {"lat":
+        11.564683, "url": "/api/station/2/82", "lng": 124.409935, "verbose_name":
+        "Brgy. Calumpang, Naval, Biliran", "station_id": 82}, {"lat": 12.070278, "url":
+        "/api/station/2/83", "lng": 124.595833, "verbose_name": "Northwest Samar State
+        University, Calbayog City, Samar", "station_id": 83}, {"lat": 10.629973, "url":
+        "/api/station/2/84", "lng": 124.950662, "verbose_name": "Pstc Palo, Palo,
+        Leyte", "station_id": 84}, {"lat": 11.995833, "url": "/api/station/2/85",
+        "lng": 125.443458, "verbose_name": "Eastern Samar State University, Can-Avid,
+        Eastern Samar", "station_id": 85}, {"lat": 18.053917, "url": "/api/station/2/86",
+        "lng": 120.5457, "verbose_name": "Mariano Marcos State University, Batac City,
+        Ilocos Norte", "station_id": 86}, {"lat": 14.14341, "url": "/api/station/2/392",
+        "lng": 121.27277, "verbose_name": "Bay, Laguna", "station_id": 392}, {"lat":
+        17.561944, "url": "/api/station/2/87", "lng": 120.381111, "verbose_name":
+        "Brgy. Tamag, Vigan City, Ilocos Sur", "station_id": 87}, {"lat": 16.59677,
+        "url": "/api/station/2/88", "lng": 120.306041, "verbose_name": "San Fernando
+        Airport, San Fernando City, La Union", "station_id": 88}, {"lat": 15.952333,
+        "url": "/api/station/2/89", "lng": 120.680528, "verbose_name": "Psu Sta. Maria,
+        Sta. Maria, Pangasinan", "station_id": 89}, {"lat": 13.16725, "url": "/api/station/2/90",
+        "lng": 123.75225, "verbose_name": "Dost V Compound, Legazpi City, Albay",
+        "station_id": 90}, {"lat": 14.109567, "url": "/api/station/2/91", "lng": 122.956867,
+        "verbose_name": "Camarines Norte State Colleges, Daet, Camarines Norte", "station_id":
+        91}, {"lat": 13.52502, "url": "/api/station/2/92", "lng": 123.348615, "verbose_name":
+        "Raul S. Roco Library, Naga City, Camarines Sur", "station_id": 92}, {"lat":
+        13.708868, "url": "/api/station/2/93", "lng": 124.24216, "verbose_name": "Catanduanes
+        State College, Virac, Catanduanes", "station_id": 93}, {"lat": 12.014722,
+        "url": "/api/station/2/94", "lng": 123.885775, "verbose_name": "Lgu Aroroy,
+        Aroroy, Masbate", "station_id": 94}, {"lat": 12.90595, "url": "/api/station/2/95",
+        "lng": 123.596683, "verbose_name": "Lgu Donsol, Donsol, Sorsogon", "station_id":
+        95}, {"lat": 10.74815, "url": "/api/station/2/96", "lng": 121.9456, "verbose_name":
+        "Provincial Engineering Compound, San Jose, Antique", "station_id": 96}, {"lat":
+        10.698267, "url": "/api/station/2/97", "lng": 122.648033, "verbose_name":
+        "Buenavista Municipal Hall, Buenavista, Guimaras", "station_id": 97}, {"lat":
+        10.72015, "url": "/api/station/2/98", "lng": 122.562106, "verbose_name": "Dost
+        Regional Office Vi, La Paz, Iloilo", "station_id": 98}, {"lat": 9.792398,
+        "url": "/api/station/2/99", "lng": 124.153052, "verbose_name": "Bisu, Clarin,
+        Bohol", "station_id": 99}, {"lat": 9.628208, "url": "/api/station/2/100",
+        "lng": 122.988832, "verbose_name": "Pstc Negros Oriental, Dumaguete City,
+        Negros Oriental", "station_id": 100}, {"lat": 9.129497, "url": "/api/station/2/101",
+        "lng": 123.636092, "verbose_name": "Catamboan, Lazi, Siquijor", "station_id":
+        101}, {"lat": 7.920779, "url": "/api/station/2/102", "lng": 123.348615, "verbose_name":
+        "Caridad, Dumingag, Zamboanga Del Sur", "station_id": 102}, {"lat": 8.433333,
+        "url": "/api/station/2/103", "lng": 123.283333, "verbose_name": "Katipunan,
+        Zamboanga Del Norte", "station_id": 103}, {"lat": 8.152361, "url": "/api/station/2/115",
+        "lng": 125.132528, "verbose_name": "Pagasa Malaybalay Station, Malaybalay,
+        Bukidnon", "station_id": 115}, {"lat": 9.159111, "url": "/api/station/2/116",
+        "lng": 124.784583, "verbose_name": "Da Animal Breeding Station, Mahinog, Camiguin",
+        "station_id": 116}, {"lat": 8.157153, "url": "/api/station/2/117", "lng":
+        123.721556, "verbose_name": "Nmsc Compound, Tangub City, Misamis Occidental",
+        "station_id": 117}, {"lat": 8.825446, "url": "/api/station/2/118", "lng":
+        125.108118, "verbose_name": "City Engineers Compound, Gingoog City, Misamis
+        Oriental", "station_id": 118}, {"lat": 7.913889, "url": "/api/station/2/119",
+        "lng": 123.768333, "verbose_name": "Kapatagan, Lanao Del Norte", "station_id":
+        119}, {"lat": 6.78925, "url": "/api/station/2/120", "lng": 125.205972, "verbose_name":
+        "Bansalan Provincial Nursery, Bansalan, Davao Del Sur", "station_id": 120},
+        {"lat": 7.315806, "url": "/api/station/2/121", "lng": 125.670139, "verbose_name":
+        "Panabo, Davao Del Norte", "station_id": 121}, {"lat": 8.246286, "url": "/api/station/2/122",
+        "lng": 124.32335, "verbose_name": "Brgy Digkilaan, Iligan City, Lanao Del
+        Norte", "station_id": 122}, {"lat": 7.351111, "url": "/api/station/2/123",
+        "lng": 120.086, "verbose_name": "Pstc Compostela Valley, Maragusan, Compostela
+        Valley", "station_id": 123}, {"lat": 6.647028, "url": "/api/station/2/124",
+        "lng": 124.607694, "verbose_name": "Isulan, Sultan Kudarat", "station_id":
+        124}, {"lat": 5.938583, "url": "/api/station/2/125", "lng": 124.719639, "verbose_name":
+        "Kiamba, Sarangani", "station_id": 125}, {"lat": 6.477531, "url": "/api/station/2/126",
+        "lng": 124.861528, "verbose_name": "Koronadal City, South Cotabato", "station_id":
+        126}, {"lat": 7.205, "url": "/api/station/2/127", "lng": 124.797278, "verbose_name":
+        "Carmen, Cotabato", "station_id": 127}, {"lat": 14.641684, "url": "/api/station/2/128",
+        "lng": 120.481845, "verbose_name": "Orani State University, Orani, Bataan",
+        "station_id": 128}, {"lat": 8.229882, "url": "/api/station/2/129", "lng":
+        124.234542, "verbose_name": "Abuno, Iligan City, Lanao Del Norte", "station_id":
+        129}, {"lat": 15.8472, "url": "/api/station/2/130", "lng": 119.956781, "verbose_name":
+        "Pangasinan State University, Infanta, Pangasinan", "station_id": 130}, {"lat":
+        15.475479, "url": "/api/station/2/131", "lng": 120.596349, "verbose_name":
+        "Brgy. Central Azucarera De Tarlac, Tarlac City, Tarlac", "station_id": 131},
+        {"lat": 14.70035, "url": "/api/station/2/133", "lng": 121.03185, "verbose_name":
+        "Qcpu, Quezon City, Metro Manila", "station_id": 133}, {"lat": 14.53039, "url":
+        "/api/station/2/134", "lng": 121.06056, "verbose_name": "Ususan, Taguig City,
+        Metro Manila", "station_id": 134}, {"lat": 14.38371, "url": "/api/station/2/135",
+        "lng": 121.03373, "verbose_name": "New Bilibid Prison, Brgy. Poblacion, Muntinlupa
+        City, Metro Manila", "station_id": 135}, {"lat": 14.69871, "url": "/api/station/2/136",
+        "lng": 120.96037, "verbose_name": "Dalandanan, Valenzuela City, Metro Manila",
+        "station_id": 136}, {"lat": 14.197867, "url": "/api/station/2/137", "lng":
+        120.883533, "verbose_name": "Cavite State University, Indang, Cavite", "station_id":
+        137}, {"lat": 14.255167, "url": "/api/station/2/138", "lng": 121.407417, "verbose_name":
+        "Brgy. Bubukal, Sta. Cruz, Laguna", "station_id": 138}, {"lat": 13.7733, "url":
+        "/api/station/2/139", "lng": 121.0619, "verbose_name": "Brgy. Kumintang, Batangas
+        City, Batangas", "station_id": 139}, {"lat": 14.5174, "url": "/api/station/2/140",
+        "lng": 121.235467, "verbose_name": "University Of Rizal System, Morong, Rizal",
+        "station_id": 140}, {"lat": 14.052783, "url": "/api/station/2/141", "lng":
+        121.53985, "verbose_name": "Brgy. Lalo, Tayabas, Quezon", "station_id": 141},
+        {"lat": 9.778028, "url": "/api/station/2/142", "lng": 125.419528, "verbose_name":
+        "San Francisco Municipal Hall Compound, San Francisco, Surigao Del Norte",
+        "station_id": 142}, {"lat": 9.660972, "url": "/api/station/2/143", "lng":
+        125.627333, "verbose_name": "Sison Elementary School, Sison, Surigao Del Norte",
+        "station_id": 143}, {"lat": 9.574806, "url": "/api/station/2/144", "lng":
+        125.731472, "verbose_name": "Claver Municipal Hall Compound, Claver, Surigao
+        Del Norte", "station_id": 144}, {"lat": 9.450861, "url": "/api/station/2/145",
+        "lng": 125.576917, "verbose_name": "Kitcharao Municipal Hall Compound, Kitcharao,
+        Agusan Del Norte", "station_id": 145}, {"lat": 6.662183, "url": "/api/station/2/146",
+        "lng": 121.904518, "verbose_name": "Brgy. Atong-Atong, Lantawan, Basilan",
+        "station_id": 146}, {"lat": 7.333422, "url": "/api/station/2/147", "lng":
+        124.316603, "verbose_name": "Parang Poblacion 1, Parang, Maguindanao", "station_id":
+        147}, {"lat": 7.508433, "url": "/api/station/2/148", "lng": 123.1287, "verbose_name":
+        "Balabagan Municipal Hall, Balabagan, Lanao Del Sur", "station_id": 148},
+        {"lat": 7.028856, "url": "/api/station/2/149", "lng": 124.164886, "verbose_name":
+        "Upi Motor Pool, Upi, Maguindanao", "station_id": 149}, {"lat": 13.2407, "url":
+        "/api/station/2/152", "lng": 120.568967, "verbose_name": "Brgy. Tayamaan,
+        Mamburao, Occidental Mindoro", "station_id": 152}, {"lat": 12.770694, "url":
+        "/api/station/2/153", "lng": 121.475056, "verbose_name": "Mindoro State College
+        Of Agriculture And Technology, Bongabong, Oriental Mindoro", "station_id":
+        153}, {"lat": 13.364229, "url": "/api/station/2/154", "lng": 121.947311, "verbose_name":
+        "Pstc Marinduque, Boac, Marinduque", "station_id": 154}, {"lat": 12.41276,
+        "url": "/api/station/2/155", "lng": 122.559899, "verbose_name": "San Fernando,
+        Sibuyan Island, Romblon", "station_id": 155}, {"lat": 9.44623, "url": "/api/station/2/156",
+        "lng": 118.392942, "verbose_name": "Palawan State University, Quezon, Palawan",
+        "station_id": 156}, {"lat": 14.645336, "url": "/api/station/2/177", "lng":
+        121.043992, "verbose_name": "Science Garden Pagasa, Quezon City, Metro Manila",
+        "station_id": 177}, {"lat": 9.899167, "url": "/api/station/2/178", "lng":
+        123.584167, "verbose_name": "Pshs Central Visayas, Argao, Cebu", "station_id":
+        178}, {"lat": 13.838067, "url": "/api/station/2/183", "lng": 121.97835, "verbose_name":
+        "Unisan  Municipal Hall, Unisan, Quezon", "station_id": 183}, {"lat": 10.841672,
+        "url": "/api/station/2/184", "lng": 122.484689, "verbose_name": "Cabatuan,
+        Iloilo", "station_id": 184}, {"lat": 10.816667, "url": "/api/station/2/185",
+        "lng": 122.433333, "verbose_name": "Alimodian, Iloilo", "station_id": 185},
+        {"lat": 14.590405, "url": "/api/station/2/190", "lng": 121.091689, "verbose_name":
+        "Master Station, , Metro Manila", "station_id": 190}, {"lat": 14.610833, "url":
+        "/api/station/2/191", "lng": 120.994167, "verbose_name": "E. Quintos Street,
+        Sampaloc, Metro Manila", "station_id": 191}, {"lat": 14.667028, "url": "/api/station/2/192",
+        "lng": 121.292836, "verbose_name": "Mt. Campana, Rizal", "station_id": 192},
+        {"lat": 16.023696, "url": "/api/station/2/197", "lng": 120.816653, "verbose_name":
+        "Alfonso Castaneda, Nueva Vizcaya", "station_id": 197}, {"lat": 16.705389,
+        "url": "/api/station/2/199", "lng": 121.556667, "verbose_name": "Lgu Compound,
+        Santiago City, Isabela", "station_id": 199}, {"lat": 17.133333, "url": "/api/station/2/200",
+        "lng": 121.883333, "verbose_name": "Lgu Compound, Ilagan City, Isabela", "station_id":
+        200}, {"lat": 16.933333, "url": "/api/station/2/201", "lng": 121.766667, "verbose_name":
+        "San Pablo, Cauayan City, Isabela", "station_id": 201}, {"lat": 10.786642,
+        "url": "/api/station/2/206", "lng": 122.468225, "verbose_name": "San Miguel,
+        Iloilo", "station_id": 206}, {"lat": 8.35705, "url": "/api/station/2/218",
+        "lng": 124.692531, "verbose_name": "Kinawe, Libona, Bukidnon", "station_id":
+        218}, {"lat": 8.304539, "url": "/api/station/2/219", "lng": 124.699028, "verbose_name":
+        "Baungon Poblacion, Baungon, Bukidnon", "station_id": 219}, {"lat": 8.349875,
+        "url": "/api/station/2/220", "lng": 124.492011, "verbose_name": "Pigsag-An,
+        Cagayan De Oro City, Misamis Oriental", "station_id": 220}, {"lat": 8.185639,
+        "url": "/api/station/2/223", "lng": 124.586333, "verbose_name": "Sto. Nino,
+        Talakag, Bukidnon", "station_id": 223}, {"lat": 10.897453, "url": "/api/station/2/226",
+        "lng": 122.447136, "verbose_name": "Maasin, , Iloilo", "station_id": 226},
+        {"lat": 8.232697, "url": "/api/station/2/246", "lng": 124.419372, "verbose_name":
+        "Rogongon, Iligan City, Lanao Del Norte", "station_id": 246}, {"lat": 18.268056,
+        "url": "/api/station/2/256", "lng": 121.683056, "verbose_name": "Camalaniugan,
+        Cagayan", "station_id": 256}, {"lat": 16.660556, "url": "/api/station/2/301",
+        "lng": 121.369167, "verbose_name": "Diadi, Nueva Vizcaya", "station_id": 301},
+        {"lat": 16.522781, "url": "/api/station/2/302", "lng": 121.192603, "verbose_name":
+        "Solano, Nueva Vizcaya", "station_id": 302}, {"lat": 16.132833, "url": "/api/station/2/303",
+        "lng": 120.929667, "verbose_name": "Dalton Pass, Sta. Fe, Nueva Vizcaya",
+        "station_id": 303}, {"lat": 16.5905, "url": "/api/station/2/304", "lng": 121.186833,
+        "verbose_name": "Villa Verde, Nueva Vizcaya", "station_id": 304}, {"lat":
+        16.491353, "url": "/api/station/2/305", "lng": 120.830524, "verbose_name":
+        "Bokod, Benguet", "station_id": 305}, {"lat": 16.914323, "url": "/api/station/2/306",
+        "lng": 121.060291, "verbose_name": "Banaue, Ifugao", "station_id": 306}, {"lat":
+        16.852347, "url": "/api/station/2/307", "lng": 121.099006, "verbose_name":
+        "Hingyon, Ifugao", "station_id": 307}, {"lat": 16.768173, "url": "/api/station/2/308",
+        "lng": 121.056704, "verbose_name": "Asipulo, Ifugao", "station_id": 308},
+        {"lat": 18.463833, "url": "/api/station/2/312", "lng": 121.3405, "verbose_name":
+        "Pamplona Municipal Hall, Pamplona, Cagayan", "station_id": 312}, {"lat":
+        18.016667, "url": "/api/station/2/314", "lng": 121.833333, "verbose_name":
+        "Brgy.  Pina Weste, Gattaran, Cagayan", "station_id": 314}, {"lat": 18.1275,
+        "url": "/api/station/2/315", "lng": 121.578667, "verbose_name": "Lasam Municipal
+        Hall, Lasam, Cagayan", "station_id": 315}, {"lat": 18.607, "url": "/api/station/2/316",
+        "lng": 121.084333, "verbose_name": "Claveria Grassroots Cooperative Bank,
+        Claveria, Cagayan", "station_id": 316}, {"lat": 18.226111, "url": "/api/station/2/317",
+        "lng": 121.555117, "verbose_name": "Allacapan, Cagayan", "station_id": 317},
+        {"lat": 17.836111, "url": "/api/station/2/318", "lng": 121.722778, "verbose_name":
+        "Amulung Municipal Disaster Operation Center, Amulung, Cagayan", "station_id":
+        318}, {"lat": 18.559833, "url": "/api/station/2/319", "lng": 121.234167, "verbose_name":
+        "Sanchez Mira Municipal Hall, Sanchez Mira, Cagayan", "station_id": 319},
+        {"lat": 17.903056, "url": "/api/station/2/320", "lng": 121.655556, "verbose_name":
+        "Alcala Municipal Hall, Alcala, Cagayan", "station_id": 320}, {"lat": 18.563611,
+        "url": "/api/station/2/321", "lng": 120.990556, "verbose_name": "Sta. Praxedes,
+        Cagayan", "station_id": 321}, {"lat": 18.261333, "url": "/api/station/2/322",
+        "lng": 121.997, "verbose_name": "Gonzaga Public Market, Gonzaga, Cagayan",
+        "station_id": 322}, {"lat": 18.2875, "url": "/api/station/2/323", "lng": 121.831333,
+        "verbose_name": "Buguey, Cagayan", "station_id": 323}, {"lat": 18.249833,
+        "url": "/api/station/2/324", "lng": 121.908667, "verbose_name": "Sta. Teresita
+        Municipal Hall, Sta. Teresita, Cagayan", "station_id": 324}, {"lat": 16.866667,
+        "url": "/api/station/2/330", "lng": 121.583333, "verbose_name": "San Mateo
+        Municipal Hall, San Mateo, Cagayan", "station_id": 330}, {"lat": 16.511694,
+        "url": "/api/station/2/340", "lng": 121.527306, "verbose_name": "Cabarroguis,
+        Quirino", "station_id": 340}, {"lat": 16.527961, "url": "/api/station/2/343",
+        "lng": 121.608775, "verbose_name": "Nagtipunan, Quirino", "station_id": 343},
+        {"lat": 16.312, "url": "/api/station/2/346", "lng": 121.043333, "verbose_name":
+        "Demo Farm, Aritao, Nueva Vizcaya", "station_id": 346}, {"lat": 16.316389,
+        "url": "/api/station/2/347", "lng": 121.293333, "verbose_name": "Kasibu Municipal
+        Hall, Solano, Nueva Vizcaya", "station_id": 347}, {"lat": 14.17777, "url":
+        "/api/station/2/348", "lng": 121.83338, "verbose_name": "Atimonan, Quezon",
+        "station_id": 348}, {"lat": 14.04496, "url": "/api/station/2/349", "lng":
+        121.18866, "verbose_name": "Sto. Tomas, Batangas", "station_id": 349}, {"lat":
+        14.33601, "url": "/api/station/2/350", "lng": 121.49829, "verbose_name": "Kalayaan,
+        Laguna", "station_id": 350}, {"lat": 14.31219, "url": "/api/station/2/351",
+        "lng": 120.97131, "verbose_name": "Dasmarinas, Cavite", "station_id": 351},
+        {"lat": 14.17023, "url": "/api/station/2/352", "lng": 120.92218, "verbose_name":
+        "Amadeo, Cavite", "station_id": 352}, {"lat": 14.24685, "url": "/api/station/2/353",
+        "lng": 121.50039, "verbose_name": "Cavinti, Laguna", "station_id": 353}, {"lat":
+        14.05033, "url": "/api/station/2/354", "lng": 120.93244, "verbose_name": "Laurel,
+        Batangas", "station_id": 354}, {"lat": 14.11465, "url": "/api/station/2/355",
+        "lng": 121.50526, "verbose_name": "Majayjay, Laguna", "station_id": 355},
+        {"lat": 14.13332, "url": "/api/station/2/356", "lng": 121.41523, "verbose_name":
+        "Nagcarlan, Laguna", "station_id": 356}, {"lat": 14.2014, "url": "/api/station/2/357",
+        "lng": 121.35667, "verbose_name": "Victoria, Laguna", "station_id": 357},
+        {"lat": 14.31446, "url": "/api/station/2/358", "lng": 121.11377, "verbose_name":
+        "Sta. Rosa, Laguna", "station_id": 358}, {"lat": 16.853702, "url": "/api/station/2/360",
+        "lng": 120.857009, "verbose_name": "Bauko, Mountain Province", "station_id":
+        360}, {"lat": 17.095139, "url": "/api/station/2/361", "lng": 120.855944, "verbose_name":
+        "Besao, Mountain Province", "station_id": 361}, {"lat": 16.783353, "url":
+        "/api/station/2/362", "lng": 120.727664, "verbose_name": "Bakun, Benguet",
+        "station_id": 362}, {"lat": 16.497398, "url": "/api/station/2/363", "lng":
+        120.487003, "verbose_name": "Sablan, Benguet", "station_id": 363}, {"lat":
+        16.265221, "url": "/api/station/2/364", "lng": 120.637185, "verbose_name":
+        "Tuba, Benguet", "station_id": 364}, {"lat": 16.575992, "url": "/api/station/2/365",
+        "lng": 120.605795, "verbose_name": "Kapangan, Benguet", "station_id": 365},
+        {"lat": 16.800194, "url": "/api/station/2/366", "lng": 120.821889, "verbose_name":
+        "Buguias, Benguet", "station_id": 366}, {"lat": 13.87983, "url": "/api/station/2/367",
+        "lng": 121.21284, "verbose_name": "Padre Garcia, Batangas", "station_id":
+        367}, {"lat": 14.264722, "url": "/api/station/2/368", "lng": 121.030833, "verbose_name":
+        "Carmona, Cavite", "station_id": 368}, {"lat": 11.280933, "url": "/api/station/2/369",
+        "lng": 125.066067, "verbose_name": "Buscada, Basey, Samar", "station_id":
+        369}, {"lat": 17.378809, "url": "/api/station/2/375", "lng": 120.821184, "verbose_name":
+        "Boliney, Abra", "station_id": 375}, {"lat": 17.414893, "url": "/api/station/2/376",
+        "lng": 120.595582, "verbose_name": "Pilar, Abra", "station_id": 376}, {"lat":
+        17.08451, "url": "/api/station/2/377", "lng": 120.90047, "verbose_name": "Sagada,
+        Mountain Province", "station_id": 377}, {"lat": 16.85724, "url": "/api/station/2/378",
+        "lng": 120.79345, "verbose_name": "Mankayan, Benguet", "station_id": 378},
+        {"lat": 16.99612, "url": "/api/station/2/379", "lng": 120.82207, "verbose_name":
+        "Tadian, Mountain Province", "station_id": 379}, {"lat": 16.77655, "url":
+        "/api/station/2/380", "lng": 121.08703, "verbose_name": "Kiangan Municipal
+        Hall, Kiangan, Ifugao", "station_id": 380}, {"lat": 17.795214, "url": "/api/station/2/381",
+        "lng": 121.322266, "verbose_name": "Conner, Apayao", "station_id": 381}, {"lat":
+        18.01623, "url": "/api/station/2/382", "lng": 121.471109, "verbose_name":
+        "Flora, Apayao", "station_id": 382}, {"lat": 18.283333, "url": "/api/station/2/383",
+        "lng": 121.433333, "verbose_name": "Sta. Marcela, Apayao", "station_id": 383},
+        {"lat": 18.127294, "url": "/api/station/2/384", "lng": 121.345066, "verbose_name":
+        "Pudtol, Apayao", "station_id": 384}, {"lat": 16.922825, "url": "/api/station/2/385",
+        "lng": 121.487043, "verbose_name": "Alfonso Lista, Ifugao", "station_id":
+        385}, {"lat": 17.292555, "url": "/api/station/2/386", "lng": 121.239391, "verbose_name":
+        "Tanudan, Kalinga", "station_id": 386}, {"lat": 17.26515, "url": "/api/station/2/387",
+        "lng": 121.14843, "verbose_name": "Tinglayan, Kalinga", "station_id": 387},
+        {"lat": 16.36575, "url": "/api/station/2/388", "lng": 120.67493, "verbose_name":
+        "Itogon, Benguet", "station_id": 388}, {"lat": 17.351324, "url": "/api/station/2/389",
+        "lng": 121.175004, "verbose_name": "Lubuagan, Kalinga", "station_id": 389},
+        {"lat": 17.18108, "url": "/api/station/2/390", "lng": 121.403552, "verbose_name":
+        "Paracelis, Mountain Province", "station_id": 390}, {"lat": 14.11902, "url":
+        "/api/station/2/391", "lng": 121.28717, "verbose_name": "Calauan, Laguna",
+        "station_id": 391}, {"lat": 14.55369, "url": "/api/station/2/393", "lng":
+        121.2858, "verbose_name": "Baras, Rizal", "station_id": 393}, {"lat": 14.4999,
+        "url": "/api/station/2/394", "lng": 121.28285, "verbose_name": "Tanay, Rizal",
+        "station_id": 394}, {"lat": 14.47678, "url": "/api/station/2/395", "lng":
+        121.31559, "verbose_name": "Pililia, Rizal", "station_id": 395}, {"lat": 13.68753,
+        "url": "/api/station/2/396", "lng": 121.20902, "verbose_name": "Lobo, Batangas",
+        "station_id": 396}, {"lat": 8.537376, "url": "/api/station/2/397", "lng":
+        124.937331, "verbose_name": "San Luis, Malitbog, Bukidnon", "station_id":
+        397}, {"lat": 8.29574, "url": "/api/station/2/398", "lng": 124.99824, "verbose_name":
+        "Health Center, Poblacion, Impasug-Ong, Bukidnon", "station_id": 398}, {"lat":
+        8.33425, "url": "/api/station/2/404", "lng": 124.97808, "verbose_name": "Bfar
+        Kisolon, Sumilao, Bukidnon", "station_id": 404}, {"lat": 8.217286, "url":
+        "/api/station/2/405", "lng": 125.035854, "verbose_name": "Nomiarc, Dalwangan,
+        Malaybalay, Bukidnon", "station_id": 405}, {"lat": 8.21982, "url": "/api/station/2/406",
+        "lng": 124.85072, "verbose_name": "Dahilayan, Manolo Fortich, Bukidnon", "station_id":
+        406}, {"lat": 7.715637, "url": "/api/station/2/407", "lng": 125.111389, "verbose_name":
+        "Quezon Municipal Hall, Quezon, Bukidnon", "station_id": 407}, {"lat": 7.78138,
+        "url": "/api/station/2/408", "lng": 125.01137, "verbose_name": "Maramag Municipal
+        Hall, Maramag, Bukidnon", "station_id": 408}, {"lat": 7.848431, "url": "/api/station/2/409",
+        "lng": 125.050214, "verbose_name": "Philrice Field Office, Musuan, Maramag,
+        Bukidnon", "station_id": 409}, {"lat": 7.60731, "url": "/api/station/2/413",
+        "lng": 125.13361, "verbose_name": "Palacapao, Quezon, Bukidnon", "station_id":
+        413}, {"lat": 16.015194, "url": "/api/station/2/414", "lng": 120.413222, "verbose_name":
+        "Malanay, Sta. Barbara, Pangasinan", "station_id": 414}, {"lat": 15.886944,
+        "url": "/api/station/2/415", "lng": 120.590028, "verbose_name": "Sto. Tomas,
+        Pangasinan", "station_id": 415}, {"lat": 15.984833, "url": "/api/station/2/422",
+        "lng": 120.632472, "verbose_name": "Asingan, Pangasinan", "station_id": 422},
+        {"lat": 11.81493, "url": "/api/station/2/423", "lng": 125.45303, "verbose_name":
+        "Sulat Public Plaza, Sulat, Eastern Samar", "station_id": 423}, {"lat": 11.678786,
+        "url": "/api/station/2/424", "lng": 124.356325, "verbose_name": "Kawayan,
+        Biliran", "station_id": 424}, {"lat": 9.965556, "url": "/api/station/2/425",
+        "lng": 122.903544, "verbose_name": "Brgy. Tanawan, Kabankalan City, Negros
+        Occidental", "station_id": 425}, {"lat": 11.473636, "url": "/api/station/2/437",
+        "lng": 124.574814, "verbose_name": "Public Plaza Cabucgayan, Cabugcayan, Biliran",
+        "station_id": 437}, {"lat": 11.589, "url": "/api/station/2/442", "lng": 124.992333,
+        "verbose_name": "Brgy Dolores, Pinabacdao, Samar", "station_id": 442}, {"lat":
+        11.413069, "url": "/api/station/2/443", "lng": 125.547453, "verbose_name":
+        "Llorente Public Plaza, Llorente, Eastern Samar", "station_id": 443}, {"lat":
+        14.27135, "url": "/api/station/2/573", "lng": 121.12427, "verbose_name": "Cabuyao,
+        Laguna", "station_id": 573}, {"lat": 11.033358, "url": "/api/station/2/444",
+        "lng": 125.741136, "verbose_name": "Guiuan Municipal Hall, Guiuan, Eastern
+        Samar", "station_id": 444}, {"lat": 10.386267, "url": "/api/station/2/445",
+        "lng": 9.913161, "verbose_name": "Slsu, Hinunangan Campus, Hinunangan, Southern
+        Leyte", "station_id": 445}, {"lat": 9.913161, "url": "/api/station/2/446",
+        "lng": 125.158333, "verbose_name": "Inollnan, San Ricardo, Southern Leyte",
+        "station_id": 446}, {"lat": 9.95, "url": "/api/station/2/447", "lng": 125.25,
+        "verbose_name": "Poblacion Ibabao, Pintuyan, Southern Leyte", "station_id":
+        447}, {"lat": 11.371111, "url": "/api/station/2/448", "lng": 124.486444, "verbose_name":
+        "Leyte-Leyte Municipal Grounds, Leyte-Leyte, Leyte", "station_id": 448}, {"lat":
+        11.039583, "url": "/api/station/2/449", "lng": 124.997472, "verbose_name":
+        "San Vicente, Tolosa, Leyte", "station_id": 449}, {"lat": 10.974444, "url":
+        "/api/station/2/450", "lng": 124.9075, "verbose_name": "Nia Dam, District
+        6, Daguitan River Burauen, Leyte", "station_id": 450}, {"lat": 10.791389,
+        "url": "/api/station/2/451", "lng": 124.941389, "verbose_name": "Brgy. Picas
+        Norte, Javier, Leyte", "station_id": 451}, {"lat": 12.3675, "url": "/api/station/2/452",
+        "lng": 124.559444, "verbose_name": "Lunoy, Kananga, Leyte", "station_id":
+        452}, {"lat": 11.420278, "url": "/api/station/2/453", "lng": 124.843889, "verbose_name":
+        "Poblacion Babatngon, Babatngon, Leyte", "station_id": 453}, {"lat": 12.342861,
+        "url": "/api/station/2/454", "lng": 125.034333, "verbose_name": "Catubig Municipal
+        Bldg., Catubig, Northern Samar", "station_id": 454}, {"lat": 12.297825, "url":
+        "/api/station/2/455", "lng": 124.675722, "verbose_name": "Lope De Vega Municipal
+        Nursery, Lope De Vega, Northern Samar", "station_id": 455}, {"lat": 6.898034,
+        "url": "/api/station/2/456", "lng": 124.562944, "verbose_name": "Brgy. Poblacion
+        Lupon, Lupon, Davao Oriental", "station_id": 456}, {"lat": 9.909603, "url":
+        "/api/station/2/461", "lng": 122.859944, "verbose_name": "Brgy. Oringao, Kabankalan
+        City, Negros Occidental", "station_id": 461}, {"lat": 9.787678, "url": "/api/station/2/462",
+        "lng": 122.803533, "verbose_name": "Brgy. Tabugon, Kabankalan City, Negros
+        Occidental", "station_id": 462}, {"lat": 9.846317, "url": "/api/station/2/463",
+        "lng": 122.891936, "verbose_name": "Brgy. Camingawan, Kabankalan City, Negros
+        Occidental", "station_id": 463}, {"lat": 11.352636, "url": "/api/station/2/464",
+        "lng": 122.768431, "verbose_name": "Brgy. Tapulang, Maayon, Capiz", "station_id":
+        464}, {"lat": 10.949922, "url": "/api/station/2/465", "lng": 122.634483, "verbose_name":
+        "Pototan Municipal Hall, Pototan, Iloilo", "station_id": 465}, {"lat": 11.115764,
+        "url": "/api/station/2/466", "lng": 122.495356, "verbose_name": "West Visayas
+        State University, Lambunao, Iloilo", "station_id": 466}, {"lat": 11.066439,
+        "url": "/api/station/2/467", "lng": 122.658972, "verbose_name": "Iloilo State
+        College Of Fisheries, San Enrique, Iloilo", "station_id": 467}, {"lat": 6.376969,
+        "url": "/api/station/2/468", "lng": 125.272507, "verbose_name": "Malungon,
+        Sarangani", "station_id": 468}, {"lat": 6.330854, "url": "/api/station/2/469",
+        "lng": 125.95079, "verbose_name": "Tupi, South Cotabato", "station_id": 469},
+        {"lat": 8.8193, "url": "/api/station/2/470", "lng": 125.6929, "verbose_name":
+        "Sibagat Municipal Hall, Sibagat, Agusan Del Sur", "station_id": 470}, {"lat":
+        8.713, "url": "/api/station/2/471", "lng": 125.7514, "verbose_name": "Bayugan
+        City Hall, Bayugan City, Agusan Del Sur", "station_id": 471}, {"lat": 8.38282,
+        "url": "/api/station/2/472", "lng": 126.00091, "verbose_name": "Rosario Municipal
+        Hall, Rosario, Agusan Del Sur", "station_id": 472}, {"lat": 8.47803, "url":
+        "/api/station/2/473", "lng": 126.02515, "verbose_name": "Alegria, San Francisco,
+        Agusan Del Sur", "station_id": 473}, {"lat": 8.0693, "url": "/api/station/2/474",
+        "lng": 125.95547, "verbose_name": "Veruela Municipal Hall, Veruela, Agusan
+        Del Sur", "station_id": 474}, {"lat": 8.12093, "url": "/api/station/2/475",
+        "lng": 126.12321, "verbose_name": "Manat Elem. School, Manat, Trento, Agusan
+        Del Sur", "station_id": 475}, {"lat": 8.01986, "url": "/api/station/2/476",
+        "lng": 126.1593, "verbose_name": "Sta Maria Elem School, Sta Maria, Trento,
+        Agusan Del Sur", "station_id": 476}, {"lat": 8.1706, "url": "/api/station/2/477",
+        "lng": 126.0028, "verbose_name": "Asscat, San Teodoro, Bunawan, Agusan Del
+        Sur", "station_id": 477}, {"lat": 8.00983, "url": "/api/station/2/478", "lng":
+        126.03271, "verbose_name": "Sta Isabel, Sta Josefa, Agusan Del Sur", "station_id":
+        478}, {"lat": 8.221173, "url": "/api/station/2/482", "lng": 124.961061, "verbose_name":
+        "San Juan, Impasug-Ong, Bukidnon", "station_id": 482}, {"lat": 8.252152, "url":
+        "/api/station/2/483", "lng": 125.028042, "verbose_name": "Impalutao, Impasug-Ong,
+        Bukidnon", "station_id": 483}, {"lat": 16.042222, "url": "/api/station/2/484",
+        "lng": 120.268806, "verbose_name": "Binmaley Pangasinan State University,
+        Binmaley, Pangasinan", "station_id": 484}, {"lat": 15.935556, "url": "/api/station/2/485",
+        "lng": 120.340139, "verbose_name": "San Carlos Pangasinan State University,
+        San Carlos City, Pangasinan", "station_id": 485}, {"lat": 16.034306, "url":
+        "/api/station/2/486", "lng": 120.233028, "verbose_name": "Pstc Pangasinan,
+        Lingayen, Pangasinan", "station_id": 486}, {"lat": 16.122472, "url": "/api/station/2/487",
+        "lng": 119.965194, "verbose_name": "Alaminos Pangasinan State University,
+        Alaminos, Pangasinan", "station_id": 487}, {"lat": 15.45315, "url": "/api/station/2/488",
+        "lng": 121.32111, "verbose_name": "Brgy. Calabuanan, Baler, Aurora", "station_id":
+        488}, {"lat": 10.206917, "url": "/api/station/2/490", "lng": 123.76025, "verbose_name":
+        "Naga City Hall, Naga City, Cebu", "station_id": 490}, {"lat": 9.24862, "url":
+        "/api/station/2/491", "lng": 123.59467, "verbose_name": "Helen, Larena, Siquijor",
+        "station_id": 491}, {"lat": 9.815889, "url": "/api/station/2/492", "lng":
+        123.456056, "verbose_name": "Mantalongon, Dalaguete, Cebu", "station_id":
+        492}, {"lat": 8.33728, "url": "/api/station/2/493", "lng": 125.79475, "verbose_name":
+        "Desamparados, Talacogon, Agusan Del Sur", "station_id": 493}, {"lat": 8.63208,
+        "url": "/api/station/2/494", "lng": 126.00708, "verbose_name": "Magsaysay,
+        Prosperidad, Agusan Del Sur", "station_id": 494}, {"lat": 8.54236, "url":
+        "/api/station/2/495", "lng": 125.85662, "verbose_name": "San Vicente, Prosperidad,
+        Agusan Del Sur", "station_id": 495}, {"lat": 8.009069, "url": "/api/station/2/496",
+        "lng": 124.277139, "verbose_name": "New Capitol Complex, Buadiskayo, Marawi
+        City, Lanao Del Sur", "station_id": 496}, {"lat": 8.189546, "url": "/api/station/2/497",
+        "lng": 125.8571, "verbose_name": "Loreto Municipal Hall, Loreto, Agusan Del
+        Sur", "station_id": 497}, {"lat": 8.30269, "url": "/api/station/2/498", "lng":
+        125.00571, "verbose_name": "Bayugan Iii National High School, Bayugan City,
+        Agusan Del Sur", "station_id": 498}, {"lat": 7.38326, "url": "/api/station/2/502",
+        "lng": 124.561722, "verbose_name": "Alamada, Cotabato", "station_id": 502},
+        {"lat": 7.810735, "url": "/api/station/2/503", "lng": 124.894829, "verbose_name":
+        "Kuya, Maramag, Bukidnon", "station_id": 503}, {"lat": 9.275281, "url": "/api/station/2/505",
+        "lng": 123.648139, "verbose_name": "Poblacion, Enrique Villanueva, Enrique
+        Villanueva, Siquijor", "station_id": 505}, {"lat": 9.658, "url": "/api/station/2/506",
+        "lng": 124.362, "verbose_name": "Lubcanan, Jagna, Bohol", "station_id": 506},
+        {"lat": 10.637861, "url": "/api/station/2/507", "lng": 124.374583, "verbose_name":
+        "San Francisco, Camotes, Cebu", "station_id": 507}, {"lat": 7.968667, "url":
+        "/api/station/2/508", "lng": 124.343417, "verbose_name": "Polo Ditsaan, Ramain,
+        Lanao Del Sur", "station_id": 508}, {"lat": 8.5869, "url": "/api/station/2/512",
+        "lng": 125.8011, "verbose_name": "Talacogon Municipal Hall, Talacogon, Agusan
+        Del Sur", "station_id": 512}, {"lat": 8.6283, "url": "/api/station/2/513",
+        "lng": 125.7394, "verbose_name": "Don Flavia, San Luis, Agusan Del Sur", "station_id":
+        513}, {"lat": 8.1511, "url": "/api/station/2/514", "lng": 125.9192, "verbose_name":
+        "Don Mateo, Veruela, Agusan Del Sur", "station_id": 514}, {"lat": 8.7806,
+        "url": "/api/station/2/515", "lng": 125.7044, "verbose_name": "Esperanza Poblacion,
+        Esperanza, Agusan Del Sur", "station_id": 515}, {"lat": 8.73295, "url": "/api/station/2/517",
+        "lng": 125.5998, "verbose_name": "Mat-I, Las Nieves, Agusan Del Norte", "station_id":
+        517}, {"lat": 8.2798, "url": "/api/station/2/518", "lng": 125.8066, "verbose_name":
+        "Panangan, La Paz, Agusan Del Sur", "station_id": 518}, {"lat": 10.133333,
+        "url": "/api/station/2/524", "lng": 124.383333, "verbose_name": "Bien Unido,
+        Bohol", "station_id": 524}, {"lat": 11.771467, "url": "/api/station/2/525",
+        "lng": 125.022433, "verbose_name": "Paranas Municipal Hall, Paranas, Samar",
+        "station_id": 525}, {"lat": 9.732, "url": "/api/station/2/526", "lng": 123.340944,
+        "verbose_name": "Alegria Poblacion, Alegria, Cebu", "station_id": 526}, {"lat":
+        11.263278, "url": "/api/station/2/530", "lng": 123.717417, "verbose_name":
+        "Brgy. Bunakan, Madridejos, Bantayan Isl, Cebu", "station_id": 530}, {"lat":
+        10.148889, "url": "/api/station/2/531", "lng": 124.325, "verbose_name": "Talibon
+        Poblacion, Talibon, Bohol", "station_id": 531}, {"lat": 14.17002, "url": "/api/station/2/533",
+        "lng": 120.71764, "verbose_name": "Magallanes, Cavite", "station_id": 533},
+        {"lat": 16.05075, "url": "/api/station/2/534", "lng": 120.546333, "verbose_name":
+        "Laoac Poblacion, Laoac, Pangasinan", "station_id": 534}, {"lat": 15.024636,
+        "url": "/api/station/2/548", "lng": 120.702208, "verbose_name": "San Fernando
+        Motor Pool, San Fernando, Pampanga", "station_id": 548}, {"lat": 6.71265,
+        "url": "/api/station/2/549", "lng": 124.79601, "verbose_name": "Buluan Municipal
+        Compound, Buluan, Maguindanao", "station_id": 549}, {"lat": 16.983639, "url":
+        "/api/station/2/550", "lng": 120.513806, "verbose_name": "Suyo Municipal Office,
+        Suyo, Ilocos Sur", "station_id": 550}, {"lat": 17.238417, "url": "/api/station/2/551",
+        "lng": 120.578528, "verbose_name": "Brgy. Cabaroan, San Emilio, Ilocos Sur",
+        "station_id": 551}, {"lat": 17.638747, "url": "/api/station/2/552", "lng":
+        120.409622, "verbose_name": "Sto. Domingo Police Station, Sto. Domingo, Ilocos
+        Sur", "station_id": 552}, {"lat": 18.139778, "url": "/api/station/2/553",
+        "lng": 120.820761, "verbose_name": "Lgu Carasi, Carasi, Ilocos Norte", "station_id":
+        553}, {"lat": 17.922075, "url": "/api/station/2/554", "lng": 120.635764, "verbose_name":
+        "Brgy. Binacag, Banna, Ilocos Norte", "station_id": 554}, {"lat": 16.3229,
+        "url": "/api/station/2/560", "lng": 120.366867, "verbose_name": "Agoo, La
+        Union", "station_id": 560}, {"lat": 15.089856, "url": "/api/station/2/566",
+        "lng": 120.652817, "verbose_name": "Northville Day Care Center, San Fernando,
+        Pampanga", "station_id": 566}, {"lat": 9.144722, "url": "/api/station/2/584",
+        "lng": 123.516944, "verbose_name": "Napo, San Juan, Siquijor", "station_id":
+        584}, {"lat": 9.85265, "url": "/api/station/2/585", "lng": 123.14184, "verbose_name":
+        "South Poblacion Elementary School, Ayungon, Negros Oriental", "station_id":
+        585}, {"lat": 9.2799, "url": "/api/station/2/586", "lng": 123.2808, "verbose_name":
+        "Negros Oriental State University, Bajumpandan Campus, Dumaguete, Negros Oriental",
+        "station_id": 586}, {"lat": 9.19837, "url": "/api/station/2/587", "lng": 123.65746,
+        "verbose_name": "North Poblacion, Maria, Siquijor", "station_id": 587}, {"lat":
+        9.85265, "url": "/api/station/2/588", "lng": 123.14185, "verbose_name": "Negros
+        Oriental State University Siaton Campus, Siaton, Negros Oriental", "station_id":
+        588}, {"lat": 9.46223, "url": "/api/station/2/591", "lng": 123.10881, "verbose_name":
+        "Negros Oriental State University Pamplona Campus, Pamplona, Negros Oriental",
+        "station_id": 591}, {"lat": 9.59283, "url": "/api/station/2/592", "lng": 123.11935,
+        "verbose_name": "Negros Oriental State University Bais Campus, Bais, Negros
+        Oriental", "station_id": 592}, {"lat": 9.75857, "url": "/api/station/2/595",
+        "lng": 122.92007, "verbose_name": "Negros Oriental State University, Mabinay
+        Campus, Mabinay City, Negros Oriental", "station_id": 595}, {"lat": 9.35321,
+        "url": "/api/station/2/596", "lng": 122.83665, "verbose_name": "Negros Oriental
+        State University, Bayawan Campus, Bayawan City, Negros Oriental", "station_id":
+        596}, {"lat": 14.865818, "url": "/api/station/2/597", "lng": 120.958265, "verbose_name":
+        "Pandi Municipal Hall, Pandi, Bulacan", "station_id": 597}, {"lat": 15.170944,
+        "url": "/api/station/2/598", "lng": 120.514944, "verbose_name": "Sapang Bato
+        Brgy Hall, Angeles City, Pampanga", "station_id": 598}, {"lat": 15.136, "url":
+        "/api/station/2/599", "lng": 120.616, "verbose_name": "City Sports Complex,
+        Angeles City, Pampanga", "station_id": 599}, {"lat": 15.575972, "url": "/api/station/2/600",
+        "lng": 120.681417, "verbose_name": "Victoria Municipal Hall, Poblalcion, Victoria,
+        Tarlac", "station_id": 600}, {"lat": 15.244278, "url": "/api/station/2/601",
+        "lng": 120.564556, "verbose_name": "Mabalacat Municipal Hall, Mabalacat, Pampanga",
+        "station_id": 601}, {"lat": 13.6149, "url": "/api/station/2/603", "lng": 123.18285,
+        "verbose_name": "Brgy Mabulo, Naga, Camarines Sur", "station_id": 603}, {"lat":
+        13.6173, "url": "/api/station/2/604", "lng": 123.1883, "verbose_name": "Triangulo
+        Naga, Naga, Camarines Sur", "station_id": 604}, {"lat": 8.824604, "url": "/api/station/2/608",
+        "lng": 125.692343, "verbose_name": "Sumile, Butuan City, Agusan Del Norte",
+        "station_id": 608}, {"lat": 9.014568, "url": "/api/station/2/609", "lng":
+        125.692343, "verbose_name": "Dugyaman, Anticala, Butuan, Agusan Del Norte",
+        "station_id": 609}, {"lat": 9.55373, "url": "/api/station/2/610", "lng": 125.56975,
+        "verbose_name": "Tubod Municipal Hall, Tubod, Surigao Del Norte", "station_id":
+        610}, {"lat": 9.54057, "url": "/api/station/2/611", "lng": 125.52295, "verbose_name":
+        "Mainit Municipal Hall, Mainit, Surigao Del Norte", "station_id": 611}, {"lat":
+        9.1219, "url": "/api/station/2/613", "lng": 125.6289, "verbose_name": "Cabadbaran,
+        Cabadbaran City, Agusan Del Norte", "station_id": 613}, {"lat": 9.34275, "url":
+        "/api/station/2/614", "lng": 125.51621, "verbose_name": "Poblacion, Jabonga,
+        Agusan Del Norte", "station_id": 614}, {"lat": 9.24156, "url": "/api/station/2/615",
+        "lng": 125.55945, "verbose_name": "Jagupit, Santiago, Agusan Del Norte", "station_id":
+        615}, {"lat": 7.448416, "url": "/api/station/2/625", "lng": 125.689365, "verbose_name":
+        "Be Dujali, Dujali, Davao Del Norte", "station_id": 625}, {"lat": 7.58712,
+        "url": "/api/station/2/626", "lng": 125.82408, "verbose_name": "New Corella,
+        Davao Del Norte", "station_id": 626}, {"lat": 6.967352, "url": "/api/station/2/627",
+        "lng": 126.010649, "verbose_name": "Banay-Banay, Davao Oriental", "station_id":
+        627}, {"lat": 7.869846, "url": "/api/station/2/628", "lng": 126.375944, "verbose_name":
+        "Boston, Davao Oriental", "station_id": 628}, {"lat": 7.328405, "url": "/api/station/2/629",
+        "lng": 126.565397, "verbose_name": "Caraga, Davao Oriental", "station_id":
+        629}, {"lat": 7.79103, "url": "/api/station/2/630", "lng": 126.448292, "verbose_name":
+        "Cateel, Davao Oriental", "station_id": 630}, {"lat": 6.653412, "url": "/api/station/2/631",
+        "lng": 126.072317, "verbose_name": "Governor Generoso, Davao Oriental", "station_id":
+        631}, {"lat": 7.210315, "url": "/api/station/2/632", "lng": 126.539245, "verbose_name":
+        "Manay, Davao Oriental", "station_id": 632}, {"lat": 7.045247, "url": "/api/station/2/633",
+        "lng": 126.448367, "verbose_name": "Tarragona, Davao Oriental", "station_id":
+        633}, {"lat": 9.83972222, "url": "/api/station/2/634", "lng": 124.53, "verbose_name":
+        "Bisu-Cogtong, Candijay Campus, Candijay, Bohol", "station_id": 634}, {"lat":
+        9.895278, "url": "/api/station/2/635", "lng": 123.883056, "verbose_name":
+        "Bisu-Calape Campust, Calape, Bohol", "station_id": 635}, {"lat": 8.550003,
+        "url": "/api/station/2/638", "lng": 125.94108, "verbose_name": "Agusan Del
+        Sur, Provincial Capitol, Patin-Ay, Properidad, Agusan Del Sur", "station_id":
+        638}, {"lat": 14.937933, "url": "/api/station/2/640", "lng": 120.599561, "verbose_name":
+        "Brgy. San Nicolas, Lubao, Pampanga", "station_id": 640}, {"lat": 9.65, "url":
+        "/api/station/2/641", "lng": 123.85, "verbose_name": "Dost Pstc Bohol, Tagbilaran
+        City, Bohol", "station_id": 641}, {"lat": 15.243889, "url": "/api/station/2/646",
+        "lng": 121.107222, "verbose_name": "Rizal Town Hall, Rizal, Nueva Ecija",
+        "station_id": 646}, {"lat": 15.663056, "url": "/api/station/2/647", "lng":
+        121.019722, "verbose_name": "Llanera Town Hall, Llanera, Nueva Ecija", "station_id":
+        647}, {"lat": 14.965005, "url": "/api/station/2/648", "lng": 120.633527, "verbose_name":
+        "Plaza Burgos, Guagua, Pampanga", "station_id": 648}, {"lat": 13.406033, "url":
+        "/api/station/2/649", "lng": 123.40555, "verbose_name": "Iriga, Iriga City,
+        Camarines Sur", "station_id": 649}, {"lat": 13.469067, "url": "/api/station/2/654",
+        "lng": 123.2777, "verbose_name": "Bula, Camarines Sur", "station_id": 654},
+        {"lat": 15.34625, "url": "/api/station/2/658", "lng": 120.592778, "verbose_name":
+        "Capas Municipal Hall, Capas, Tarlac", "station_id": 658}, {"lat": 18.369739,
+        "url": "/api/station/2/660", "lng": 120.649106, "verbose_name": "Brgy Sapat,
+        Pasuquin, Ilocos Norte", "station_id": 660}, {"lat": 16.894167, "url": "/api/station/2/661",
+        "lng": 120.4235, "verbose_name": "Central West #2, Bangar, La Union", "station_id":
+        661}, {"lat": 6.658056, "url": "/api/station/2/665", "lng": 122.137778, "verbose_name":
+        "H2K Building, Lamitan City, Basilan", "station_id": 665}, {"lat": 16.35,
+        "url": "/api/station/2/667", "lng": 120.883333, "verbose_name": "Kayapa Municipal
+        Hall, Kayapa, Nueva Vizcaya", "station_id": 667}, {"lat": 16.503542, "url":
+        "/api/station/2/668", "lng": 121.10675, "verbose_name": "Philippine Science
+        Highschool - Cagayan Valley Campus, Bayombong, Nueva Vizcaya", "station_id":
+        668}, {"lat": 16.23039, "url": "/api/station/2/669", "lng": 121.21339, "verbose_name":
+        "Brgy. Bitnong, Dupax Del Norte, Nueva Vizcaya", "station_id": 669}, {"lat":
+        16.489336, "url": "/api/station/2/670", "lng": 121.263897, "verbose_name":
+        "Quezon Municipal Hall, Quezon, Nueva Vizcaya", "station_id": 670}, {"lat":
+        16.283889, "url": "/api/station/2/671", "lng": 121.1115, "verbose_name": "Dupax
+        Del Sur Municipal Hall, Dupax Del Sur, Nueva Vizcaya", "station_id": 671},
+        {"lat": 17.648486, "url": "/api/station/2/672", "lng": 121.689167, "verbose_name":
+        "Solana Municipal Hall, Solana, Cagayan", "station_id": 672}, {"lat": 14.22393,
+        "url": "/api/station/2/821", "lng": 120.97126, "verbose_name": "Silang, Cavite",
+        "station_id": 821}, {"lat": 17.752222, "url": "/api/station/2/673", "lng":
+        121.737222, "verbose_name": "Iguig Municipal Hall, Iguig, Cagayan, Cagayan",
+        "station_id": 673}, {"lat": 8.95917, "url": "/api/station/2/676", "lng": 125.59641,
+        "verbose_name": "Caraga State University, Ampayon, Butuan City, Agusan Del
+        Norte", "station_id": 676}, {"lat": 8.95917, "url": "/api/station/2/677",
+        "lng": 125.59641, "verbose_name": "Tina, San Miguel, Tago, Surigao Del Sur",
+        "station_id": 677}, {"lat": 8.96935, "url": "/api/station/2/678", "lng": 126.28368,
+        "verbose_name": "Balite, Bayabas, Surigao Del Sur", "station_id": 678}, {"lat":
+        9.07375, "url": "/api/station/2/679", "lng": 126.16872, "verbose_name": "Awasian,
+        Tandag City, Surigao Del Sur", "station_id": 679}, {"lat": 5.980556, "url":
+        "/api/station/2/681", "lng": 121.214167, "verbose_name": "Panamao, Sulu",
+        "station_id": 681}, {"lat": 10.367833, "url": "/api/station/2/686", "lng":
+        123.180167, "verbose_name": "Canlaon, Canlaon City, Negros Oriental", "station_id":
+        686}, {"lat": 15.66, "url": "/api/station/2/687", "lng": 120.767194, "verbose_name":
+        "Guimba Town Hall, Guimba, Nueva Ecija", "station_id": 687}, {"lat": 7.575417,
+        "url": "/api/station/2/690", "lng": 126.561331, "verbose_name": "Baganga,
+        Davao Oriental", "station_id": 690}, {"lat": 7.172122, "url": "/api/station/2/692",
+        "lng": 125.403362, "verbose_name": "Baguio District, Davao City", "station_id":
+        692}, {"lat": 15.061417, "url": "/api/station/2/694", "lng": 120.070361, "verbose_name":
+        "San Felipe Town Hall, Brgy Feria, San Felipe, Zambales", "station_id": 694},
+        {"lat": 13.86555, "url": "/api/station/2/697", "lng": 122.9486, "verbose_name":
+        "Villazar, Sipocot, Camarines Sur", "station_id": 697}, {"lat": 13.618383,
+        "url": "/api/station/2/698", "lng": 123.181567, "verbose_name": "Brgy. Sabang,
+        Naga, Camarines Sur", "station_id": 698}, {"lat": 16.846464, "url": "/api/station/2/700",
+        "lng": 121.656708, "verbose_name": "Brgy. Pinoma, Cauayan, Isabela", "station_id":
+        700}, {"lat": 14.008617, "url": "/api/station/2/703", "lng": 122.849617, "verbose_name":
+        "San Lorenzo Ruiz, Camarines Norte", "station_id": 703}, {"lat": 14.106667,
+        "url": "/api/station/2/704", "lng": 122.873, "verbose_name": "San Vicente,
+        Camarines Sur", "station_id": 704}, {"lat": 14.70635, "url": "/api/station/2/712",
+        "lng": 120.9456, "verbose_name": "Pio Valenzuela Elementary School, Valenzuela,
+        Metro Manila", "station_id": 712}, {"lat": 14.69623, "url": "/api/station/2/713",
+        "lng": 120.93114, "verbose_name": "Dampalit Elementary School, Malabon City,
+        Metro Manila", "station_id": 713}, {"lat": 13.306683, "url": "/api/station/2/714",
+        "lng": 121.1915, "verbose_name": "Brgy. Bucayao, Calapan City, Oriental Mindoro",
+        "station_id": 714}, {"lat": 13.167167, "url": "/api/station/2/715", "lng":
+        121.27765, "verbose_name": "Villacerveza Elementary School, Victoria, Oriental
+        Mindoro", "station_id": 715}, {"lat": 10.589071, "url": "/api/station/2/728",
+        "lng": 119.657364, "verbose_name": "Brgy Danlig, Dumaran, Palawan", "station_id":
+        728}, {"lat": 14.65874, "url": "/api/station/2/734", "lng": 121.02999, "verbose_name":
+        "Quezon City Science High School, Quezon City, Metro Manila", "station_id":
+        734}, {"lat": 12.335817, "url": "/api/station/2/736", "lng": 121.044733, "verbose_name":
+        "Brgy. Nasucob, Bulalacao, Oriental Mindoro", "station_id": 736}, {"lat":
+        14.3724, "url": "/api/station/2/739", "lng": 121.05202, "verbose_name": "Tunasan,
+        Muntinlupa, Metro Manila", "station_id": 739}, {"lat": 16.23075, "url": "/api/station/2/741",
+        "lng": 120.487639, "verbose_name": "Poblacion East, , La Union", "station_id":
+        741}, {"lat": 6.688602, "url": "/api/station/2/748", "lng": 125.297594, "verbose_name":
+        "Hagonoy, Davao Del Sur", "station_id": 748}, {"lat": 16.27066, "url": "/api/station/2/774",
+        "lng": 122.1053, "verbose_name": "Brgy. Calangcuasan, Casiguran, Aurora",
+        "station_id": 774}, {"lat": 16.934033, "url": "/api/station/2/790", "lng":
+        120.445067, "verbose_name": "Tagudin Health Center, Tagudin, Ilocos Sur",
+        "station_id": 790}, {"lat": 13.434983, "url": "/api/station/2/791", "lng":
+        123.517767, "verbose_name": "Buhi, Camarines Sur", "station_id": 791}, {"lat":
+        14.26389, "url": "/api/station/2/792", "lng": 121.825, "verbose_name": "Sta
+        Catalina Elementary School Ibaba, Atimonan, Quezon", "station_id": 792}, {"lat":
+        16.527344, "url": "/api/station/2/808", "lng": 121.027128, "verbose_name":
+        "Ambaguio Municipal Hall, Ambaguio, Nueva Vizcaya", "station_id": 808}, {"lat":
+        13.3828, "url": "/api/station/2/809", "lng": 121.97, "verbose_name": "Brgy.
+        Hinapulan, Boac, Marinduque", "station_id": 809}, {"lat": 12.7932, "url":
+        "/api/station/2/815", "lng": 121.431817, "verbose_name": "Brgy Villa Pag-Asa,
+        Bansud, Oriental Mindoro", "station_id": 815}, {"lat": 13.2062, "url": "/api/station/2/820",
+        "lng": 121.151483, "verbose_name": "Brgy Mahabang Parang, Naujan, Oriental
+        Mindoro", "station_id": 820}, {"lat": 7.51321, "url": "/api/station/2/826",
+        "lng": 126.158521, "verbose_name": "Brgy. Andap, New Bataan, Compostela Valley",
+        "station_id": 826}, {"lat": 7.70599, "url": "/api/station/2/828", "lng": 126.10832,
+        "verbose_name": "Mangayon Elementary School, Compostela, Compostela Valley",
+        "station_id": 828}, {"lat": 14.29558, "url": "/api/station/2/830", "lng":
+        121.00694, "verbose_name": "Gma, Cavite", "station_id": 830}, {"lat": 14.68481,
+        "url": "/api/station/2/831", "lng": 120.99284, "verbose_name": "Gen. T. De
+        Leon, Valenzuela City, Metro Manila", "station_id": 831}, {"lat": 14.70498,
+        "url": "/api/station/2/832", "lng": 121.00719, "verbose_name": "Mapulang Lupa,
+        Valenzuela, Metro Manila", "station_id": 832}, {"lat": 14.72427, "url": "/api/station/2/834",
+        "lng": 121.00273, "verbose_name": "Bagbaguin, Caloocan, Metro Manila", "station_id":
+        834}, {"lat": 14.58136, "url": "/api/station/2/836", "lng": 121.0403, "verbose_name":
+        "National Center For Mental Health, Mandaluyong, Metro Manila", "station_id":
+        836}, {"lat": 14.05535, "url": "/api/station/2/837", "lng": 120.85189, "verbose_name":
+        "Brgy. Dayap Itaas, Laurel, Batangas", "station_id": 837}, {"lat": 14.01604,
+        "url": "/api/station/2/838", "lng": 120.8628, "verbose_name": "Brgy. Mayasang,
+        Lemery, Batangas", "station_id": 838}, {"lat": 13.77391, "url": "/api/station/2/839",
+        "lng": 121.27545, "verbose_name": "Day Care Center Brgy. Leviste, Rosario,
+        Batangas", "station_id": 839}, {"lat": 13.8101, "url": "/api/station/2/840",
+        "lng": 120.96346, "verbose_name": "Barangay Hall, Brgy. Malindig, Bauan, Batangas",
+        "station_id": 840}, {"lat": 13.99579, "url": "/api/station/2/842", "lng":
+        121.50408, "verbose_name": "Sariaya, Quezon", "station_id": 842}, {"lat":
+        14.00401, "url": "/api/station/2/843", "lng": 120.78477, "verbose_name": "Brgy.
+        Patogo, Balayan, Batangas", "station_id": 843}, {"lat": 7.864167, "url": "/api/station/2/846",
+        "lng": 124.371333, "verbose_name": "Maribo, Lumba-Bayabao, Lanao Del Sur",
+        "station_id": 846}, {"lat": 7.949433, "url": "/api/station/2/847", "lng":
+        124.378717, "verbose_name": "Buadipuso-Buntong Town Hall, Buadipuso-Buntong,
+        Lanao Del Sur", "station_id": 847}, {"lat": 7.84075, "url": "/api/station/2/849",
+        "lng": 124.342317, "verbose_name": "Brgy Bansayan, Poona Bayabao, Lanao Del
+        Sur", "station_id": 849}, {"lat": 7.008533, "url": "/api/station/2/852", "lng":
+        124.319433, "verbose_name": "Msu Maguindanao, Bfar Area, Dos, Dos, Maguindanao",
+        "station_id": 852}, {"lat": 8.763194, "url": "/api/station/2/853", "lng":
+        125.108665, "verbose_name": "Lurisa National High School, Samay, Gingoog City,
+        Misamis Oriental", "station_id": 853}, {"lat": 8.995137, "url": "/api/station/2/854",
+        "lng": 124.87555, "verbose_name": "Mintabon, Talisayan, Misamis Oriental",
+        "station_id": 854}, {"lat": 9.124782, "url": "/api/station/2/855", "lng":
+        124.710289, "verbose_name": "Bacnit Es, Sagay, Camiguin", "station_id": 855},
+        {"lat": 9.233743, "url": "/api/station/2/856", "lng": 124.71314, "verbose_name":
+        "Quiboro Elementary School, Mambajao, Camiguin", "station_id": 856}, {"lat":
+        20.350278, "url": "/api/station/2/857", "lng": 121.938889, "verbose_name":
+        "Uyugan, Batanes", "station_id": 857}, {"lat": 20.783564, "url": "/api/station/2/858",
+        "lng": 121.837936, "verbose_name": "Itbayat, Batanes", "station_id": 858},
+        {"lat": 16.839086, "url": "/api/station/2/861", "lng": 121.913472, "verbose_name":
+        "Brgy. Villa Concepcion, Cauayan City, Isabela", "station_id": 861}, {"lat":
+        12.15728, "url": "/api/station/2/862", "lng": 125.24758, "verbose_name": "Maslog,
+        Eastern Samar", "station_id": 862}, {"lat": 13.695, "url": "/api/station/2/863",
+        "lng": 123.467, "verbose_name": "Pshs Bicol, Goa, Camarines Sur", "station_id":
+        863}, {"lat": 8.258291, "url": "/api/station/2/864", "lng": 123.75338, "verbose_name":
+        "Sinuza, Tudela, Misamis Occidental", "station_id": 864}, {"lat": 8.864889,
+        "url": "/api/station/2/866", "lng": 124.822944, "verbose_name": "Guinalaban,
+        Salay, Misamis Oriental", "station_id": 866}, {"lat": 8.770183, "url": "/api/station/2/867",
+        "lng": 124.827585, "verbose_name": "Quezon, Balingasag, Misamis Oriental",
+        "station_id": 867}, {"lat": 8.314255, "url": "/api/station/2/868", "lng":
+        123.775013, "verbose_name": "Seti, Jimenez, Misamis Occidental", "station_id":
+        868}, {"lat": 6.0907, "url": "/api/station/2/872", "lng": 121.1448, "verbose_name":
+        "Maluso Municipal Hall, Maluso, Basilan", "station_id": 872}, {"lat": 6.1017,
+        "url": "/api/station/2/873", "lng": 121.0309, "verbose_name": "Tuburan Police
+        Station, Tuburan, Basilan", "station_id": 873}, {"lat": 8.617048, "url": "/api/station/2/877",
+        "lng": 124.947553, "verbose_name": "Da-Ces Lanise, Claveria, Misamis Oriental",
+        "station_id": 877}, {"lat": 6.500633, "url": "/api/station/2/878", "lng":
+        122.120917, "verbose_name": "Tipo Tipo Municipal Hall, Tipo Tipo, Basilan",
+        "station_id": 878}, {"lat": 6.4198, "url": "/api/station/2/883", "lng": 122.034533,
+        "verbose_name": "Sumisip Municipal Hall, Sumisip, Basilan", "station_id":
+        883}, {"lat": 14.00802, "url": "/api/station/2/884", "lng": 121.8338, "verbose_name":
+        "Sta Catalina Elementary School Annex, Atimonan, Quezon", "station_id": 884},
+        {"lat": 13.83704, "url": "/api/station/2/885", "lng": 122.26912, "verbose_name":
+        "Brgy. Villahermosa, Lopez, Quezon", "station_id": 885}, {"lat": 13.335817,
+        "url": "/api/station/2/886", "lng": 121.044733, "verbose_name": "Bayanan Elementary
+        School, Baco, Oriental Mindoro", "station_id": 886}, {"lat": 16.11038, "url":
+        "/api/station/2/887", "lng": 120.54549, "verbose_name": "Poblacion, Pozorrubio,
+        Pozzorubio, Pangasinan", "station_id": 887}, {"lat": 5.01248, "url": "/api/station/2/888",
+        "lng": 119.14759, "verbose_name": "Panlimasugala, , Tawi-Tawi", "station_id":
+        888}, {"lat": 16.68404, "url": "/api/station/2/890", "lng": 120.93119, "verbose_name":
+        "Tinoc, Ifugao", "station_id": 890}, {"lat": 16.78421, "url": "/api/station/2/892",
+        "lng": 121.12137, "verbose_name": "Lamut, Ifugao", "station_id": 892}, {"lat":
+        6.958764, "url": "/api/station/2/893", "lng": 125.088982, "verbose_name":
+        "Makilala, Cotabato", "station_id": 893}, {"lat": 7.104551, "url": "/api/station/2/894",
+        "lng": 125.126145, "verbose_name": "Magpet, Cotabato", "station_id": 894},
+        {"lat": 7.15705, "url": "/api/station/2/895", "lng": 7.117802, "verbose_name":
+        "President Roxas, Pres. Roxas, Cotabato", "station_id": 895}, {"lat": 7.352584,
+        "url": "/api/station/2/896", "lng": 125.128624, "verbose_name": "Arakan, Cotabato",
+        "station_id": 896}, {"lat": 7.250011, "url": "/api/station/2/897", "lng":
+        125.055946, "verbose_name": "Antipas, Cotabato", "station_id": 897}, {"lat":
+        7.08288, "url": "/api/station/2/898", "lng": 124.901352, "verbose_name": "Matalam,
+        Cotabato", "station_id": 898}, {"lat": 7.057201, "url": "/api/station/2/899",
+        "lng": 124.677361, "verbose_name": "Pikit, Cotabato", "station_id": 899},
+        {"lat": 6.831186, "url": "/api/station/2/900", "lng": 124.874138, "verbose_name":
+        "Tulunan, Cotabato", "station_id": 900}, {"lat": 6.906741, "url": "/api/station/2/901",
+        "lng": 124.874138, "verbose_name": "M''Lang, Cotabato", "station_id": 901},
+        {"lat": 7.108643, "url": "/api/station/2/902", "lng": 124.823791, "verbose_name":
+        "Kabacan, Cotabato", "station_id": 902}, {"lat": 7.190306, "url": "/api/station/2/903",
+        "lng": 124.531333, "verbose_name": "Midsayap, Cotabato", "station_id": 903},
+        {"lat": 7.279343, "url": "/api/station/2/904", "lng": 124.423783, "verbose_name":
+        "Pigcawayan, Cotabato", "station_id": 904}, {"lat": 7.158256, "url": "/api/station/2/905",
+        "lng": 124.586716, "verbose_name": "Aleosan, Cotabato", "station_id": 905},
+        {"lat": 7.505635, "url": "/api/station/2/906", "lng": 124.695114, "verbose_name":
+        "Banisilan, Cotabato", "station_id": 906}, {"lat": 7.246029, "url": "/api/station/2/907",
+        "lng": 124.512238, "verbose_name": "Libungan, Cotabato", "station_id": 907},
+        {"lat": 7.008533, "url": "/api/station/2/908", "lng": 125.091103, "verbose_name":
+        "Kidapawan, Cotabato", "station_id": 908}, {"lat": 16.83865, "url": "/api/station/2/909",
+        "lng": 121.00583, "verbose_name": "Hungduan, Ifugao", "station_id": 909},
+        {"lat": 16.972692, "url": "/api/station/2/910", "lng": 121.2216, "verbose_name":
+        "Mayoyao, Ifugao", "station_id": 910}, {"lat": 16.97871, "url": "/api/station/2/915",
+        "lng": 121.3263, "verbose_name": "Aguinaldo, Ifugao", "station_id": 915},
+        {"lat": 7.982227, "url": "/api/station/2/928", "lng": 125.009613, "verbose_name":
+        "Mountain  View College, Valencia City, Bukidnon", "station_id": 928}, {"lat":
+        16.789883, "url": "/api/station/2/930", "lng": 121.071383, "verbose_name":
+        "Up Nhrc, Ifugao", "station_id": 930}, {"lat": 17.389611, "url": "/api/station/2/931",
+        "lng": 121.159776, "verbose_name": "Pasil, Kalinga", "station_id": 931}, {"lat":
+        17.401431, "url": "/api/station/2/932", "lng": 121.162602, "verbose_name":
+        "Balbalan, Kalinga", "station_id": 932}, {"lat": 16.920685, "url": "/api/station/2/933",
+        "lng": 121.489107, "verbose_name": "Rizal, Kalinga", "station_id": 933}, {"lat":
+        16.971458, "url": "/api/station/2/934", "lng": 120.907078, "verbose_name":
+        "Sabangan, Mountain Province", "station_id": 934}, {"lat": 17.168152, "url":
+        "/api/station/2/935", "lng": 121.026382, "verbose_name": "Sadanga, Mountain
+        Province", "station_id": 935}, {"lat": 16.623466, "url": "/api/station/2/936",
+        "lng": 120.837797, "verbose_name": "Kabayan, Benguet", "station_id": 936},
+        {"lat": 11.50419, "url": "/api/station/2/939", "lng": 125.497281, "verbose_name":
+        "Maydolong, Eastern Samar", "station_id": 939}, {"lat": 12.26511, "url": "/api/station/2/940",
+        "lng": 125.37273, "verbose_name": "Arteche, Eastern Samar", "station_id":
+        940}, {"lat": 12.14114, "url": "/api/station/2/941", "lng": 125.44185, "verbose_name":
+        "Oras, Eastern Samar", "station_id": 941}, {"lat": 11.12759, "url": "/api/station/2/942",
+        "lng": 125.32271, "verbose_name": "Lawaan, Eastern Samar", "station_id": 942},
+        {"lat": 11.12049, "url": "/api/station/2/943", "lng": 125.45, "verbose_name":
+        "Giporlos, Eastern Samar", "station_id": 943}, {"lat": 11.611076, "url": "/api/station/2/944",
+        "lng": 124.38805, "verbose_name": "Almeria Central School, Almeria, Biliran",
+        "station_id": 944}, {"lat": 11.465794, "url": "/api/station/2/945", "lng":
+        124.473896, "verbose_name": "Biliran Municipal Ground, Biliran, Biliran",
+        "station_id": 945}, {"lat": 13.52562, "url": "/api/station/2/946", "lng":
+        122.43459, "verbose_name": "Brgy. Buenavista, Mulanay, Quezon", "station_id":
+        946}, {"lat": 7.694067, "url": "/api/station/2/948", "lng": 122.98275, "verbose_name":
+        "Diplahan, Zamboanga Sibugay", "station_id": 948}, {"lat": 13.47144, "url":
+        "/api/station/2/950", "lng": 122.511, "verbose_name": "Brgy Pakiing, Mulanay,
+        Quezon", "station_id": 950}, {"lat": 8.033933, "url": "/api/station/2/951",
+        "lng": 124.268883, "verbose_name": "Saguiaran, Saguiaran Municipal Hall, Lanao
+        Del Sur", "station_id": 951}, {"lat": 8.001167, "url": "/api/station/2/952",
+        "lng": 124.284667, "verbose_name": "Marawi City Hall Compound, Marawi City,
+        Lanao Del Sur", "station_id": 952}, {"lat": 6.984333, "url": "/api/station/2/953",
+        "lng": 124.35605, "verbose_name": "Poblacion Talayan, Talayan, Maguindanao",
+        "station_id": 953}, {"lat": 5.933017, "url": "/api/station/2/954", "lng":
+        121.0255, "verbose_name": "Maimbong Municipal Hall, Maimbong, Sulu", "station_id":
+        954}, {"lat": 7.643833, "url": "/api/station/2/955", "lng": 122.931317, "verbose_name":
+        "Imelda, Zamboanga Sibugay", "station_id": 955}, {"lat": 7.866883, "url":
+        "/api/station/2/956", "lng": 122.559483, "verbose_name": "Titay, Zamboanga
+        Sibugay", "station_id": 956}, {"lat": 7.6014, "url": "/api/station/2/957",
+        "lng": 122.421083, "verbose_name": "Tungawan, Zamboanga Sibugay", "station_id":
+        957}, {"lat": 17.10895, "url": "/api/station/2/963", "lng": 121.27986, "verbose_name":
+        "Natonin, Mountain Province", "station_id": 963}, {"lat": 16.0092, "url":
+        "/api/station/2/968", "lng": 120.35686, "verbose_name": "Poblacion-Calasio,
+        Calasio, Pangasinan", "station_id": 968}, {"lat": 17.556999, "url": "/api/station/2/969",
+        "lng": 120.58939, "verbose_name": "Pidigan, Abra", "station_id": 969}, {"lat":
+        6.18, "url": "/api/station/2/971", "lng": 125.7, "verbose_name": "Don Marcelino
+        Municipall Hall, Don Marcelino, Davao Del Sur", "station_id": 971}, {"lat":
+        6.92, "url": "/api/station/2/972", "lng": 125.4055, "verbose_name": "Tudaya
+        Elementary School, Sta. Cruz, Davao Del Sur", "station_id": 972}, {"lat":
+        11.2458, "url": "/api/station/2/980", "lng": 125.53793, "verbose_name": "Gen
+        Macarthur, Eastern Samar", "station_id": 980}, {"lat": 11.655725, "url": "/api/station/2/981",
+        "lng": 124.537859, "verbose_name": "Culaba Municipal Ground, Culaba, Biliran",
+        "station_id": 981}, {"lat": 9.61856, "url": "/api/station/2/982", "lng": 125.40162,
+        "verbose_name": "Malimono, Surigao Del Norte", "station_id": 982}, {"lat":
+        9.59577, "url": "/api/station/2/983", "lng": 125.69779, "verbose_name": "Gigaquit,
+        Surigao Del Norte", "station_id": 983}, {"lat": 16.256819, "url": "/api/station/2/1265",
+        "lng": 119.920194, "verbose_name": "Pacific Farms Inc, Bolinao, Pangasinan",
+        "station_id": 1265}, {"lat": 6.533052, "url": "/api/station/2/1268", "lng":
+        124.563458, "verbose_name": "Bagumbayan, Sultan Kudarat", "station_id": 1268},
+        {"lat": 7.987106, "url": "/api/station/2/1270", "lng": 123.855645, "verbose_name":
+        "Malingao Central School, Tubod, Lanao Del Norte", "station_id": 1270}, {"lat":
+        10.822528, "url": "/api/station/2/1271", "lng": 123.872389, "verbose_name":
+        "Tabuelan Municipal Hall, Tabuelan, Cebu", "station_id": 1271}, {"lat": 10.727711,
+        "url": "/api/station/2/1272", "lng": 123.826117, "verbose_name": "Ctu Tuburan
+        Campus, Tuburan, Cebu", "station_id": 1272}, {"lat": 10.505028, "url": "/api/station/2/1273",
+        "lng": 123.713306, "verbose_name": "Balamban Municipal Hall, Balamban, Cebu",
+        "station_id": 1273}, {"lat": 10.280444, "url": "/api/station/2/1274", "lng":
+        123.588333, "verbose_name": "Pinamungajan, Pandacan, Cebu", "station_id":
+        1274}, {"lat": 9.770472, "url": "/api/station/2/1275", "lng": 123.524111,
+        "verbose_name": "Cansaroy, Dalaguete, Cebu", "station_id": 1275}, {"lat":
+        9.426722, "url": "/api/station/2/1276", "lng": 123.355056, "verbose_name":
+        "Pasil, Santander, Cebu", "station_id": 1276}, {"lat": 6.9957, "url": "/api/station/2/1282",
+        "lng": 122.015917, "verbose_name": "Baluno - Lima Elementary School, Baluno,
+        Zamboanga City", "station_id": 1282}, {"lat": 10.351333, "url": "/api/station/2/1287",
+        "lng": 125.252944, "verbose_name": "Hinundayan - Municipal Plaza, Hinunduyan,
+        Southern Leyte", "station_id": 1287}, {"lat": 10.2741666, "url": "/api/station/2/1288",
+        "lng": 125.2581, "verbose_name": "Poblacion Anahawan, Anahawan, Southern Leyte",
+        "station_id": 1288}, {"lat": 10.262133, "url": "/api/station/2/1289", "lng":
+        125.1732666, "verbose_name": "San Juan - Poblacion, San Juan, Southern Leyte",
+        "station_id": 1289}, {"lat": 10.2958777, "url": "/api/station/2/1290", "lng":
+        125.050777, "verbose_name": "Libagon - Municipal Plaza, Libagon, Southern
+        Leyte", "station_id": 1290}, {"lat": 10.3539444, "url": "/api/station/2/1291",
+        "lng": 124.970388, "verbose_name": "Bontoc, Southern Leyte", "station_id":
+        1291}, {"lat": 6.972017, "url": "/api/station/2/1292", "lng": 122.076367,
+        "verbose_name": "Muruk Repeater Station, Upper Pasonanca, Zamboanga City",
+        "station_id": 1292}, {"lat": 7.107967, "url": "/api/station/2/1293", "lng":
+        122.119683, "verbose_name": "Cabonegro Repeater Station, Tolosa, Zamboanga
+        City", "station_id": 1293}, {"lat": 7.151677, "url": "/api/station/2/1294",
+        "lng": 122.178368, "verbose_name": "Dulian, Upper Bungiao, Zamboanga City",
+        "station_id": 1294}, {"lat": 7.132498, "url": "/api/station/2/1295", "lng":
+        122.137245, "verbose_name": "Bungiao, Zamboanga City", "station_id": 1295},
+        {"lat": 7.072498, "url": "/api/station/2/1296", "lng": 122.023727, "verbose_name":
+        "Tabu-Tabu Bms, La Paz, Zamboanga City", "station_id": 1296}, {"lat": 13.49865,
+        "url": "/api/station/2/1298", "lng": 120.95533, "verbose_name": "Poblacion
+        Puerto, Puerto Galera, Oriental Mindoro", "station_id": 1298}, {"lat": 13.505683,
+        "url": "/api/station/2/1299", "lng": 120.91706, "verbose_name": "San Isidro,
+        Puerto Galera, Oriental Mindoro", "station_id": 1299}, {"lat": 11.175817,
+        "url": "/api/station/2/1307", "lng": 122.828367, "verbose_name": "San Rafael
+        Plaza, San Rafael, Iloilo", "station_id": 1307}, {"lat": 11.23405, "url":
+        "/api/station/2/1308", "lng": 122.56605, "verbose_name": "Bingawan Public
+        Market, Bingawan, Iloilo", "station_id": 1308}, {"lat": 11.271117, "url":
+        "/api/station/2/1309", "lng": 123.0949, "verbose_name": "San Dionisio Municipal
+        Hall, San Dionisio, Iloilo", "station_id": 1309}, {"lat": 11.225583, "url":
+        "/api/station/2/1310", "lng": 122.929017, "verbose_name": "Lemery Plaza, Lemery,
+        Iloilo", "station_id": 1310}, {"lat": 7.078683, "url": "/api/station/2/1311",
+        "lng": 122.213683, "verbose_name": "Sangali, Zamboanga City, Zamboanga City",
+        "station_id": 1311}, {"lat": 13.454, "url": "/api/station/2/1313", "lng":
+        121.959, "verbose_name": "Puting Buhangin, Mogpog, Marinduque", "station_id":
+        1313}, {"lat": 14.04466, "url": "/api/station/2/1315", "lng": 121.61776, "verbose_name":
+        "Barangas Hall, Brgy. Katigan Kanluran, Tayabas City, Quezon", "station_id":
+        1315}], "icon": "green.png", "verbose_name": "Automated Rain Gauges", "type_id":
+        2}, {"stations": [{"lat": 14.673997, "url": "/api/station/3/1", "lng": 121.109308,
+        "verbose_name": "Nangka, Marikina City, Metro Manila", "station_id": 1}, {"lat":
+        14.733133, "url": "/api/station/3/2", "lng": 121.130364, "verbose_name": "Montalban,
+        Rizal", "station_id": 2}, {"lat": 14.606994, "url": "/api/station/3/3", "lng":
+        121.022128, "verbose_name": "San Juan, Metro Manila", "station_id": 3}, {"lat":
+        14.589558, "url": "/api/station/3/4", "lng": 121.012278, "verbose_name": "Pandacan,
+        Metro Manila", "station_id": 4}, {"lat": 14.5953, "url": "/api/station/3/5",
+        "lng": 120.969742, "verbose_name": "Fort Santiago, , Metro Manila", "station_id":
+        5}, {"lat": 14.526811, "url": "/api/station/3/6", "lng": 121.142206, "verbose_name":
+        "Angono, Pasig City, Rizal", "station_id": 6}, {"lat": 14.597919, "url": "/api/station/3/7",
+        "lng": 121.090436, "verbose_name": "Rosario Js, Pasig City, Metro Manila",
+        "station_id": 7}, {"lat": 14.635858, "url": "/api/station/3/11", "lng": 121.092942,
+        "verbose_name": "Sto. Nino, Marikina City, Metro Manila", "station_id": 11},
+        {"lat": 6.05669, "url": "/api/station/3/16", "lng": 121.0, "verbose_name":
+        "Jolo, Sulu", "station_id": 16}, {"lat": 17.614, "url": "/api/station/3/22",
+        "lng": 121.691, "verbose_name": "Buntun Bridge, Tuguegarao City, Cagayan",
+        "station_id": 22}, {"lat": 14.47589, "url": "/api/station/3/165", "lng": 121.00128,
+        "verbose_name": "Villanueva Bridge, Paranaque Creek, Paranaque City, Metro
+        Manila", "station_id": 165}, {"lat": 14.541714, "url": "/api/station/3/179",
+        "lng": 121.062447, "verbose_name": "Aguho Bridge, Pateros, Metro Manila",
+        "station_id": 179}, {"lat": 10.28856, "url": "/api/station/3/180", "lng":
+        125.12345, "verbose_name": "Lawigan Bridge, St. Bernard, Southern Leyte",
+        "station_id": 180}, {"lat": 14.635894, "url": "/api/station/3/186", "lng":
+        121.093108, "verbose_name": "Sto. Nino - Asti, Marikina City, Metro Manila",
+        "station_id": 186}, {"lat": 14.656344, "url": "/api/station/3/187", "lng":
+        121.096519, "verbose_name": "Tumana, Marikina City, Metro Manila", "station_id":
+        187}, {"lat": 14.727913, "url": "/api/station/3/189", "lng": 121.191932, "verbose_name":
+        "Wawa, Rizal", "station_id": 189}, {"lat": 14.55559, "url": "/api/station/3/193",
+        "lng": 121.00008, "verbose_name": "Buendia Trash Rake, Makati City, Metro
+        Manila", "station_id": 193}, {"lat": 14.530214, "url": "/api/station/3/194",
+        "lng": 121.001158, "verbose_name": "Tripa De Gallina Ps, Pasay City, Metro
+        Manila", "station_id": 194}, {"lat": 14.544711, "url": "/api/station/3/195",
+        "lng": 121.989194, "verbose_name": "Libertad Ps, Mandaluyong City, Metro Manila",
+        "station_id": 195}, {"lat": 10.729, "url": "/api/station/3/203", "lng": 122.558767,
+        "verbose_name": "Jaro Bridge, Iloilo City, Iloilo", "station_id": 203}, {"lat":
+        10.765417, "url": "/api/station/3/204", "lng": 122.551217, "verbose_name":
+        "Pagsanga-An Bridge, Pavia, Iloilo", "station_id": 204}, {"lat": 10.896736,
+        "url": "/api/station/3/205", "lng": 122.446617, "verbose_name": "Cahigon Bridge,
+        Brgy Maasin, , Iloilo", "station_id": 205}, {"lat": 14.619406, "url": "/api/station/3/207",
+        "lng": 121.016433, "verbose_name": "E. Rodriguez Bridge, Quezon City, Metro
+        Manila", "station_id": 207}, {"lat": 14.614358, "url": "/api/station/3/208",
+        "lng": 120.994458, "verbose_name": "Estero De Calubcub, Manila, Metro Manila",
+        "station_id": 208}, {"lat": 14.604319, "url": "/api/station/3/209", "lng":
+        121.020003, "verbose_name": "G Araneta, Quezon City, Metro Manila", "station_id":
+        209}, {"lat": 14.594044, "url": "/api/station/3/210", "lng": 121.026128, "verbose_name":
+        "Sevilla Bridge, Mandaluyong City, Metro Manila", "station_id": 210}, {"lat":
+        14.608744, "url": "/api/station/3/211", "lng": 121.022022, "verbose_name":
+        "Aurora Bridge, Quezon City, Metro Manila", "station_id": 211}, {"lat": 14.629564,
+        "url": "/api/station/3/212", "lng": 121.015028, "verbose_name": "Quezon Ave.
+        Bridge, Quezon City, Metro Manila", "station_id": 212}, {"lat": 14.630411,
+        "url": "/api/station/3/213", "lng": 121.011197, "verbose_name": "Talayan Creek,
+        Quezon City, Metro Manila", "station_id": 213}, {"lat": 14.554408, "url":
+        "/api/station/3/214", "lng": 121.092933, "verbose_name": "Ilungin Creek, Pasig
+        City, Metro Manila", "station_id": 214}, {"lat": 8.388667, "url": "/api/station/3/216",
+        "lng": 124.613611, "verbose_name": "Kabula Bridge, , Bukidnon", "station_id":
+        216}, {"lat": 14.132913, "url": "/api/station/3/224", "lng": 121.260475, "verbose_name":
+        "Cambantoc Sampling Site, Uplb, Los Banos, Laguna", "station_id": 224}, {"lat":
+        14.1564, "url": "/api/station/3/225", "lng": 121.234, "verbose_name": "Molawin
+        Sampling Site, Uplb, Los Banos, Laguna", "station_id": 225}, {"lat": 14.622033,
+        "url": "/api/station/3/228", "lng": 121.065078, "verbose_name": "P. Tuazon,
+        Quezon City, Metro Manila", "station_id": 228}, {"lat": 14.499697, "url":
+        "/api/station/3/229", "lng": 121.008875, "verbose_name": "Kaingin Bridge,
+        Paranaque City, Metro Manila", "station_id": 229}, {"lat": 14.527594, "url":
+        "/api/station/3/230", "lng": 121.071508, "verbose_name": "Tuktukan Bridge,
+        Taguig City, Metro Manila", "station_id": 230}, {"lat": 14.708953, "url":
+        "/api/station/3/231", "lng": 120.947342, "verbose_name": "Polo Bridge, Valenzuela
+        City, Metro Manila", "station_id": 231}, {"lat": 14.706278, "url": "/api/station/3/232",
+        "lng": 121.066628, "verbose_name": "Tullahan Commonwealth, Quezon City, Metro
+        Manila", "station_id": 232}, {"lat": 14.498969, "url": "/api/station/3/233",
+        "lng": 120.993942, "verbose_name": "Sto Nino Bridge, Brgy Sto Nino, Paranaque
+        City, Metro Manila", "station_id": 233}, {"lat": 14.718567, "url": "/api/station/3/234",
+        "lng": 121.039961, "verbose_name": "Tullahan Quirino Highway, Quezon City,
+        Metro Manila", "station_id": 234}, {"lat": 14.639747, "url": "/api/station/3/235",
+        "lng": 121.0127, "verbose_name": "Del Monte Bridge, Quezon City, Metro Manila",
+        "station_id": 235}, {"lat": 14.668789, "url": "/api/station/3/236", "lng":
+        121.128525, "verbose_name": "Modesta Bridge, Brgy Fortune, Marikina City,
+        Metro Manila", "station_id": 236}, {"lat": 14.690461, "url": "/api/station/3/237",
+        "lng": 121.022506, "verbose_name": "Maceda Bridge, Valenzuela City, Metro
+        Manila", "station_id": 237}, {"lat": 14.531717, "url": "/api/station/3/238",
+        "lng": 121.068733, "verbose_name": "Levi Mariano Bridge, Taguig City, Metro
+        Manila", "station_id": 238}, {"lat": 14.525933, "url": "/api/station/3/239",
+        "lng": 121.073564, "verbose_name": "Bambang, Sta Ana, Taguig City, Metro Manila",
+        "station_id": 239}, {"lat": 14.670644, "url": "/api/station/3/240", "lng":
+        120.981969, "verbose_name": "Tullahan Bridge, Mcarthur, Valenzuela City, Metro
+        Manila", "station_id": 240}, {"lat": 14.487178, "url": "/api/station/3/241",
+        "lng": 121.998478, "verbose_name": "C5 Extension Bridge, Paranaque City, Metro
+        Manila", "station_id": 241}, {"lat": 14.502142, "url": "/api/station/3/242",
+        "lng": 120.992889, "verbose_name": "Don Galo Bridge, Paranaque City, Metro
+        Manila", "station_id": 242}, {"lat": 14.634478, "url": "/api/station/3/251",
+        "lng": 121.07135, "verbose_name": "Duyan-Duyan Bridge, Xavierville Avenue,
+        Quezon City, Metro Manila", "station_id": 251}, {"lat": 14.675461, "url":
+        "/api/station/3/252", "lng": 120.964397, "verbose_name": "Santolan Pumping
+        Station, Malabon City, Metro Manila", "station_id": 252}, {"lat": 14.731603,
+        "url": "/api/station/3/253", "lng": 120.931306, "verbose_name": "Wawang Polo,
+        Valenzuela City, Metro Manila", "station_id": 253}, {"lat": 14.621475, "url":
+        "/api/station/3/254", "lng": 121.104981, "verbose_name": "Balinti Creek, Marikina
+        City, Metro Manila", "station_id": 254}, {"lat": 18.041222, "url": "/api/station/3/313",
+        "lng": 121.641694, "verbose_name": "Dummum Bridge, Gattaran, Cagayan", "station_id":
+        313}, {"lat": 17.2695, "url": "/api/station/3/334", "lng": 121.800167, "verbose_name":
+        "Tumauini-Delfin Albano Bridge, Tumauini, Isabela", "station_id": 334}, {"lat":
+        16.259389, "url": "/api/station/3/342", "lng": 121.650083, "verbose_name":
+        "Sangbay Bridge, Nagtipunan, Quirino", "station_id": 342}, {"lat": 17.4032,
+        "url": "/api/station/3/370", "lng": 121.417899, "verbose_name": "Canao Bridge,
+        Tabuk City, Kalinga", "station_id": 370}, {"lat": 16.409297, "url": "/api/station/3/371",
+        "lng": 120.58635, "verbose_name": "City Camp Lagoon, Baguio City, Benguet",
+        "station_id": 371}, {"lat": 7.773467, "url": "/api/station/3/401", "lng":
+        124.982479, "verbose_name": "Maramag Bridge, Maramag, Bukidnon", "station_id":
+        401}, {"lat": 11.625833, "url": "/api/station/3/427", "lng": 125.018611, "verbose_name":
+        "Calbiga River, Calbiga, Samar", "station_id": 427}, {"lat": 11.420278, "url":
+        "/api/station/3/428", "lng": 124.836944, "verbose_name": "Rizal Bridge, Babatngon,
+        Leyte", "station_id": 428}, {"lat": 11.061, "url": "/api/station/3/429", "lng":
+        124.903, "verbose_name": "San Benito Bridge, Dagami, Leyte", "station_id":
+        429}, {"lat": 10.024972, "url": "/api/station/3/430", "lng": 125.197417, "verbose_name":
+        "Marayag River, San Francisco, Southern Leyte", "station_id": 430}, {"lat":
+        10.065528, "url": "/api/station/3/431", "lng": 125.158333, "verbose_name":
+        "Habay River, San Francisco, Southern Leyte", "station_id": 431}, {"lat":
+        10.760556, "url": "/api/station/3/432", "lng": 125.011111, "verbose_name":
+        "Cadac-An Bridge, Abuyog, Leyte", "station_id": 432}, {"lat": 11.117222, "url":
+        "/api/station/3/433", "lng": 124.826667, "verbose_name": "Tingib, Pastrana,
+        Leyte", "station_id": 433}, {"lat": 11.170889, "url": "/api/station/3/435",
+        "lng": 124.960722, "verbose_name": "Malirong Bridge, Palo, Leyte", "station_id":
+        435}, {"lat": 11.556084, "url": "/api/station/3/436", "lng": 124.411228, "verbose_name":
+        "Caraycaray, Naval, Biliran", "station_id": 436}, {"lat": 11.578662, "url":
+        "/api/station/3/438", "lng": 124.395115, "verbose_name": "Agpangi, Naval,
+        Biliran", "station_id": 438}, {"lat": 12.349722, "url": "/api/station/3/439",
+        "lng": 125.214167, "verbose_name": "Las Navas Bridge, Las Navas, Northern
+        Samar", "station_id": 439}, {"lat": 12.473111, "url": "/api/station/3/440",
+        "lng": 124.810139, "verbose_name": "Mondragon Bridge, Mondragon, Northern
+        Samar", "station_id": 440}, {"lat": 12.555825, "url": "/api/station/3/441",
+        "lng": 125.113928, "verbose_name": "Talolora Bridge, Palapag, Northern Samar",
+        "station_id": 441}, {"lat": 8.8185, "url": "/api/station/3/479", "lng": 125.6946,
+        "verbose_name": "Hupas Bridge, Poblacion, Sibagat, Agusan Del Sur", "station_id":
+        479}, {"lat": 6.196633, "url": "/api/station/3/480", "lng": 124.793694, "verbose_name":
+        "New Dumangas Bridge, T''Boli, South Cotabato", "station_id": 480}, {"lat":
+        6.620435, "url": "/api/station/3/481", "lng": 124.585121, "verbose_name":
+        "Kalawag Iii Bridge, Isulan, Sultan Kudarat", "station_id": 481}, {"lat":
+        7.142979, "url": "/api/station/3/489", "lng": 124.803108, "verbose_name":
+        "Lumayong Bridge, Kabacan, Cotabato", "station_id": 489}, {"lat": 8.0747,
+        "url": "/api/station/3/499", "lng": 125.9568, "verbose_name": "Jombo Bridge
+        Poblacion, Veruela, Agusan Del Sur", "station_id": 499}, {"lat": 8.95128,
+        "url": "/api/station/3/500", "lng": 125.54375, "verbose_name": "Drrm River
+        Base Leon Kilat, Butuan City, Agusan Del Norte", "station_id": 500}, {"lat":
+        6.321946, "url": "/api/station/3/501", "lng": 125.26226, "verbose_name": "Upper
+        Buayan Bridge, Malungon, Sarangani", "station_id": 501}, {"lat": 8.0175, "url":
+        "/api/station/3/504", "lng": 125.9755, "verbose_name": "Binongan Bridge, Veruela,
+        Agusan Del Sur", "station_id": 504}, {"lat": 8.3741, "url": "/api/station/3/509",
+        "lng": 126.005, "verbose_name": "Solibao Bridge, Agusan Del Sur, Agusan Del
+        Sur", "station_id": 509}, {"lat": 8.1762, "url": "/api/station/3/510", "lng":
+        125.9923, "verbose_name": "San Teodoro Bridge, Bunawan, Agusan Del Sur", "station_id":
+        510}, {"lat": 8.1631, "url": "/api/station/3/511", "lng": 126.008, "verbose_name":
+        "Bunawan Bridge, Bunawan, Agusan Del Sur", "station_id": 511}, {"lat": 8.88543,
+        "url": "/api/station/3/516", "lng": 125.54132, "verbose_name": "Nia Pumping
+        Station, Butuan City, Agusan Del Norte", "station_id": 516}, {"lat": 7.7496,
+        "url": "/api/station/3/520", "lng": 123.14915, "verbose_name": "Sicade Creek,
+        Kumalarang, Zamboanga Del Sur", "station_id": 520}, {"lat": 8.052183, "url":
+        "/api/station/3/521", "lng": 124.64995, "verbose_name": "Dipolo Bridge, Molave,
+        Zamboanga Del Sur", "station_id": 521}, {"lat": 8.103517, "url": "/api/station/3/522",
+        "lng": 123.4785, "verbose_name": "Mabuhay, Molave, Zamboanga Del Sur", "station_id":
+        522}, {"lat": 8.0984, "url": "/api/station/3/523", "lng": 123.488767, "verbose_name":
+        "Salug Diut River, Molave, Zamboanga Del Sur", "station_id": 523}, {"lat":
+        8.2782, "url": "/api/station/3/527", "lng": 125.8076, "verbose_name": "Adgaoan
+        Bridge, Poblacion, La Paz, Agusan Del Sur", "station_id": 527}, {"lat": 8.198,
+        "url": "/api/station/3/528", "lng": 125.7614, "verbose_name": "Waloe Bridge,
+        Waloe, Loreto, Agusan Del Sur", "station_id": 528}, {"lat": 7.9893, "url":
+        "/api/station/3/529", "lng": 126.033, "verbose_name": "Sta. Josefa Bridge,
+        Sta Isabela, Sta. Josefa, Agusan Del Sur", "station_id": 529}, {"lat": 8.73114,
+        "url": "/api/station/3/535", "lng": 125.72966, "verbose_name": "Andanan Bridge,
+        Bayugan City, Agusan Del Sur", "station_id": 535}, {"lat": 8.6374, "url":
+        "/api/station/3/536", "lng": 125.94863, "verbose_name": "Azpetia Bridge, Prosperidad,
+        Agusan Del Sur", "station_id": 536}, {"lat": 8.6108, "url": "/api/station/3/537",
+        "lng": 125.9142, "verbose_name": "Gibong Bridge, Prosperidad, Agusan Del Sur",
+        "station_id": 537}, {"lat": 8.16157, "url": "/api/station/3/538", "lng": 125.11776,
+        "verbose_name": "Diversion Bridge, Malaybalay, Bukidnon", "station_id": 538},
+        {"lat": 8.191422, "url": "/api/station/3/539", "lng": 125.299993, "verbose_name":
+        "Zamboanguita Bridge, Malaybalay, Bukidnon", "station_id": 539}, {"lat": 7.703624,
+        "url": "/api/station/3/540", "lng": 125.111792, "verbose_name": "Manuto Bridge,
+        Quezon, Bukidnon", "station_id": 540}, {"lat": 7.812055, "url": "/api/station/3/542",
+        "lng": 125.07452, "verbose_name": "Busco Bridge, Quezon, Bukidnon", "station_id":
+        542}, {"lat": 10.008656, "url": "/api/station/3/559", "lng": 122.801411, "verbose_name":
+        "Ilog Bridge, Kabankalan City, Negros Occidental", "station_id": 559}, {"lat":
+        11.420283, "url": "/api/station/3/563", "lng": 122.66635, "verbose_name":
+        "Sigma Bridge, Sigma, Capiz", "station_id": 563}, {"lat": 8.499, "url": "/api/station/3/567",
+        "lng": 125.7334, "verbose_name": "Gma Bridge, San Luis, Agusan Del Sur", "station_id":
+        567}, {"lat": 8.5046, "url": "/api/station/3/568", "lng": 125.718, "verbose_name":
+        "Nuevo Trabajo Bridge, San Luis, Agusan Del Sur", "station_id": 568}, {"lat":
+        8.4434, "url": "/api/station/3/569", "lng": 125.7203, "verbose_name": "Laminga
+        Bridge, Don Alejandro, Agusan Del Sur", "station_id": 569}, {"lat": 8.4377,
+        "url": "/api/station/3/570", "lng": 125.7366, "verbose_name": "Casilayan Bridge,
+        Baylo, Agusan Del Sur", "station_id": 570}, {"lat": 8.67752, "url": "/api/station/3/571",
+        "lng": 125.65965, "verbose_name": "Esperanza Bridge, Poblacion, Esperanza,
+        Agusan Del Sur", "station_id": 571}, {"lat": 8.6391, "url": "/api/station/3/572",
+        "lng": 125.9265, "verbose_name": "Maug Bridge, Prosperidad, Agusan Del Sur",
+        "station_id": 572}, {"lat": 11.103186, "url": "/api/station/3/574", "lng":
+        122.640803, "verbose_name": "Jalaur Bridge, Passi, Passi, Iloilo", "station_id":
+        574}, {"lat": 11.017175, "url": "/api/station/3/575", "lng": 122.660831, "verbose_name":
+        "Moroboro Dam, Dingle, Iloilo", "station_id": 575}, {"lat": 10.909531, "url":
+        "/api/station/3/576", "lng": 122.686106, "verbose_name": "Jalaur Bridge, Pototan,
+        Pototan, Iloilo", "station_id": 576}, {"lat": 11.104539, "url": "/api/station/3/577",
+        "lng": 122.531072, "verbose_name": "Ulian Bridge, Lambunao, Iloilo", "station_id":
+        577}, {"lat": 11.388367, "url": "/api/station/3/581", "lng": 122.781483, "verbose_name":
+        "Maayon Bridge, Maayon, Capiz", "station_id": 581}, {"lat": 10.825278, "url":
+        "/api/station/3/590", "lng": 124.992778, "verbose_name": "Osmena Bridge, Barwon
+        River, Macarthur, Leyte", "station_id": 590}, {"lat": 11.968611, "url": "/api/station/3/593",
+        "lng": 124.837222, "verbose_name": "San Jorge Bridge, San Jorge, Samar", "station_id":
+        593}, {"lat": 7.286717, "url": "/api/station/3/602", "lng": 124.298433, "verbose_name":
+        "Simuay Bridge, Sultan Mastura, Maguindanao", "station_id": 602}, {"lat":
+        13.615278, "url": "/api/station/3/605", "lng": 123.183333, "verbose_name":
+        "Mabolo Bridge, Naga, Camarines Sur", "station_id": 605}, {"lat": 14.904758,
+        "url": "/api/station/3/606", "lng": 120.775461, "verbose_name": "Sto. Nino
+        Bridge Brgy. Caniogan, Calumpit Bulacan, Bulacan", "station_id": 606}, {"lat":
+        14.956478, "url": "/api/station/3/607", "lng": 120.907356, "verbose_name":
+        "Alejo Santos Bridge, Bustos Bulacan, Bulacan", "station_id": 607}, {"lat":
+        6.968217, "url": "/api/station/3/616", "lng": 121.946833, "verbose_name":
+        "Ayala, Zamboanga City", "station_id": 616}, {"lat": 9.2089, "url": "/api/station/3/617",
+        "lng": 125.5967, "verbose_name": "Cabadbaran Bridge, Cabadbaran, Agusan Del
+        Norte", "station_id": 617}, {"lat": 9.3472, "url": "/api/station/3/618", "lng":
+        125.6028, "verbose_name": "Bangonay Bridge, Bangonay, Jabonga, Agusan Del
+        Norte", "station_id": 618}, {"lat": 9.3303, "url": "/api/station/3/619", "lng":
+        125.6364, "verbose_name": "Calinawan Bridge, Colorado, Jabonga, Agusan Del
+        Norte", "station_id": 619}, {"lat": 8.1232, "url": "/api/station/3/620", "lng":
+        125.88, "verbose_name": "Ihaoan, Nueva Gracia, Loreto, Agusan Del Sur", "station_id":
+        620}, {"lat": 8.4508, "url": "/api/station/3/621", "lng": 125.7878, "verbose_name":
+        "Talacogon Bridge, San Agustin, Talacogon, Agusan Del Sur", "station_id":
+        621}, {"lat": 8.8041, "url": "/api/station/3/622", "lng": 125.7084, "verbose_name":
+        "Wawa Bridge, Bayugan City, Agusan Del Sur", "station_id": 622}, {"lat": 9.12704,
+        "url": "/api/station/3/639", "lng": 123.63988, "verbose_name": "Tigbawan Bridge,
+        Lazi, Siquijor", "station_id": 639}, {"lat": 6.92285, "url": "/api/station/3/644",
+        "lng": 122.106333, "verbose_name": "Brgy Tugbungan, Zamboanga, Zamboanga City",
+        "station_id": 644}, {"lat": 6.899722, "url": "/api/station/3/645", "lng":
+        122.073611, "verbose_name": "Tumaga Bridge, Zamboanga, Zamboanga City", "station_id":
+        645}, {"lat": 13.633611, "url": "/api/station/3/650", "lng": 123.207222, "verbose_name":
+        "Padre Garcia, Naga City, Camarines Sur", "station_id": 650}, {"lat": 13.629722,
+        "url": "/api/station/3/651", "lng": 123.216111, "verbose_name": "Balatas,
+        Naga City, Camarines Sur", "station_id": 651}, {"lat": 13.82076, "url": "/api/station/3/655",
+        "lng": 121.37399, "verbose_name": "Sico-Escribano, San Juan, Batangas", "station_id":
+        655}, {"lat": 9.36875, "url": "/api/station/3/656", "lng": 122.801389, "verbose_name":
+        "Bayawan Bridge, Bayawan City, Negros Oriental", "station_id": 656}, {"lat":
+        15.223656, "url": "/api/station/3/659", "lng": 120.574367, "verbose_name":
+        "San Felipe Bridge, Mabalacat, Pampanga", "station_id": 659}, {"lat": 10.253472,
+        "url": "/api/station/3/663", "lng": 123.834417, "verbose_name": "Mananga Srp
+        Bridge, Talisay City, Cebu", "station_id": 663}, {"lat": 8.376771, "url":
+        "/api/station/3/664", "lng": 124.884879, "verbose_name": "Mangima Bridge,
+        Manolo Fortich, Bukidnon", "station_id": 664}, {"lat": 10.377139, "url": "/api/station/3/674",
+        "lng": 123.962, "verbose_name": "Cansaga Bridge, Consolacion, Cebu", "station_id":
+        674}, {"lat": 9.00188, "url": "/api/station/3/680", "lng": 126.1688, "verbose_name":
+        "Gamut Bridge, Gamut, Tago, Surigao Del Sur", "station_id": 680}, {"lat":
+        7.94728, "url": "/api/station/3/682", "lng": 125.244429, "verbose_name": "Lumbayao
+        Dam, Valencia City, Bukidnon", "station_id": 682}, {"lat": 15.156817, "url":
+        "/api/station/3/683", "lng": 120.510003, "verbose_name": "San Luis Bridge,
+        San Luis, Pampanga", "station_id": 683}, {"lat": 5.97945, "url": "/api/station/3/689",
+        "lng": 121.215233, "verbose_name": "Seit Lake Bridge, Panamao, Sulu", "station_id":
+        689}, {"lat": 13.99206, "url": "/api/station/3/691", "lng": 121.89258, "verbose_name":
+        "Atimonan, Quezon", "station_id": 691}, {"lat": 8.467317, "url": "/api/station/3/693",
+        "lng": 123.7877, "verbose_name": "Libadatama Dam, Oroquieta City, Misamis
+        Occidental", "station_id": 693}, {"lat": 6.611517, "url": "/api/station/3/695",
+        "lng": 122.136733, "verbose_name": "Camanse Bridge, Upper Balobo, Lamitan
+        City, Basilan", "station_id": 695}, {"lat": 6.651533, "url": "/api/station/3/696",
+        "lng": 122.131933, "verbose_name": "Cubawan Bridge, Brgy Sengal, Lamitan City,
+        Basilan", "station_id": 696}, {"lat": 13.56455, "url": "/api/station/3/705",
+        "lng": 123.17965, "verbose_name": "Minalabac Bridge, Minalabac, Camarines
+        Sur", "station_id": 705}, {"lat": 13.690517, "url": "/api/station/3/706",
+        "lng": 123.05305, "verbose_name": "Libmanan River Bridge, Brgy. Taban Fundano,
+        Camarines Sur", "station_id": 706}, {"lat": 13.754367, "url": "/api/station/3/707",
+        "lng": 122.97485, "verbose_name": "Tara Bridge, Sipocot, Camarines Sur", "station_id":
+        707}, {"lat": 13.839117, "url": "/api/station/3/708", "lng": 122.961133, "verbose_name":
+        "Calagbangan Bridge, Pan-Philippine High-Way, Camarines Sur", "station_id":
+        708}, {"lat": 13.893583, "url": "/api/station/3/709", "lng": 122.931867, "verbose_name":
+        "Napolidan Bridge, Pan-Philippine High-Way, Lupi, Camarines Sur", "station_id":
+        709}, {"lat": 13.9218, "url": "/api/station/3/710", "lng": 122.94285, "verbose_name":
+        "Bahi Bridge, Pan-Philippine High-Way, Lupi, Camarines Sur", "station_id":
+        710}, {"lat": 13.404217, "url": "/api/station/3/711", "lng": 123.32545, "verbose_name":
+        "Sto Domingo Bridge, Nabua, Camarines Sur", "station_id": 711}, {"lat": 14.3512,
+        "url": "/api/station/3/716", "lng": 120.87189, "verbose_name": "Bunga Bridge,
+        Tanza, Cavite", "station_id": 716}, {"lat": 12.73455, "url": "/api/station/3/717",
+        "lng": 123.987967, "verbose_name": "Brgy. Gulang Gulang, Irosin, Sorsogon",
+        "station_id": 717}, {"lat": 12.750617, "url": "/api/station/3/718", "lng":
+        123.97945, "verbose_name": "Brgy. Guruyan, Juban, Sorsogon", "station_id":
+        718}, {"lat": 12.66005, "url": "/api/station/3/719", "lng": 123.956617, "verbose_name":
+        "Pawic Bridge, Bulan, Sorsogon", "station_id": 719}, {"lat": 12.8426, "url":
+        "/api/station/3/721", "lng": 123.986033, "verbose_name": "Taboc Bridge, Juban,
+        Sorsogon", "station_id": 721}, {"lat": 12.9874, "url": "/api/station/3/722",
+        "lng": 123.958567, "verbose_name": "Cawayan Bridge, Basud, Sorsogon", "station_id":
+        722}, {"lat": 12.985933, "url": "/api/station/3/723", "lng": 124.00155, "verbose_name":
+        "Sorsogon Bridge, San Juan, Sorsogon", "station_id": 723}, {"lat": 12.665683,
+        "url": "/api/station/3/724", "lng": 123.884517, "verbose_name": "Lajung, Bulan,
+        Sorsogon", "station_id": 724}, {"lat": 12.912, "url": "/api/station/3/725",
+        "lng": 123.59225, "verbose_name": "Dancalan, Donsol, Sorsogon", "station_id":
+        725}, {"lat": 12.87105, "url": "/api/station/3/726", "lng": 124.007533, "verbose_name":
+        "Casiguran Bridge, Casiguran, Sorsogon", "station_id": 726}, {"lat": 13.405883,
+        "url": "/api/station/3/727", "lng": 121.17645, "verbose_name": "Sumague Bridge,
+        Bansud, Oriental Mindoro", "station_id": 727}, {"lat": 15.039992, "url": "/api/station/3/729",
+        "lng": 120.937806, "verbose_name": "Maasim Bridge, San Ildefonso, Bulacan",
+        "station_id": 729}, {"lat": 9.6083, "url": "/api/station/3/730", "lng": 124.1333,
+        "verbose_name": "Balbalan Bridge, Dimiao, Bohol", "station_id": 730}, {"lat":
+        9.45425, "url": "/api/station/3/731", "lng": 123.075694, "verbose_name": "Balayong
+        Bridge, Pamplona, Negros Oriental", "station_id": 731}, {"lat": 13.309444,
+        "url": "/api/station/3/735", "lng": 121.191389, "verbose_name": "Bucayao Bridge,
+        Calapan City, Oriental Mindoro", "station_id": 735}, {"lat": 12.341417, "url":
+        "/api/station/3/737", "lng": 121.33575, "verbose_name": "Cawacat Bridge, Brgy.
+        Campaasan, Bulalacao, Oriental Mindoro", "station_id": 737}, {"lat": 9.61596,
+        "url": "/api/station/3/745", "lng": 124.3, "verbose_name": "Cuenco Bridge,
+        Garcia-Hernandez, Bohol", "station_id": 745}, {"lat": 10.018056, "url": "/api/station/3/746",
+        "lng": 124.066667, "verbose_name": "Quezon Bridge, Inabanga, Bohol", "station_id":
+        746}, {"lat": 7.67252, "url": "/api/station/3/747", "lng": 124.13667, "verbose_name":
+        "Matling Mini Hydro Dam, Marogong, Basilan", "station_id": 747}, {"lat": 8.560328,
+        "url": "/api/station/3/750", "lng": 124.935906, "verbose_name": "Kilabing
+        Spillway, Malitbog, Bukidnon", "station_id": 750}, {"lat": 14.830586, "url":
+        "/api/station/3/751", "lng": 121.042403, "verbose_name": "Dulong Bayan Bridge,
+        San Jose Del Monte, Bulacan", "station_id": 751}, {"lat": 15.666814, "url":
+        "/api/station/3/752", "lng": 120.853908, "verbose_name": "Ilog Baliwag Bridge,
+        Sto. Domingo, Nueva Ecija", "station_id": 752}, {"lat": 15.156817, "url":
+        "/api/station/3/775", "lng": 120.510003, "verbose_name": "Friendship Bridge,
+        Angeles City, Pampanga", "station_id": 775}, {"lat": 9.31183, "url": "/api/station/3/780",
+        "lng": 123.2555, "verbose_name": "City Pound Bridge, Brgy. Balugo, Dumaguete
+        City, Negros Oriental", "station_id": 780}, {"lat": 9.325139, "url": "/api/station/3/800",
+        "lng": 123.260917, "verbose_name": "Camanjac-Calabnugan Bridge, Dumaguete
+        City, Negros Oriental", "station_id": 800}, {"lat": 10.123528, "url": "/api/station/3/804",
+        "lng": 123.273056, "verbose_name": "Bateria Bridge, Guihulngan City, Negros
+        Oriental", "station_id": 804}, {"lat": 13.4103, "url": "/api/station/3/811",
+        "lng": 121.94, "verbose_name": "Hinapulan Bridge, Boac, Marinduque", "station_id":
+        811}, {"lat": 13.4498, "url": "/api/station/3/812", "lng": 121.847, "verbose_name":
+        "Biglang Awa Bridge, Boac, Marinduque", "station_id": 812}, {"lat": 13.274117,
+        "url": "/api/station/3/813", "lng": 121.260183, "verbose_name": "Mag-Asawang
+        Tubig Bridge, Naujan, Oriental Mindoro", "station_id": 813}, {"lat": 13.368283,
+        "url": "/api/station/3/814", "lng": 121.07965, "verbose_name": "Alag Bridge,
+        Baco, Oriental Mindoro", "station_id": 814}, {"lat": 14.36912, "url": "/api/station/3/841",
+        "lng": 121.05049, "verbose_name": "Tunasan Creek, Brgy Tunasan, Muntinlupa
+        City, Metro Manila", "station_id": 841}, {"lat": 14.43018, "url": "/api/station/3/844",
+        "lng": 121.04517, "verbose_name": "Paliko Bridge, Cupang, Muntinlupa City,
+        Metro Manila", "station_id": 844}, {"lat": 8.328307, "url": "/api/station/3/865",
+        "lng": 123.837775, "verbose_name": "Sinara Bajo Spillway, Jimenez, Misamis
+        Occidental", "station_id": 865}, {"lat": 15.104275, "url": "/api/station/3/874",
+        "lng": 120.552492, "verbose_name": "Hacienda Dolores Bridge, Porac, Pampanga",
+        "station_id": 874}, {"lat": 15.041973, "url": "/api/station/3/875", "lng":
+        120.512543, "verbose_name": "Pio-Planas Bridge, Porac, Pampanga", "station_id":
+        875}, {"lat": 14.97732, "url": "/api/station/3/876", "lng": 120.478327, "verbose_name":
+        "Apalit Bridge, Floridablanca, Pampanga", "station_id": 876}, {"lat": 15.184117,
+        "url": "/api/station/3/880", "lng": 120.775516, "verbose_name": "Cong Dado
+        Dam, Arayat, Pampanga", "station_id": 880}, {"lat": 15.139199, "url": "/api/station/3/881",
+        "lng": 120.97753, "verbose_name": "San Juan Bridge, San Miguel, Bulacan",
+        "station_id": 881}, {"lat": 15.182716, "url": "/api/station/3/882", "lng":
+        120.960437, "verbose_name": "Salacot Bridge, San Miguel, Bulacan", "station_id":
+        882}, {"lat": 15.273256, "url": "/api/station/3/889", "lng": 120.560135, "verbose_name":
+        "Bamban, Bamban Bridge, Tarlac", "station_id": 889}, {"lat": 15.341721, "url":
+        "/api/station/3/916", "lng": 120.934519, "verbose_name": "La Fuente, Sta.
+        Rosa, Nueva Ecija", "station_id": 916}, {"lat": 15.399608, "url": "/api/station/3/917",
+        "lng": 120.94228, "verbose_name": "Brgy. Luna, Sta. Rosa, Nueva Ecija", "station_id":
+        917}, {"lat": 15.649335, "url": "/api/station/3/918", "lng": 121.139928, "verbose_name":
+        "Brgy. Vega, Bongabon, Nueva Ecija", "station_id": 918}, {"lat": 15.526192,
+        "url": "/api/station/3/919", "lng": 121.057119, "verbose_name": "Brgy. Cabu,
+        Cabanatuan City, Nueva Ecija", "station_id": 919}, {"lat": 15.721767, "url":
+        "/api/station/3/920", "lng": 121.106606, "verbose_name": "Brgy. Canili, Pantabangan,
+        Nueva Ecija", "station_id": 920}, {"lat": 15.59785, "url": "/api/station/3/921",
+        "lng": 120.973861, "verbose_name": "Brgy. Calipahan, Talavera, Nueva Ecija",
+        "station_id": 921}, {"lat": 14.91036, "url": "/api/station/3/926", "lng":
+        121.05106, "verbose_name": "Brgy. Matictic, Norzagaray, Bulacan", "station_id":
+        926}, {"lat": 14.31463, "url": "/api/station/3/937", "lng": 121.04115, "verbose_name":
+        "Southwoods Bridge, Carmona, Cavite", "station_id": 937}, {"lat": 14.42072,
+        "url": "/api/station/3/949", "lng": 120.88493, "verbose_name": "Ilang Ilang
+        Bridge, Noveleta, Cavite", "station_id": 949}, {"lat": 14.46403, "url": "/api/station/3/965",
+        "lng": 120.96625, "verbose_name": "Zapote Bridge, Bacoor, Cavite", "station_id":
+        965}, {"lat": 14.39745, "url": "/api/station/3/966", "lng": 120.9804, "verbose_name":
+        "Prinza Dam, Bacoor, Cavite", "station_id": 966}, {"lat": 9.34705, "url":
+        "/api/station/3/967", "lng": 122.852, "verbose_name": "Sicopong Bridge, Santa
+        Catalina, Negros Oriental", "station_id": 967}, {"lat": 14.33903, "url": "/api/station/3/1262",
+        "lng": 121.0856, "verbose_name": "Evangelista Bridge, Binan, Laguna", "station_id":
+        1262}, {"lat": 14.33463, "url": "/api/station/3/1263", "lng": 121.08588, "verbose_name":
+        "Pasong Kabayo Bridge, Binan, Laguna", "station_id": 1263}, {"lat": 14.32808,
+        "url": "/api/station/3/1264", "lng": 121.07785, "verbose_name": "Tubigan Bridge,
+        Binan, Laguna", "station_id": 1264}, {"lat": 6.440195, "url": "/api/station/3/1266",
+        "lng": 124.632792, "verbose_name": "Ala River Dam Ii, Bagumbayan, Sultan Kudarat",
+        "station_id": 1266}, {"lat": 6.596907, "url": "/api/station/3/1267", "lng":
+        124.642738, "verbose_name": "Magbanua Bridge, Tacurong, Sultan Kudarat", "station_id":
+        1267}, {"lat": 8.050543, "url": "/api/station/3/1269", "lng": 123.805135,
+        "verbose_name": "Bulod Bridge, Tubod, Lanao Del Norte", "station_id": 1269},
+        {"lat": 10.105161, "url": "/api/station/3/1278", "lng": 123.642331, "verbose_name":
+        "Poblacion 2, Carcar City, Cebu", "station_id": 1278}, {"lat": 10.117722,
+        "url": "/api/station/3/1279", "lng": 123.510389, "verbose_name": "Sta. Ana
+        Bridge Poblacion Boundary, Barili, Cebu", "station_id": 1279}, {"lat": 14.29745,
+        "url": "/api/station/3/1280", "lng": 121.09453, "verbose_name": "Macabling
+        Dam 2, Sta Rosa, Laguna", "station_id": 1280}, {"lat": 14.2976, "url": "/api/station/3/1281",
+        "lng": 121.09422, "verbose_name": "Macabling Dam 1, Sta Rosa, Laguna", "station_id":
+        1281}, {"lat": 11.611122, "url": "/api/station/3/1283", "lng": 124.383119,
+        "verbose_name": "Bagongbong Bridge, Almeria, Biliran", "station_id": 1283},
+        {"lat": 11.473516, "url": "/api/station/3/1284", "lng": 124.570846, "verbose_name":
+        "Esperanza Bridge, Cubucgayan, Biliran", "station_id": 1284}, {"lat": 11.665464,
+        "url": "/api/station/3/1285", "lng": 124.522793, "verbose_name": "Amambahag
+        River, Culaba, Biliran", "station_id": 1285}, {"lat": 8.414867, "url": "/api/station/3/1286",
+        "lng": 124.911067, "verbose_name": "Tagoloan Bridge Ii, Manolo Fortich, Bukidnon",
+        "station_id": 1286}, {"lat": 10.067117, "url": "/api/station/3/1297", "lng":
+        123.211717, "verbose_name": "Hinoba-An River, Cancabo, La Libertad, Negros
+        Oriental", "station_id": 1297}, {"lat": 12.944366, "url": "/api/station/3/1300",
+        "lng": 121.47436, "verbose_name": "Balite Gloria, Gloria, Oriental Mindoro",
+        "station_id": 1300}, {"lat": 12.675433, "url": "/api/station/3/1301", "lng":
+        121.482366, "verbose_name": "Orconuma, Bongabong, Oriental Mindoro", "station_id":
+        1301}, {"lat": 16.336536, "url": "/api/station/3/1302", "lng": 121.10866,
+        "verbose_name": "Lamo Bridge, Dupax Del Norte, Nueva Vizcaya", "station_id":
+        1302}, {"lat": 16.299944, "url": "/api/station/3/1303", "lng": 121.052138,
+        "verbose_name": "Mangayang Brdige, Dupax Del Sur, Nueva Vizcaya", "station_id":
+        1303}, {"lat": 16.309638, "url": "/api/station/3/1304", "lng": 120.95819,
+        "verbose_name": "Sta. Cruz Bridge, Kayapa, Nueva Vizcaya", "station_id": 1304},
+        {"lat": 9.91195, "url": "/api/station/3/1305", "lng": 123.154017, "verbose_name":
+        "Hibolangan Bridge Ii, Tayasan, Negros Oriental", "station_id": 1305}, {"lat":
+        9.66905, "url": "/api/station/3/1306", "lng": 123.106239, "verbose_name":
+        "Manjuyod Bridge, Manjuyod, Negros Oriental", "station_id": 1306}, {"lat":
+        13.4827, "url": "/api/station/3/1312", "lng": 121.919, "verbose_name": "Mangamnan
+        Bridge, Mogpog, Marinduque", "station_id": 1312}, {"lat": 14.2618, "url":
+        "/api/station/3/1314", "lng": 121.05758, "verbose_name": "Technopark Bridge,
+        Sta Rosa, Laguna", "station_id": 1314}], "icon": "red.png", "verbose_name":
+        "Automated Stream Gauges", "type_id": 3}, {"stations": [{"lat": 14.473367,
+        "url": "/api/station/4/78", "lng": 121.2203, "verbose_name": "Looc, Cardona,
+        Rizal", "station_id": 78}, {"lat": 14.558022, "url": "/api/station/4/188",
+        "lng": 121.044011, "verbose_name": "Napindan Js, Pasig City, Metro Manila",
+        "station_id": 188}, {"lat": 8.471469, "url": "/api/station/4/243", "lng":
+        124.641097, "verbose_name": "Cdo Bridge, Carmen, Cagayan De Oro, Misamis Oriental",
+        "station_id": 243}, {"lat": 8.440736, "url": "/api/station/4/244", "lng":
+        124.568806, "verbose_name": "San Simon Bridge, Carmen, Cagayan De Oro, Misamis
+        Oriental", "station_id": 244}, {"lat": 8.312625, "url": "/api/station/4/245",
+        "lng": 124.698414, "verbose_name": "Bubunawan Bridge, Baungon, Bukidnon",
+        "station_id": 245}, {"lat": 17.894461, "url": "/api/station/4/309", "lng":
+        121.687817, "verbose_name": "Pared Bridge, Alcala, Cagayan", "station_id":
+        309}, {"lat": 18.122619, "url": "/api/station/4/310", "lng": 121.672828, "verbose_name":
+        "Magapit Bridge, Lal-Lo, Cagayan", "station_id": 310}, {"lat": 18.3385, "url":
+        "/api/station/4/311", "lng": 121.424667, "verbose_name": "Lucban Bridge, Abulug,
+        Cagayan", "station_id": 311}, {"lat": 17.6275, "url": "/api/station/4/325",
+        "lng": 121.773283, "verbose_name": "San Josefa Bridge, Penablanca, Cagayan",
+        "station_id": 325}, {"lat": 17.1755, "url": "/api/station/4/326", "lng": 121.612111,
+        "verbose_name": "Mallig Bridge, Mallig, Isabela", "station_id": 326}, {"lat":
+        17.13175, "url": "/api/station/4/327", "lng": 121.613, "verbose_name": "Siffu
+        Bridge, Roxas, Isabela", "station_id": 327}, {"lat": 16.971219, "url": "/api/station/4/328",
+        "lng": 121.657708, "verbose_name": "Aurora Bridge, Aurora, Isabela", "station_id":
+        328}, {"lat": 16.694603, "url": "/api/station/4/329", "lng": 121.556889, "verbose_name":
+        "Santiago City Brdige, Santiago City, Isabela", "station_id": 329}, {"lat":
+        17.006383, "url": "/api/station/4/331", "lng": 121.833217, "verbose_name":
+        "Naguilian Bridge, Naguilian, Isabela", "station_id": 331}, {"lat": 16.605472,
+        "url": "/api/station/4/332", "lng": 121.675611, "verbose_name": "Dalibubun
+        Bridge, Jones, Isabela", "station_id": 332}, {"lat": 17.273833, "url": "/api/station/4/333",
+        "lng": 121.826833, "verbose_name": "Arkon Bridge, Tumauini, Isabela", "station_id":
+        333}, {"lat": 17.439667, "url": "/api/station/4/335", "lng": 121.7795, "verbose_name":
+        "San Pablo, Isabela", "station_id": 335}, {"lat": 16.769667, "url": "/api/station/4/336",
+        "lng": 121.697833, "verbose_name": "Ganano Bridge, Alicia, Isabela", "station_id":
+        336}, {"lat": 17.1215, "url": "/api/station/4/337", "lng": 121.907167, "verbose_name":
+        "Malalam Bridge, Ilagan, Isabela", "station_id": 337}, {"lat": 17.069861,
+        "url": "/api/station/4/338", "lng": 121.843028, "verbose_name": "Gamu Bridge,
+        Gamu, Isabela", "station_id": 338}, {"lat": 16.586458, "url": "/api/station/4/339",
+        "lng": 121.515031, "verbose_name": "President Bridge, Diffun, Quirino", "station_id":
+        339}, {"lat": 16.47025, "url": "/api/station/4/341", "lng": 121.628444, "verbose_name":
+        "Disiluad Bridge, Aglipay, Quirino", "station_id": 341}, {"lat": 16.584, "url":
+        "/api/station/4/344", "lng": 121.251556, "verbose_name": "San Lorenzo Bridge,
+        Bagabag, Nueva Vizcaya", "station_id": 344}, {"lat": 16.433, "url": "/api/station/4/345",
+        "lng": 121.1115, "verbose_name": "Batu Bridge, Bambang, Nueva Vizcaya", "station_id":
+        345}, {"lat": 17.433662, "url": "/api/station/4/372", "lng": 120.692053, "verbose_name":
+        "Manabo Bridge, Manabo, Abra", "station_id": 372}, {"lat": 16.443097, "url":
+        "/api/station/4/373", "lng": 120.493856, "verbose_name": "Asin Bridge, Tuba,
+        Benguet", "station_id": 373}, {"lat": 16.78425, "url": "/api/station/4/374",
+        "lng": 121.121333, "verbose_name": "Ibulao Bridge, Lagfawe, Ifugao", "station_id":
+        374}, {"lat": 8.542336, "url": "/api/station/4/399", "lng": 124.755779, "verbose_name":
+        "Tagoloan Bridge, Tagoloan, Bukidnon", "station_id": 399}, {"lat": 7.98796,
+        "url": "/api/station/4/400", "lng": 125.134367, "verbose_name": "Manupali
+        Bridge, Valencia City, Bukidnon", "station_id": 400}, {"lat": 15.809883, "url":
+        "/api/station/4/402", "lng": 120.5732, "verbose_name": "Calvo Bridge, Bayambang,
+        Pangasinan", "station_id": 402}, {"lat": 15.835917, "url": "/api/station/4/403",
+        "lng": 120.501667, "verbose_name": "Hector Mendoza Bridge, Alcala, Pangasinan",
+        "station_id": 403}, {"lat": 13.89663, "url": "/api/station/4/412", "lng":
+        120.91284, "verbose_name": "Lemery, Batangas", "station_id": 412}, {"lat":
+        16.034472, "url": "/api/station/4/416", "lng": 120.798472, "verbose_name":
+        "Viray Bridge, Natividad, Pangasinan", "station_id": 416}, {"lat": 15.94,
+        "url": "/api/station/4/417", "lng": 120.840417, "verbose_name": "Banela, Umingan,
+        Pangasinan", "station_id": 417}, {"lat": 16.013417, "url": "/api/station/4/418",
+        "lng": 120.737167, "verbose_name": "Magallanes, Tayug, Pangasinan", "station_id":
+        418}, {"lat": 16.07525, "url": "/api/station/4/419", "lng": 120.756211, "verbose_name":
+        "Ambayaoan, San Nicolas, Pangasinan", "station_id": 419}, {"lat": 16.014767,
+        "url": "/api/station/4/420", "lng": 120.579, "verbose_name": "Tagamusing Bridge,
+        Urdaneta City, Pangasinan", "station_id": 420}, {"lat": 15.9765, "url": "/api/station/4/421",
+        "lng": 120.5709, "verbose_name": "Macalong Bridge, Urdaneta City, Pangasinan",
+        "station_id": 421}, {"lat": 11.60615, "url": "/api/station/4/426", "lng":
+        125.4334, "verbose_name": "Loom Bridge, Borongan City, Eastern Samar", "station_id":
+        426}, {"lat": 12.014722, "url": "/api/station/4/457", "lng": 124.813056, "verbose_name":
+        "Gandara Bridge, Gandara, Samar", "station_id": 457}, {"lat": 11.0375, "url":
+        "/api/station/4/458", "lng": 124.600556, "verbose_name": "Pagsanjan Bridge,
+        Ormoc City, Leyte", "station_id": 458}, {"lat": 11.589105, "url": "/api/station/4/459",
+        "lng": 124.555889, "verbose_name": "Kaulanguhan, Caibiran, Biliran", "station_id":
+        459}, {"lat": 12.385389, "url": "/api/station/4/460", "lng": 124.627667, "verbose_name":
+        "Catarman Bridge, Catarman, Northern Samar", "station_id": 460}, {"lat": 7.745333,
+        "url": "/api/station/4/519", "lng": 123.168917, "verbose_name": "Kumalarang
+        River, Kumalarang, Zamboanga Del Sur", "station_id": 519}, {"lat": 7.940309,
+        "url": "/api/station/4/541", "lng": 125.126056, "verbose_name": "Valencia
+        Bridge, Valencia City, Bukidnon", "station_id": 541}, {"lat": 16.087333, "url":
+        "/api/station/4/555", "lng": 120.578667, "verbose_name": "Aloragat Bridge,
+        Binalonan, Pangasinan", "station_id": 555}, {"lat": 16.0085, "url": "/api/station/4/556",
+        "lng": 120.8067, "verbose_name": "Dipalo Bridge, San Quintin, Pangasinan",
+        "station_id": 556}, {"lat": 9.785875, "url": "/api/station/4/557", "lng":
+        122.750981, "verbose_name": "Magballo Bridge, Kabankalan City, Negros Occidental",
+        "station_id": 557}, {"lat": 9.964583, "url": "/api/station/4/558", "lng":
+        122.835494, "verbose_name": "Hilabangan Bridge, Kabankalan City, Negros Occidental",
+        "station_id": 558}, {"lat": 11.392208, "url": "/api/station/4/561", "lng":
+        122.687125, "verbose_name": "Dao Bridge, Dao, Capiz", "station_id": 561},
+        {"lat": 11.2648, "url": "/api/station/4/562", "lng": 122.546683, "verbose_name":
+        "Tapaz Bridge, Tapaz, Capiz", "station_id": 562}, {"lat": 11.46365, "url":
+        "/api/station/4/564", "lng": 122.77, "verbose_name": "Panit-An Bridge, Panit-An,
+        Capiz", "station_id": 564}, {"lat": 11.4073, "url": "/api/station/4/565",
+        "lng": 122.512017, "verbose_name": "Jamindan Bridge, Jamindan, Capiz", "station_id":
+        565}, {"lat": 11.119667, "url": "/api/station/4/578", "lng": 122.538939, "verbose_name":
+        "Calinog, Iloilo", "station_id": 578}, {"lat": 10.953456, "url": "/api/station/4/579",
+        "lng": 122.504908, "verbose_name": "Suage Bridge, Janiuay, Iloilo", "station_id":
+        579}, {"lat": 10.847614, "url": "/api/station/4/580", "lng": 122.650389, "verbose_name":
+        "Jalaur Bridge, Zarraga, Zarraga, Iloilo", "station_id": 580}, {"lat": 11.529853,
+        "url": "/api/station/4/582", "lng": 122.309917, "verbose_name": "Guadalupe
+        Bridge, Madalag, Aklan", "station_id": 582}, {"lat": 11.432861, "url": "/api/station/4/583",
+        "lng": 122.322611, "verbose_name": "Libacao Bridge, Libacao, Aklan", "station_id":
+        583}, {"lat": 7.078333, "url": "/api/station/4/589", "lng": 121.90225, "verbose_name":
+        "Patalon, Zamboanga City", "station_id": 589}, {"lat": 10.637472, "url": "/api/station/4/594",
+        "lng": 124.865667, "verbose_name": "Dungcaan Bridge, Baybay City, Leyte",
+        "station_id": 594}, {"lat": 7.44823, "url": "/api/station/4/623", "lng": 125.969327,
+        "verbose_name": "Maco, Compostela Valley", "station_id": 623}, {"lat": 7.402992,
+        "url": "/api/station/4/624", "lng": 126.013774, "verbose_name": "New Leyte,
+        Davao Del Norte", "station_id": 624}, {"lat": 10.425475, "url": "/api/station/4/636",
+        "lng": 125.023147, "verbose_name": "Subangdako, Sogod, Southern Leyte", "station_id":
+        636}, {"lat": 8.225317, "url": "/api/station/4/637", "lng": 124.268207, "verbose_name":
+        "Pugaan C3 Bridge, Iligan, Lanao Del Norte", "station_id": 637}, {"lat": 7.201667,
+        "url": "/api/station/4/642", "lng": 121.214722, "verbose_name": "Curuan Bridge,
+        Brgy Curuan, Zamboanga City", "station_id": 642}, {"lat": 7.201567, "url":
+        "/api/station/4/643", "lng": 121.214617, "verbose_name": "Spillway Upper Pasonanca,
+        Zamboanga, Zamboanga City", "station_id": 643}, {"lat": 7.077617, "url": "/api/station/4/652",
+        "lng": 124.740717, "verbose_name": "Tunggol Bridge, Datu Montawal, Maguindanao",
+        "station_id": 652}, {"lat": 8.538966, "url": "/api/station/4/657", "lng":
+        124.882608, "verbose_name": "Arch Bridge, Malitbog, Bukidnon", "station_id":
+        657}, {"lat": 9.633333, "url": "/api/station/4/662", "lng": 124.033333, "verbose_name":
+        "Loboc Jumbo Bridge, Loboc, Bohol", "station_id": 662}, {"lat": 6.8352, "url":
+        "/api/station/4/666", "lng": 124.4563, "verbose_name": "Dicalungan Bridge,
+        Ampatuan, Maguindanao", "station_id": 666}, {"lat": 7.366667, "url": "/api/station/4/675",
+        "lng": 122.285833, "verbose_name": "Vitali Bridge, Vitali , Zamboanga City",
+        "station_id": 675}, {"lat": 8.4028, "url": "/api/station/4/684", "lng": 123.397317,
+        "verbose_name": "Polangco Bridge, Lgu-Municipality Of Polanco, Zamboanga Del
+        Norte", "station_id": 684}, {"lat": 7.7771, "url": "/api/station/4/685", "lng":
+        122.993767, "verbose_name": "Muyo Bridge, Lgu-Municipality Of Buug, Zamboanga
+        Sibugay", "station_id": 685}, {"lat": 10.360944, "url": "/api/station/4/732",
+        "lng": 123.927333, "verbose_name": "Cabancalan-Canduman Bridge, Mandaue City,
+        Cebu", "station_id": 732}, {"lat": 7.03625, "url": "/api/station/4/733", "lng":
+        122.175933, "verbose_name": "Manicahan Spillway, Zamboanga City, Zamboanga
+        City", "station_id": 733}, {"lat": 16.874056, "url": "/api/station/4/738",
+        "lng": 120.54875, "verbose_name": "Ana-Ao Bridge, Alilem, Ilocos Sur", "station_id":
+        738}, {"lat": 16.667528, "url": "/api/station/4/740", "lng": 120.392278, "verbose_name":
+        "Cabaroan Bridge, San Juan, La Union", "station_id": 740}, {"lat": 7.6276,
+        "url": "/api/station/4/742", "lng": 124.0724, "verbose_name": "Brgy Matalin,
+        Malabang, Lanao Del Sur", "station_id": 742}, {"lat": 6.77237, "url": "/api/station/4/743",
+        "lng": 124.482, "verbose_name": "Taliwasa Bridge, Datu Abdulah Sangki, Maguindanao",
+        "station_id": 743}, {"lat": 7.62765, "url": "/api/station/4/749", "lng": 125.6101,
+        "verbose_name": "Talaingod, Davao Del Norte", "station_id": 749}, {"lat":
+        18.119639, "url": "/api/station/4/754", "lng": 120.74925, "verbose_name":
+        "Bagbag Bridge, Solsona, Ilocos Norte", "station_id": 754}, {"lat": 5.035717,
+        "url": "/api/station/4/755", "lng": 119.741767, "verbose_name": "Sanga-Sanga
+        Bridge, Bongao, Basilan", "station_id": 755}, {"lat": 16.322583, "url": "/api/station/4/777",
+        "lng": 120.47425, "verbose_name": "Cares Bridge, Pugo, La Union", "station_id":
+        777}, {"lat": 16.350148, "url": "/api/station/4/778", "lng": 120.61348, "verbose_name":
+        "Camp 6 Bridge, Tuba, Benguet", "station_id": 778}, {"lat": 18.052869, "url":
+        "/api/station/4/789", "lng": 120.564047, "verbose_name": "Quiaoit, Batac City,
+        Ilocos Norte", "station_id": 789}, {"lat": 9.454389, "url": "/api/station/4/801",
+        "lng": 123.217306, "verbose_name": "Brgy Tambujangin, Amlan, Negros Oriental",
+        "station_id": 801}, {"lat": 7.085774, "url": "/api/station/4/822", "lng":
+        125.557903, "verbose_name": "Brgy. Matina Pangi, Davao City, Davao City",
+        "station_id": 822}, {"lat": 7.572987, "url": "/api/station/4/823", "lng":
+        126.100521, "verbose_name": "Brgy. Panag, New Bataan, Compostela Valley",
+        "station_id": 823}, {"lat": 7.51597, "url": "/api/station/4/824", "lng": 125.62144,
+        "verbose_name": "Menzi Bridge, Sto. Tomas, Davao Del Norte", "station_id":
+        824}, {"lat": 7.578735, "url": "/api/station/4/825", "lng": 126.134194, "verbose_name":
+        "Brgy. San Roque, Compostela, Compostela Valley", "station_id": 825}, {"lat":
+        7.676012, "url": "/api/station/4/827", "lng": 126.089583, "verbose_name":
+        "Brgy. Poblacion Compostela, Compostela, Compostela Valley", "station_id":
+        827}, {"lat": 7.5343, "url": "/api/station/4/829", "lng": 125.75814, "verbose_name":
+        "Mahayahay Bridge, Asuncion, Davao Del Norte", "station_id": 829}, {"lat":
+        9.005353, "url": "/api/station/4/833", "lng": 125.203295, "verbose_name":
+        "Kibunsod Bridge, Magsaysay, Misamis Oriental", "station_id": 833}, {"lat":
+        9.510194, "url": "/api/station/4/845", "lng": 123.145694, "verbose_name":
+        "Tanjay Bridge, Tanjay City, Negros Oriental", "station_id": 845}, {"lat":
+        16.579567, "url": "/api/station/4/859", "lng": 120.41095, "verbose_name":
+        "Mamat-Ing Bridge, Naguilian, La Union", "station_id": 859}, {"lat": 17.556833,
+        "url": "/api/station/4/860", "lng": 120.466528, "verbose_name": "Banaoang
+        Bridge, Bantay, Ilocos Sur", "station_id": 860}, {"lat": 17.68245, "url":
+        "/api/station/4/879", "lng": 121.434272, "verbose_name": "Ninoy Aquino Bridge,
+        Tuao, Cagayan", "station_id": 879}, {"lat": 7.59273, "url": "/api/station/4/938",
+        "lng": 125.69877, "verbose_name": "Kapalong, Davao Del Norte", "station_id":
+        938}, {"lat": 7.131809, "url": "/api/station/4/960", "lng": 125.58285, "verbose_name":
+        "Waan Bridge, Mandug, Davao City", "station_id": 960}, {"lat": 7.25, "url":
+        "/api/station/4/973", "lng": 125.3535, "verbose_name": "Suawan Bridge, Davao
+        City, Davao Del Sur", "station_id": 973}, {"lat": 7.25, "url": "/api/station/4/974",
+        "lng": 125.39929, "verbose_name": "Tamugan, Davao City, Davao Del Sur", "station_id":
+        974}, {"lat": 7.1, "url": "/api/station/4/975", "lng": 125.50176, "verbose_name":
+        "Mintal, Davao City, Davao Del Sur", "station_id": 975}, {"lat": 7.19, "url":
+        "/api/station/4/976", "lng": 125.452416, "verbose_name": "Calinan, Davao City,
+        Davao Del Sur", "station_id": 976}, {"lat": 7.8, "url": "/api/station/4/977",
+        "lng": 126.034139, "verbose_name": "Olaycon Bridge, Monkayo, Compostela Valley",
+        "station_id": 977}, {"lat": 7.75, "url": "/api/station/4/978", "lng": 126.063778,
+        "verbose_name": "Babag Bridge, Monkayo, Compostela Valley", "station_id":
+        978}, {"lat": 7.83, "url": "/api/station/4/979", "lng": 126.050434, "verbose_name":
+        "Kalaw Bridge, Monkayo, Compostela Valley", "station_id": 979}, {"lat": 8.06175,
+        "url": "/api/station/4/1277", "lng": 125.161389, "verbose_name": "Cabacungan
+        Bridge, Malaybalay, Bukidnon", "station_id": 1277}], "icon": "redgreen.png",
+        "verbose_name": "Automated Rain and Stream Gauges", "type_id": 4}, {"stations":
+        [{"lat": 10.0833, "url": "/api/station/5/1044", "lng": 123.65, "verbose_name":
+        "Carcar Bay", "station_id": 1044}, {"lat": 11.3, "url": "/api/station/5/1045",
+        "lng": 124.6833, "verbose_name": "Carigara", "station_id": 1045}, {"lat":
+        6.4167, "url": "/api/station/5/1068", "lng": 125.6167, "verbose_name": "Davao
+        Gulf: Malita", "station_id": 1068}, {"lat": 10.75, "url": "/api/station/5/984",
+        "lng": 125.0167, "verbose_name": "Abuyog", "station_id": 984}, {"lat": 11.7333,
+        "url": "/api/station/5/985", "lng": 122.3667, "verbose_name": "Aclan River
+        Entr", "station_id": 985}, {"lat": 13.2833, "url": "/api/station/5/986", "lng":
+        122.5167, "verbose_name": "Aguasa Bay", "station_id": 986}, {"lat": 9.0, "url":
+        "/api/station/5/987", "lng": 125.5167, "verbose_name": "Agusan River Entr,
+        Butuan Bay", "station_id": 987}, {"lat": 10.8667, "url": "/api/station/5/988",
+        "lng": 119.2833, "verbose_name": "Alligator Bay, Malampaya Sd", "station_id":
+        988}, {"lat": 6.4333, "url": "/api/station/5/989", "lng": 122.1333, "verbose_name":
+        "Amoyloi, Basilian Island", "station_id": 989}, {"lat": 11.65, "url": "/api/station/5/990",
+        "lng": 125.4833, "verbose_name": "Andis Island, Port Borongan", "station_id":
+        990}, {"lat": 13.7667, "url": "/api/station/5/991", "lng": 120.9167, "verbose_name":
+        "Anilao, Balayan Bay", "station_id": 991}, {"lat": 10.4333, "url": "/api/station/5/992",
+        "lng": 121.9167, "verbose_name": "Aniniy", "station_id": 992}, {"lat": 18.35,
+        "url": "/api/station/5/993", "lng": 121.6333, "verbose_name": "Aparri, Cagayan
+        River", "station_id": 993}, {"lat": 12.6667, "url": "/api/station/5/994",
+        "lng": 120.4, "verbose_name": "Apo Island, Mindoro Str", "station_id": 994},
+        {"lat": 10.55, "url": "/api/station/5/995", "lng": 119.9833, "verbose_name":
+        "Araceli, Dumaran Island", "station_id": 995}, {"lat": 19.5667, "url": "/api/station/5/996",
+        "lng": 121.9333, "verbose_name": "Babuyan Island", "station_id": 996}, {"lat":
+        10.6667, "url": "/api/station/5/997", "lng": 122.95, "verbose_name": "Bacolod",
+        "station_id": 997}, {"lat": 11.1833, "url": "/api/station/5/998", "lng": 119.3833,
+        "verbose_name": "Bacuit", "station_id": 998}, {"lat": 12.0833, "url": "/api/station/5/999",
+        "lng": 123.8, "verbose_name": "Bagatao Island", "station_id": 999}, {"lat":
+        9.6, "url": "/api/station/5/1000", "lng": 123.1333, "verbose_name": "Bais",
+        "station_id": 1000}, {"lat": 8.0, "url": "/api/station/5/1001", "lng": 117.0667,
+        "verbose_name": "Balabac, Balabac Island", "station_id": 1001}, {"lat": 10.5,
+        "url": "/api/station/5/1002", "lng": 123.7167, "verbose_name": "Balamban Bay",
+        "station_id": 1002}, {"lat": 6.6833, "url": "/api/station/5/1003", "lng":
+        122.1333, "verbose_name": "Balas, Basilian Island", "station_id": 1003}, {"lat":
+        15.75, "url": "/api/station/5/1004", "lng": 121.5833, "verbose_name": "Baler
+        Bay", "station_id": 1004}, {"lat": 5.0333, "url": "/api/station/5/1005", "lng":
+        120.1, "verbose_name": "Banaran Island", "station_id": 1005}, {"lat": 11.0,
+        "url": "/api/station/5/1006", "lng": 122.8167, "verbose_name": "Banate", "station_id":
+        1006}, {"lat": 11.1667, "url": "/api/station/5/1007", "lng": 123.7167, "verbose_name":
+        "Bantayan, Bantayan Island", "station_id": 1007}, {"lat": 5.7, "url": "/api/station/5/1008",
+        "lng": 120.8833, "verbose_name": "Banting, Tapul Island", "station_id": 1008},
+        {"lat": 10.1167, "url": "/api/station/5/1009", "lng": 123.4833, "verbose_name":
+        "Barili Bay", "station_id": 1009}, {"lat": 5.35, "url": "/api/station/5/1010",
+        "lng": 120.2167, "verbose_name": "Basbas Channel, Tawitawi Island", "station_id":
+        1010}, {"lat": 20.45, "url": "/api/station/5/1011", "lng": 121.9667, "verbose_name":
+        "Basco Batan Island", "station_id": 1011}, {"lat": 13.2333, "url": "/api/station/5/1012",
+        "lng": 124.05, "verbose_name": "Batan Island", "station_id": 1012}, {"lat":
+        11.1667, "url": "/api/station/5/1013", "lng": 119.6, "verbose_name": "Batas
+        Island", "station_id": 1013}, {"lat": 6.6, "url": "/api/station/5/1067", "lng":
+        125.4167, "verbose_name": "Davao Gulf: Malalag", "station_id": 1067}, {"lat":
+        5.0667, "url": "/api/station/5/1014", "lng": 119.8833, "verbose_name": "Batu
+        Batu Bay, Tawitawi Island", "station_id": 1014}, {"lat": 12.4167, "url": "/api/station/5/1015",
+        "lng": 123.7833, "verbose_name": "Batuan Bay, Ticao Island", "station_id":
+        1015}, {"lat": 10.6833, "url": "/api/station/5/1016", "lng": 124.8, "verbose_name":
+        "Baybay", "station_id": 1016}, {"lat": 12.65, "url": "/api/station/5/1017",
+        "lng": 124.3667, "verbose_name": "Biri Island", "station_id": 1017}, {"lat":
+        10.5667, "url": "/api/station/5/1018", "lng": 119.1833, "verbose_name": "Boayan
+        Island", "station_id": 1018}, {"lat": 11.0667, "url": "/api/station/5/1019",
+        "lng": 124.0, "verbose_name": "Bogo Bay", "station_id": 1019}, {"lat": 6.5167,
+        "url": "/api/station/5/1020", "lng": 122.2, "verbose_name": "Bojelebung, Basilian
+        Island", "station_id": 1020}, {"lat": 10.9333, "url": "/api/station/5/1021",
+        "lng": 119.2333, "verbose_name": "Bolalo Bay, Malampaya Sd", "station_id":
+        1021}, {"lat": 16.4, "url": "/api/station/5/1022", "lng": 119.9, "verbose_name":
+        "Bolinao, Philippines", "station_id": 1022}, {"lat": 9.6333, "url": "/api/station/5/1023",
+        "lng": 123.4833, "verbose_name": "Boljoon", "station_id": 1023}, {"lat": 11.95,
+        "url": "/api/station/5/1024", "lng": 121.9333, "verbose_name": "Borocay Island",
+        "station_id": 1024}, {"lat": 9.4167, "url": "/api/station/5/1025", "lng":
+        126.0, "verbose_name": "Buenavista, General Island", "station_id": 1025},
+        {"lat": 6.15, "url": "/api/station/5/1026", "lng": 121.8333, "verbose_name":
+        "Bulan Island", "station_id": 1026}, {"lat": 14.9, "url": "/api/station/5/1027",
+        "lng": 121.9667, "verbose_name": "Burdeos Bay, Polillo Island", "station_id":
+        1027}, {"lat": 12.6167, "url": "/api/station/5/1028", "lng": 123.9333, "verbose_name":
+        "Butag Bay", "station_id": 1028}, {"lat": 13.7667, "url": "/api/station/5/1029",
+        "lng": 123.2667, "verbose_name": "Cabgan Island, San Miguel Bay", "station_id":
+        1029}, {"lat": 10.95, "url": "/api/station/5/1030", "lng": 123.3167, "verbose_name":
+        "Cadiz", "station_id": 1030}, {"lat": 9.5833, "url": "/api/station/5/1031",
+        "lng": 121.2333, "verbose_name": "Cagayan Anchorage, Cagayan Island", "station_id":
+        1031}, {"lat": 6.9833, "url": "/api/station/5/1032", "lng": 118.5333, "verbose_name":
+        "Cagayan Sulu Island", "station_id": 1032}, {"lat": 9.8167, "url": "/api/station/5/1033",
+        "lng": 123.1333, "verbose_name": "Calagcalag Bay", "station_id": 1033}, {"lat":
+        13.4333, "url": "/api/station/5/1034", "lng": 121.1833, "verbose_name": "Calapan
+        Bay", "station_id": 1034}, {"lat": 19.2667, "url": "/api/station/5/1035",
+        "lng": 121.5, "verbose_name": "Calayan Island", "station_id": 1035}, {"lat":
+        12.0667, "url": "/api/station/5/1036", "lng": 124.5833, "verbose_name": "Calbayog",
+        "station_id": 1036}, {"lat": 18.2833, "url": "/api/station/5/1037", "lng":
+        121.6667, "verbose_name": "Camalaniugan, Cagayan River", "station_id": 1037},
+        {"lat": 9.7, "url": "/api/station/5/1038", "lng": 122.4167, "verbose_name":
+        "Campomanes Bay", "station_id": 1038}, {"lat": 11.4333, "url": "/api/station/5/1039",
+        "lng": 124.85, "verbose_name": "Canauay Island, Janabatas Ch", "station_id":
+        1039}, {"lat": 9.0, "url": "/api/station/5/1040", "lng": 124.85, "verbose_name":
+        "Canauayor Anchorage", "station_id": 1040}, {"lat": 12.5, "url": "/api/station/5/1041",
+        "lng": 122.5, "verbose_name": "Cangouac Point, Sibuyan Island", "station_id":
+        1041}, {"lat": 6.0167, "url": "/api/station/5/1042", "lng": 121.4167, "verbose_name":
+        "Capual Island", "station_id": 1042}, {"lat": 7.2833, "url": "/api/station/5/1043",
+        "lng": 126.5833, "verbose_name": "Caraga Bay", "station_id": 1043}, {"lat":
+        10.5833, "url": "/api/station/5/1046", "lng": 124.0167, "verbose_name": "Carmen",
+        "station_id": 1046}, {"lat": 16.2333, "url": "/api/station/5/1047", "lng":
+        122.1333, "verbose_name": "Casiguran Bay", "station_id": 1047}, {"lat": 13.6,
+        "url": "/api/station/5/1048", "lng": 122.3167, "verbose_name": "Catanauan",
+        "station_id": 1048}, {"lat": 12.5167, "url": "/api/station/5/1049", "lng":
+        124.65, "verbose_name": "Catarman River Entr", "station_id": 1049}, {"lat":
+        11.7833, "url": "/api/station/5/1050", "lng": 124.8833, "verbose_name": "Catbalogan",
+        "station_id": 1050}, {"lat": 14.4833, "url": "/api/station/5/1051", "lng":
+        120.9167, "verbose_name": "Cavite, Manila Bay", "station_id": 1051}, {"lat":
+        10.3, "url": "/api/station/5/1052", "lng": 123.9, "verbose_name": "Cebu, Philippines",
+        "station_id": 1052}, {"lat": 18.6167, "url": "/api/station/5/1053", "lng":
+        121.1, "verbose_name": "Claveria Bay", "station_id": 1053}, {"lat": 9.8333,
+        "url": "/api/station/5/1054", "lng": 124.5167, "verbose_name": "Cogton Bay",
+        "station_id": 1054}, {"lat": 11.2167, "url": "/api/station/5/1055", "lng":
+        123.1, "verbose_name": "Concepcion", "station_id": 1055}, {"lat": 12.0167,
+        "url": "/api/station/5/1056", "lng": 120.2, "verbose_name": "Coron, Busuanga
+        Island", "station_id": 1056}, {"lat": 14.3833, "url": "/api/station/5/1057",
+        "lng": 120.6, "verbose_name": "Corregidor Island, Manila Bay", "station_id":
+        1057}, {"lat": 7.2167, "url": "/api/station/5/1058", "lng": 124.25, "verbose_name":
+        "Cotabato, Mindanao River", "station_id": 1058}, {"lat": 11.8833, "url": "/api/station/5/1059",
+        "lng": 120.0167, "verbose_name": "Culion. Culion Island", "station_id": 1059},
+        {"lat": 10.85, "url": "/api/station/5/1060", "lng": 121.0, "verbose_name":
+        "Cuyo, Cuyo Island", "station_id": 1060}, {"lat": 9.75, "url": "/api/station/5/1061",
+        "lng": 125.6833, "verbose_name": "Cuyomongan, Talavera Island", "station_id":
+        1061}, {"lat": 9.45, "url": "/api/station/5/1062", "lng": 125.9333, "verbose_name":
+        "Dahikan Bay", "station_id": 1062}, {"lat": 10.8167, "url": "/api/station/5/1063",
+        "lng": 123.55, "verbose_name": "Danao River Entr", "station_id": 1063}, {"lat":
+        8.6667, "url": "/api/station/5/1064", "lng": 123.4167, "verbose_name": "Dapitan",
+        "station_id": 1064}, {"lat": 6.7333, "url": "/api/station/5/1065", "lng":
+        121.4667, "verbose_name": "Dassalan Island", "station_id": 1065}, {"lat":
+        6.3, "url": "/api/station/5/1066", "lng": 126.1833, "verbose_name": "Davao
+        Gulf: Lavigan Anchorage", "station_id": 1066}, {"lat": 6.6333, "url": "/api/station/5/1069",
+        "lng": 126.0667, "verbose_name": "Davao Gulf: Sigaboy Island", "station_id":
+        1069}, {"lat": 7.0833, "url": "/api/station/5/1070", "lng": 125.6333, "verbose_name":
+        "Davao, Philippines", "station_id": 1070}, {"lat": 16.4, "url": "/api/station/5/1071",
+        "lng": 122.2167, "verbose_name": "Diapitan Bay", "station_id": 1071}, {"lat":
+        12.2, "url": "/api/station/5/1072", "lng": 123.85, "verbose_name": "Dimasalang,
+        Naro Bay", "station_id": 1072}, {"lat": 9.9667, "url": "/api/station/5/1073",
+        "lng": 125.5833, "verbose_name": "Dinagat, Dinagat Island", "station_id":
+        1073}, {"lat": 17.4167, "url": "/api/station/5/1074", "lng": 122.2333, "verbose_name":
+        "Divilacan Bay", "station_id": 1074}, {"lat": 9.3, "url": "/api/station/5/1075",
+        "lng": 123.3, "verbose_name": "Dumaguete", "station_id": 1075}, {"lat": 9.0833,
+        "url": "/api/station/5/1076", "lng": 117.7, "verbose_name": "Eran Bay", "station_id":
+        1076}, {"lat": 11.4667, "url": "/api/station/5/1077", "lng": 123.15, "verbose_name":
+        "Estancia", "station_id": 1077}, {"lat": 10.1833, "url": "/api/station/5/1078",
+        "lng": 125.65, "verbose_name": "Gaas Bay, Dinagat Island", "station_id": 1078},
+        {"lat": 5.1333, "url": "/api/station/5/1079", "lng": 120.2333, "verbose_name":
+        "Gallo Malo Channel (South Entr)", "station_id": 1079}, {"lat": 9.6167, "url":
+        "/api/station/5/1080", "lng": 124.3, "verbose_name": "Garcia Hernandez", "station_id":
+        1080}, {"lat": 11.7, "url": "/api/station/5/1081", "lng": 124.35, "verbose_name":
+        "Genuruan Island, Biliran Island", "station_id": 1081}, {"lat": 13.9, "url":
+        "/api/station/5/1082", "lng": 122.45, "verbose_name": "Ginayangan, Ragay Gulf",
+        "station_id": 1082}, {"lat": 12.9167, "url": "/api/station/5/1083", "lng":
+        124.1333, "verbose_name": "Gubat", "station_id": 1083}, {"lat": 12.1667, "url":
+        "/api/station/5/1084", "lng": 122.0333, "verbose_name": "Guimbiravan, Tablas
+        Island", "station_id": 1084}, {"lat": 14.4167, "url": "/api/station/5/1085",
+        "lng": 122.9333, "verbose_name": "Guintinua Island, Calagua Isls", "station_id":
+        1085}, {"lat": 11.0333, "url": "/api/station/5/1086", "lng": 125.7167, "verbose_name":
+        "Guiuan", "station_id": 1086}, {"lat": 11.7833, "url": "/api/station/5/1087",
+        "lng": 119.9667, "verbose_name": "Halsey Harbor, Culion Island", "station_id":
+        1087}, {"lat": 12.3, "url": "/api/station/5/1088", "lng": 125.35, "verbose_name":
+        "Helm Harbor, Gamay Bay", "station_id": 1088}, {"lat": 12.0333, "url": "/api/station/5/1089",
+        "lng": 125.5667, "verbose_name": "Hilaban Island", "station_id": 1089}, {"lat":
+        10.1, "url": "/api/station/5/1090", "lng": 122.8667, "verbose_name": "Himamaylan",
+        "station_id": 1090}, {"lat": 10.95, "url": "/api/station/5/1091", "lng": 123.4,
+        "verbose_name": "Himugaan River Entr", "station_id": 1091}, {"lat": 8.3667,
+        "url": "/api/station/5/1092", "lng": 126.3333, "verbose_name": "Hinatuan",
+        "station_id": 1092}, {"lat": 10.4, "url": "/api/station/5/1093", "lng": 125.2,
+        "verbose_name": "Hinunangan", "station_id": 1093}, {"lat": 13.7833, "url":
+        "/api/station/5/1094", "lng": 124.1333, "verbose_name": "Hitoma, Catanduances
+        Island", "station_id": 1094}, {"lat": 14.95, "url": "/api/station/5/1095",
+        "lng": 121.8333, "verbose_name": "Hook Bay, Polillo Island", "station_id":
+        1095}, {"lat": 8.2333, "url": "/api/station/5/1096", "lng": 124.2333, "verbose_name":
+        "Iligan Bay: Iligan", "station_id": 1096}, {"lat": 8.3333, "url": "/api/station/5/1097",
+        "lng": 123.85, "verbose_name": "Iligan Bay: Jiminez", "station_id": 1097},
+        {"lat": 8.15, "url": "/api/station/5/1098", "lng": 123.85, "verbose_name":
+        "Iligan Bay: Misamis", "station_id": 1098}, {"lat": 8.4833, "url": "/api/station/5/1099",
+        "lng": 123.8, "verbose_name": "Iligan Bay: Oriquieta", "station_id": 1099},
+        {"lat": 7.4667, "url": "/api/station/5/1100", "lng": 123.4, "verbose_name":
+        "Illana Bay: Limbug Cove", "station_id": 1100}, {"lat": 7.8167, "url": "/api/station/5/1101",
+        "lng": 123.45, "verbose_name": "Illana Bay: Pagadian", "station_id": 1101},
+        {"lat": 7.35, "url": "/api/station/5/1102", "lng": 124.2167, "verbose_name":
+        "Illana Bay: Polloc Harbor", "station_id": 1102}, {"lat": 7.6333, "url": "/api/station/5/1103",
+        "lng": 124.0167, "verbose_name": "Illana Bay: Port Baras", "station_id": 1103},
+        {"lat": 7.5333, "url": "/api/station/5/1104", "lng": 123.4, "verbose_name":
+        "Illana Bay: Port Sambulauan", "station_id": 1104}, {"lat": 7.85, "url": "/api/station/5/1105",
+        "lng": 123.5833, "verbose_name": "Illana Bay: Tukuran", "station_id": 1105},
+        {"lat": 10.7, "url": "/api/station/5/1106", "lng": 122.5667, "verbose_name":
+        "Iloilo", "station_id": 1106}, {"lat": 10.45, "url": "/api/station/5/1107",
+        "lng": 122.7167, "verbose_name": "Inampulugan Island, Guimaras Island", "station_id":
+        1107}, {"lat": 6.7, "url": "/api/station/5/1108", "lng": 121.9667, "verbose_name":
+        "Isabela, Basilian Island", "station_id": 1108}, {"lat": 9.1, "url": "/api/station/5/1109",
+        "lng": 118.1167, "verbose_name": "Island Bay", "station_id": 1109}, {"lat":
+        6.0667, "url": "/api/station/5/1110", "lng": 121.0, "verbose_name": "Jolo,
+        Philippines", "station_id": 1110}, {"lat": 5.65, "url": "/api/station/5/1111",
+        "lng": 120.2833, "verbose_name": "Lahatlahat Island", "station_id": 1111},
+        {"lat": 14.0167, "url": "/api/station/5/1112", "lng": 122.3167, "verbose_name":
+        "Lamon Bay: Apat Bay", "station_id": 1112}, {"lat": 14.0, "url": "/api/station/5/1113",
+        "lng": 121.9167, "verbose_name": "Lamon Bay: Atimonan", "station_id": 1113},
+        {"lat": 14.3333, "url": "/api/station/5/1114", "lng": 122.4833, "verbose_name":
+        "Lamon Bay: Capalonga", "station_id": 1114}, {"lat": 14.6667, "url": "/api/station/5/1115",
+        "lng": 121.6167, "verbose_name": "Lamon Bay: Port Lampon", "station_id": 1115},
+        {"lat": 14.2, "url": "/api/station/5/1116", "lng": 121.9167, "verbose_name":
+        "Lamon Bay: Sangirin Bay", "station_id": 1116}, {"lat": 6.95, "url": "/api/station/5/1117",
+        "lng": 122.25, "verbose_name": "Landang, Sacol Island", "station_id": 1117},
+        {"lat": 18.2167, "url": "/api/station/5/1118", "lng": 120.5167, "verbose_name":
+        "Laoag River Entr", "station_id": 1118}, {"lat": 12.5667, "url": "/api/station/5/1119",
+        "lng": 125.0167, "verbose_name": "Laoang, Laoang Island", "station_id": 1119},
+        {"lat": 9.25, "url": "/api/station/5/1120", "lng": 123.5833, "verbose_name":
+        "Larena, Siquijor Island", "station_id": 1120}, {"lat": 13.15, "url": "/api/station/5/1121",
+        "lng": 123.75, "verbose_name": "Legaspi, Philippines", "station_id": 1121},
+        {"lat": 11.6, "url": "/api/station/5/1122", "lng": 122.7167, "verbose_name":
+        "Libas (Capiz Landing)", "station_id": 1122}, {"lat": 10.15, "url": "/api/station/5/1123",
+        "lng": 125.1167, "verbose_name": "Liloan, Sogod Bay", "station_id": 1123},
+        {"lat": 6.3167, "url": "/api/station/5/1124", "lng": 121.9333, "verbose_name":
+        "Linawan Island", "station_id": 1124}, {"lat": 12.2667, "url": "/api/station/5/1125",
+        "lng": 122.0, "verbose_name": "Looc, Tablas Island", "station_id": 1125},
+        {"lat": 10.4167, "url": "/api/station/5/1126", "lng": 122.5333, "verbose_name":
+        "Lugmayan Point, Guimaras Island", "station_id": 1126}, {"lat": 10.1333, "url":
+        "/api/station/5/1127", "lng": 124.8333, "verbose_name": "Maasin", "station_id":
+        1127}, {"lat": 8.5, "url": "/api/station/5/1128", "lng": 124.6667, "verbose_name":
+        "Macabalan Pt, Macajalar Bay", "station_id": 1128}, {"lat": 5.9167, "url":
+        "/api/station/5/1129", "lng": 121.0167, "verbose_name": "Maimbung, Jolo Island",
+        "station_id": 1129}, {"lat": 7.5333, "url": "/api/station/5/1130", "lng":
+        123.25, "verbose_name": "Maligay Bay", "station_id": 1130}, {"lat": 10.25,
+        "url": "/api/station/5/1131", "lng": 125.6333, "verbose_name": "Malinao Inlet,
+        Dinagat Island", "station_id": 1131}, {"lat": 9.25, "url": "/api/station/5/1132",
+        "lng": 124.7167, "verbose_name": "Mambajao, Camiguin Island", "station_id":
+        1132}, {"lat": 12.35, "url": "/api/station/5/1133", "lng": 121.1, "verbose_name":
+        "Mangarin", "station_id": 1133}, {"lat": 14.5833, "url": "/api/station/5/1134",
+        "lng": 120.9667, "verbose_name": "Manila, Philippines", "station_id": 1134},
+        {"lat": 12.5167, "url": "/api/station/5/1135", "lng": 121.4333, "verbose_name":
+        "Mansalay", "station_id": 1135}, {"lat": 7.5833, "url": "/api/station/5/1136",
+        "lng": 123.1667, "verbose_name": "Margosatubig, Dumanquilas Bay", "station_id":
+        1136}, {"lat": 9.7333, "url": "/api/station/5/1137", "lng": 123.8333, "verbose_name":
+        "Maribojoc", "station_id": 1137}, {"lat": 12.3667, "url": "/api/station/5/1138",
+        "lng": 123.6167, "verbose_name": "Masbate", "station_id": 1138}, {"lat": 11.2333,
+        "url": "/api/station/5/1139", "lng": 125.5833, "verbose_name": "Matarinao
+        Bay", "station_id": 1139}, {"lat": 6.95, "url": "/api/station/5/1140", "lng":
+        126.2167, "verbose_name": "Mati, Pujada Bay", "station_id": 1140}, {"lat":
+        12.4333, "url": "/api/station/5/1141", "lng": 124.3167, "verbose_name": "Mauo",
+        "station_id": 1141}, {"lat": 11.1333, "url": "/api/station/5/1142", "lng":
+        123.9667, "verbose_name": "Medellin", "station_id": 1142}, {"lat": 10.0667,
+        "url": "/api/station/5/1143", "lng": 125.5167, "verbose_name": "Megar, Dinagat
+        Island", "station_id": 1143}, {"lat": 14.1167, "url": "/api/station/5/1144",
+        "lng": 123.0167, "verbose_name": "Mercedes", "station_id": 1144}, {"lat":
+        10.6333, "url": "/api/station/5/1145", "lng": 122.2333, "verbose_name": "Miagao",
+        "station_id": 1145}, {"lat": 9.9333, "url": "/api/station/5/1146", "lng":
+        123.4, "verbose_name": "Moalboal", "station_id": 1146}, {"lat": 8.6333, "url":
+        "/api/station/5/1147", "lng": 123.5667, "verbose_name": "Murcielagos", "station_id":
+        1147}, {"lat": 18.8667, "url": "/api/station/5/1148", "lng": 121.2833, "verbose_name":
+        "Musa Bay, Fuga Island", "station_id": 1148}, {"lat": 18.4833, "url": "/api/station/5/1149",
+        "lng": 120.5667, "verbose_name": "Nagabungan Bay", "station_id": 1149}, {"lat":
+        8.9833, "url": "/api/station/5/1150", "lng": 125.3333, "verbose_name": "Nasipit
+        Harbor, Butuan Bay", "station_id": 1150}, {"lat": 10.7333, "url": "/api/station/5/1151",
+        "lng": 122.6833, "verbose_name": "Navales, Guimaras Island", "station_id":
+        1151}, {"lat": 12.2333, "url": "/api/station/5/1152", "lng": 123.2833, "verbose_name":
+        "Nin Bay", "station_id": 1152}, {"lat": 11.4667, "url": "/api/station/5/1153",
+        "lng": 119.7667, "verbose_name": "Northwest Bay, Linapacan Island", "station_id":
+        1153}, {"lat": 14.8167, "url": "/api/station/5/1154", "lng": 120.2833, "verbose_name":
+        "Olongapo, Subic Bay", "station_id": 1154}, {"lat": 11.0, "url": "/api/station/5/1155",
+        "lng": 124.6, "verbose_name": "Ormoc", "station_id": 1155}, {"lat": 11.05,
+        "url": "/api/station/5/1156", "lng": 124.3833, "verbose_name": "Palompon",
+        "station_id": 1156}, {"lat": 13.4167, "url": "/api/station/5/1157", "lng":
+        120.4667, "verbose_name": "Paluan", "station_id": 1157}, {"lat": 10.7, "url":
+        "/api/station/5/1158", "lng": 119.7, "verbose_name": "Paly Island", "station_id":
+        1158}, {"lat": 7.5833, "url": "/api/station/5/1159", "lng": 122.1333, "verbose_name":
+        "Panabutan Bay", "station_id": 1159}, {"lat": 6.25, "url": "/api/station/5/1160",
+        "lng": 120.5, "verbose_name": "Pangutaran Island", "station_id": 1160}, {"lat":
+        11.7, "url": "/api/station/5/1161", "lng": 124.75, "verbose_name": "Parasan
+        Harbor, Daram Island", "station_id": 1161}, {"lat": 13.5, "url": "/api/station/5/1162",
+        "lng": 123.0333, "verbose_name": "Pasacao, Ragay Gulf", "station_id": 1162},
+        {"lat": 18.4, "url": "/api/station/5/1163", "lng": 122.3, "verbose_name":
+        "Patunungan Bay, Philippines", "station_id": 1163}, {"lat": 5.85, "url": "/api/station/5/1164",
+        "lng": 119.7333, "verbose_name": "Pearl Bank", "station_id": 1164}, {"lat":
+        13.7833, "url": "/api/station/5/1165", "lng": 122.0833, "verbose_name": "Pitogo",
+        "station_id": 1165}, {"lat": 8.6167, "url": "/api/station/5/1166", "lng":
+        123.7167, "verbose_name": "Plaridel (Langaran)", "station_id": 1166}, {"lat":
+        14.7167, "url": "/api/station/5/1167", "lng": 121.9333, "verbose_name": "Polillo,
+        Polillo Island", "station_id": 1167}, {"lat": 11.4667, "url": "/api/station/5/1168",
+        "lng": 124.4833, "verbose_name": "Poro Island, Biliran Str", "station_id":
+        1168}, {"lat": 13.95, "url": "/api/station/5/1169", "lng": 124.3333, "verbose_name":
+        "Port Anajao, Catanduances Island", "station_id": 1169}, {"lat": 13.5333,
+        "url": "/api/station/5/1170", "lng": 121.8667, "verbose_name": "Port Balanacan",
+        "station_id": 1170}, {"lat": 7.5167, "url": "/api/station/5/1171", "lng":
+        122.4167, "verbose_name": "Port Banga, SibugueyBay", "station_id": 1171},
+        {"lat": 12.5, "url": "/api/station/5/1172", "lng": 123.3667, "verbose_name":
+        "Port Barrera", "station_id": 1172}, {"lat": 10.4667, "url": "/api/station/5/1173",
+        "lng": 119.1333, "verbose_name": "Port Barton", "station_id": 1173}, {"lat":
+        11.1, "url": "/api/station/5/1174", "lng": 122.5, "verbose_name": "Port Batan",
+        "station_id": 1174}, {"lat": 17.2833, "url": "/api/station/5/1175", "lng":
+        122.4167, "verbose_name": "Port Bicobian", "station_id": 1175}, {"lat": 12.7833,
+        "url": "/api/station/5/1176", "lng": 123.3167, "verbose_name": "Port Boca
+        Engano, Burias Island", "station_id": 1176}, {"lat": 9.05, "url": "/api/station/5/1177",
+        "lng": 123.1167, "verbose_name": "Port Bonbonon", "station_id": 1177}, {"lat":
+        5.0333, "url": "/api/station/5/1178", "lng": 119.7667, "verbose_name": "Port
+        Bongao, Tawitawi Island", "station_id": 1178}, {"lat": 12.0, "url": "/api/station/5/1179",
+        "lng": 124.0, "verbose_name": "Port Cataingan", "station_id": 1179}, {"lat":
+        12.9167, "url": "/api/station/5/1180", "lng": 121.7333, "verbose_name": "Port
+        Concepcion, Maestre de Campo I", "station_id": 1180}, {"lat": 13.5167, "url":
+        "/api/station/5/1181", "lng": 120.9667, "verbose_name": "Port Galera", "station_id":
+        1181}, {"lat": 6.55, "url": "/api/station/5/1182", "lng": 121.8667, "verbose_name":
+        "Port Holland, Basilian Island", "station_id": 1182}, {"lat": 14.3, "url":
+        "/api/station/5/1183", "lng": 122.6833, "verbose_name": "Port Jose Panganiban",
+        "station_id": 1183}, {"lat": 6.5333, "url": "/api/station/5/1184", "lng":
+        124.05, "verbose_name": "Port Lebak", "station_id": 1184}, {"lat": 15.5167,
+        "url": "/api/station/5/1185", "lng": 119.9167, "verbose_name": "Port Masinloc",
+        "station_id": 1185}, {"lat": 9.8667, "url": "/api/station/5/1186", "lng":
+        126.1, "verbose_name": "Port Pilar, Siargao Island", "station_id": 1186},
+        {"lat": 13.5167, "url": "/api/station/5/1187", "lng": 122.6, "verbose_name":
+        "Port Pusgo", "station_id": 1187}, {"lat": 12.6667, "url": "/api/station/5/1188",
+        "lng": 123.5833, "verbose_name": "Port San Miguel, Ticao Island", "station_id":
+        1188}, {"lat": 18.9, "url": "/api/station/5/1189", "lng": 121.8667, "verbose_name":
+        "Port San Pio Quinto, Camiguin Island", "station_id": 1189}, {"lat": 18.5167,
+        "url": "/api/station/5/1190", "lng": 122.1333, "verbose_name": "Port San Vicente",
+        "station_id": 1190}, {"lat": 7.7667, "url": "/api/station/5/1191", "lng":
+        122.1167, "verbose_name": "Port Santa Maria", "station_id": 1191}, {"lat":
+        5.55, "url": "/api/station/5/1192", "lng": 120.8167, "verbose_name": "Port
+        Siasi, Siasi Island", "station_id": 1192}, {"lat": 7.4333, "url": "/api/station/5/1193",
+        "lng": 122.8833, "verbose_name": "Port Sibulan", "station_id": 1193}, {"lat":
+        14.7667, "url": "/api/station/5/1194", "lng": 120.1167, "verbose_name": "Port
+        Silanguin", "station_id": 1194}, {"lat": 13.8167, "url": "/api/station/5/1195",
+        "lng": 120.2, "verbose_name": "Port Tilig, Lubang Island", "station_id": 1195},
+        {"lat": 9.7333, "url": "/api/station/5/1196", "lng": 118.7167, "verbose_name":
+        "Puerto Princesa", "station_id": 1196}, {"lat": 12.5833, "url": "/api/station/5/1197",
+        "lng": 122.2667, "verbose_name": "Romblon, Romblon Island", "station_id":
+        1197}, {"lat": 12.8333, "url": "/api/station/5/1198", "lng": 120.7667, "verbose_name":
+        "Sablayan", "station_id": 1198}, {"lat": 17.7833, "url": "/api/station/5/1199",
+        "lng": 120.4167, "verbose_name": "Salomague", "station_id": 1199}, {"lat":
+        12.75, "url": "/api/station/5/1200", "lng": 124.2833, "verbose_name": "San
+        Bernardino Island", "station_id": 1200}, {"lat": 10.4833, "url": "/api/station/5/1201",
+        "lng": 123.4167, "verbose_name": "San Carlos", "station_id": 1201}, {"lat":
+        16.6167, "url": "/api/station/5/1202", "lng": 120.3, "verbose_name": "San
+        Fernando, Philippines", "station_id": 1202}, {"lat": 12.5667, "url": "/api/station/5/1203",
+        "lng": 123.7333, "verbose_name": "San Jacinto, Ticao Island", "station_id":
+        1203}, {"lat": 10.7333, "url": "/api/station/5/1204", "lng": 121.9333, "verbose_name":
+        "San Jose", "station_id": 1204}, {"lat": 9.7333, "url": "/api/station/5/1205",
+        "lng": 126.0333, "verbose_name": "San Miguel, E. Bugas Island", "station_id":
+        1205}, {"lat": 11.5, "url": "/api/station/5/1206", "lng": 119.8667, "verbose_name":
+        "San Miguel, Linacapan Island", "station_id": 1206}, {"lat": 11.45, "url":
+        "/api/station/5/1207", "lng": 119.8167, "verbose_name": "San Nicolas, Linapacan
+        Island", "station_id": 1207}, {"lat": 13.1333, "url": "/api/station/5/1208",
+        "lng": 122.9833, "verbose_name": "San Pascual, Burias Island", "station_id":
+        1208}, {"lat": 10.1, "url": "/api/station/5/1209", "lng": 125.4833, "verbose_name":
+        "San Roque, Dinagat Island", "station_id": 1209}, {"lat": 15.7667, "url":
+        "/api/station/5/1210", "lng": 119.9, "verbose_name": "Santa Cruz", "station_id":
+        1210}, {"lat": 13.5, "url": "/api/station/5/1211", "lng": 122.0667, "verbose_name":
+        "Santa Cruz Harbor", "station_id": 1211}, {"lat": 15.7667, "url": "/api/station/5/1212",
+        "lng": 119.9, "verbose_name": "Santa Cruz, Philippines", "station_id": 1212},
+        {"lat": 11.4333, "url": "/api/station/5/1213", "lng": 124.9667, "verbose_name":
+        "Santa Rita Isl, San Juanico Str", "station_id": 1213}, {"lat": 11.9333, "url":
+        "/api/station/5/1214", "lng": 124.45, "verbose_name": "Santo Nino, Santo Nino
+        Island", "station_id": 1214}, {"lat": 16.2833, "url": "/api/station/5/1215",
+        "lng": 120.3833, "verbose_name": "Santo Tomas, Lingayen Gulf", "station_id":
+        1215}, {"lat": 5.8333, "url": "/api/station/5/1216", "lng": 125.2, "verbose_name":
+        "Sarangani Bay", "station_id": 1216}, {"lat": 5.4167, "url": "/api/station/5/1217",
+        "lng": 125.45, "verbose_name": "Sarangani Island", "station_id": 1217}, {"lat":
+        8.1833, "url": "/api/station/5/1218", "lng": 117.0167, "verbose_name": "Secam
+        Island, N. Balabc Str", "station_id": 1218}, {"lat": 7.3167, "url": "/api/station/5/1219",
+        "lng": 122.0667, "verbose_name": "Sibuco Bay", "station_id": 1219}, {"lat":
+        5.9667, "url": "/api/station/5/1220", "lng": 121.5667, "verbose_name": "Simisa
+        Island", "station_id": 1220}, {"lat": 8.7667, "url": "/api/station/5/1221",
+        "lng": 117.8333, "verbose_name": "Sir J. Brooke Point", "station_id": 1221},
+        {"lat": 13.9333, "url": "/api/station/5/1222", "lng": 123.65, "verbose_name":
+        "Sisiran Bay", "station_id": 1222}, {"lat": 9.6, "url": "/api/station/5/1223",
+        "lng": 125.9167, "verbose_name": "Sohutan Bay, Bucas Grande Island", "station_id":
+        1223}, {"lat": 17.45, "url": "/api/station/5/1224", "lng": 120.45, "verbose_name":
+        "Solvec Cove", "station_id": 1224}, {"lat": 12.9667, "url": "/api/station/5/1225",
+        "lng": 124.0, "verbose_name": "Sorsogon", "station_id": 1225}, {"lat": 5.2,
+        "url": "/api/station/5/1226", "lng": 120.5, "verbose_name": "South Ubian Island",
+        "station_id": 1226}, {"lat": 16.0667, "url": "/api/station/5/1227", "lng":
+        120.1, "verbose_name": "Sual, Lingayen Gulf", "station_id": 1227}, {"lat":
+        9.8, "url": "/api/station/5/1228", "lng": 125.4833, "verbose_name": "Surigao",
+        "station_id": 1228}, {"lat": 7.5833, "url": "/api/station/5/1229", "lng":
+        122.7833, "verbose_name": "Taba Bay, Sibuguey Bay", "station_id": 1229}, {"lat":
+        13.3667, "url": "/api/station/5/1230", "lng": 123.7333, "verbose_name": "Tabaco,
+        Tabaco Bay", "station_id": 1230}, {"lat": 13.8333, "url": "/api/station/5/1231",
+        "lng": 123.8167, "verbose_name": "Tabgon Bay", "station_id": 1231}, {"lat":
+        11.25, "url": "/api/station/5/1232", "lng": 125.0, "verbose_name": "Tacloban,
+        Philippines", "station_id": 1232}, {"lat": 11.25, "url": "/api/station/5/1233",
+        "lng": 125.0, "verbose_name": "Tacloban, San Juanico Str", "station_id": 1233},
+        {"lat": 8.7, "url": "/api/station/5/1234", "lng": 117.3333, "verbose_name":
+        "Tagbita Bay", "station_id": 1234}, {"lat": 11.5333, "url": "/api/station/5/1235",
+        "lng": 124.8333, "verbose_name": "Talalora", "station_id": 1235}, {"lat":
+        12.65, "url": "/api/station/5/1236", "lng": 124.4167, "verbose_name": "Talisay
+        Island", "station_id": 1236}, {"lat": 9.0833, "url": "/api/station/5/1237",
+        "lng": 126.2, "verbose_name": "Tandag", "station_id": 1237}, {"lat": 5.2167,
+        "url": "/api/station/5/1238", "lng": 120.3167, "verbose_name": "Tandugan Channel,
+        Tawitawi Island", "station_id": 1238}, {"lat": 5.25, "url": "/api/station/5/1239",
+        "lng": 119.95, "verbose_name": "Tataan Pass, Tawitawi Islland", "station_id":
+        1239}, {"lat": 13.9, "url": "/api/station/5/1240", "lng": 121.6, "verbose_name":
+        "Tayabas River Entr", "station_id": 1240}, {"lat": 9.9, "url": "/api/station/5/1241",
+        "lng": 125.9, "verbose_name": "Tayanan, Kangbangyo Island", "station_id":
+        1241}, {"lat": 10.8333, "url": "/api/station/5/1242", "lng": 119.5167, "verbose_name":
+        "Taytay", "station_id": 1242}, {"lat": 11.2833, "url": "/api/station/5/1243",
+        "lng": 122.0333, "verbose_name": "Tibiao", "station_id": 1243}, {"lat": 7.75,
+        "url": "/api/station/5/1244", "lng": 122.7333, "verbose_name": "Ticauan Point,
+        Sibuguey Bay", "station_id": 1244}, {"lat": 10.0667, "url": "/api/station/5/1245",
+        "lng": 119.2, "verbose_name": "Tinitian, Green Island Bay", "station_id":
+        1245}, {"lat": 13.3167, "url": "/api/station/5/1246", "lng": 122.0833, "verbose_name":
+        "Torrijos", "station_id": 1246}, {"lat": 9.95, "url": "/api/station/5/1247",
+        "lng": 123.9667, "verbose_name": "Tubigon", "station_id": 1247}, {"lat": 10.7333,
+        "url": "/api/station/5/1248", "lng": 123.8167, "verbose_name": "Tuburan",
+        "station_id": 1248}, {"lat": 9.4833, "url": "/api/station/5/1249", "lng":
+        125.95, "verbose_name": "Tugas Point", "station_id": 1249}, {"lat": 6.0167,
+        "url": "/api/station/5/1250", "lng": 121.3167, "verbose_name": "Tulayan Island",
+        "station_id": 1250}, {"lat": 4.7833, "url": "/api/station/5/1251", "lng":
+        119.4167, "verbose_name": "Tumindao Channel", "station_id": 1251}, {"lat":
+        11.3667, "url": "/api/station/5/1252", "lng": 124.9833, "verbose_name": "Uban
+        Point, San Juanico Str", "station_id": 1252}, {"lat": 10.0667, "url": "/api/station/5/1253",
+        "lng": 124.4667, "verbose_name": "Ubay", "station_id": 1253}, {"lat": 10.1,
+        "url": "/api/station/5/1254", "lng": 118.7833, "verbose_name": "Ulugan Bay",
+        "station_id": 1254}, {"lat": 15.2, "url": "/api/station/5/1255", "lng": 121.4333,
+        "verbose_name": "Umiray River Entr, Dingalan Bay", "station_id": 1255}, {"lat":
+        13.5833, "url": "/api/station/5/1256", "lng": 124.2333, "verbose_name": "Virac,
+        Catanduances Island", "station_id": 1256}, {"lat": 6.9, "url": "/api/station/5/1257",
+        "lng": 122.0667, "verbose_name": "Zamboanga", "station_id": 1257}], "icon":
+        "yellow.png", "verbose_name": "Tide Level Stations", "type_id": 5}]'
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 00:19:42 GMT
+recorded_with: VCR 2.9.3
