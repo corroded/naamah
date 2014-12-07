@@ -14,4 +14,6 @@ def record_api_call_for(method_name)
   VCR.use_cassette method_name do
     @api_response = Noah::Api.send(method_name)
   end
+
+  @json_data = JSON.parse(@api_response).first
 end

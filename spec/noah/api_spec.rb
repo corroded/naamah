@@ -64,9 +64,7 @@ RSpec.describe Noah::Api do
     end
 
     it 'should have a list of weather stations that have the ff: coordinates, url, name, id' do
-      json_data = JSON.parse(@api_response)
-
-      sample_station = json_data.first['stations'].first
+      sample_station = @json_data['stations'].first
 
       expect(sample_station['lat']).to_not be_nil
       expect(sample_station['lng']).to_not be_nil
@@ -82,15 +80,13 @@ RSpec.describe Noah::Api do
     end
 
     it 'should have seven top level fields: last_update, source, location, lat, lng, icon, data' do
-      json_data = JSON.parse(@api_response).first
-
-      expect(json_data['lat']).to_not be_nil
-      expect(json_data['lng']).to_not be_nil
-      expect(json_data['last_update']).to_not be_nil
-      expect(json_data['source']).to_not be_nil
-      # expect(json_data['icon']).to_not be_nil commenting out bec we don't receive the icon field as of now 11/29/2014
-      expect(json_data['data']).to_not be_nil
-      expect(json_data['location']).to_not be_nil
+      expect(@json_data['lat']).to_not be_nil
+      expect(@json_data['lng']).to_not be_nil
+      expect(@json_data['last_update']).to_not be_nil
+      expect(@json_data['source']).to_not be_nil
+      # expect(@json_data['icon']).to_not be_nil commenting out bec we don't receive the icon field as of now 11/29/2014
+      expect(@json_data['data']).to_not be_nil
+      expect(@json_data['location']).to_not be_nil
     end
   end
 
@@ -100,15 +96,37 @@ RSpec.describe Noah::Api do
     end
 
     it 'should have seven top level fields: last_update, source, location, lat, lng, icon, data' do
-      json_data = JSON.parse(@api_response).first
+      expect(@json_data['lat']).to_not be_nil
+      expect(@json_data['lng']).to_not be_nil
+      expect(@json_data['last_update']).to_not be_nil
+      expect(@json_data['source']).to_not be_nil
+      # expect(@json_data['icon']).to_not be_nil commenting out bec we don't receive the icon field as of now 11/29/2014
+      expect(@json_data['data']).to_not be_nil
+      expect(@json_data['location']).to_not be_nil
+    end
+  end
 
-      expect(json_data['lat']).to_not be_nil
-      expect(json_data['lng']).to_not be_nil
-      expect(json_data['last_update']).to_not be_nil
-      expect(json_data['source']).to_not be_nil
-      # expect(json_data['icon']).to_not be_nil commenting out bec we don't receive the icon field as of now 11/29/2014
-      expect(json_data['data']).to_not be_nil
-      expect(json_data['location']).to_not be_nil
+  describe '.flood_maps' do
+    before do
+      record_api_call_for 'flood_maps'
+    end
+
+    it 'should have the type_id, verbose_name and layers fields' do
+      expect(@json_data['type_id']).to_not be_nil
+      expect(@json_data['verbose_name']).to_not be_nil
+      expect(@json_data['layers']).to_not be_nil
+    end
+  end
+
+  describe '.landslide_maps' do
+    before do
+      record_api_call_for 'landslide_maps'
+    end
+
+    it 'should have the type_id, verbose_name and layers fields' do
+      expect(@json_data['type_id']).to_not be_nil
+      expect(@json_data['verbose_name']).to_not be_nil
+      expect(@json_data['layers']).to_not be_nil
     end
   end
 end
