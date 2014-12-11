@@ -34,3 +34,7 @@ These are the current (v1.0) commands that are available:
 So for example, you want to get a list of regions, simply do:
 
     Noah::Api.regions
+
+## TODO:
+
+- Create a CLI
