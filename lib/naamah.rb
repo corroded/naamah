@@ -1,6 +1,6 @@
-require 'noah/version'
+require 'naamah/version'
 require 'httparty'
 
-module Noah
+module Naamah
   # Your code goes here...
 end

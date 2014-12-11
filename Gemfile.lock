@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    noah (0.0.1)
+    naamah (0.0.1)
       httparty (~> 0.13)
 
 GEM
@@ -54,7 +54,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.6)
-  noah!
+  naamah!
   pry (~> 0.10)
   rake (~> 10.3)
   rspec (~> 3.1)

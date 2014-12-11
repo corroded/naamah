@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe Noah::Api do
+RSpec.describe Naamah::Api do
   after do
     VCR.eject_cassette
   end

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'noah/version'
+require 'naamah/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'noah'
-  spec.version       = Noah::VERSION
+  spec.name          = 'naamah'
+  spec.version       = Naamah::VERSION
   spec.authors       = ['Eumir Gaspar']
   spec.email         = ['eumir@aelogica.com']
   spec.summary       = %q{A Ruby wrapper for the Project Noah API}

@@ -1,0 +1,131 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beta.noah.dost.gov.ph/api/provinces
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.0
+      Date:
+      - Thu, 11 Dec 2014 09:07:41 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '7853'
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"944f22511b90a41e5ee08d29ef1928e41f9a57e5"'
+    body:
+      encoding: US-ASCII
+      string: ! '[{"verbose_name": "Ilocos Norte", "region_psgc": "010000000", "province_psgc":
+        "012800000"}, {"verbose_name": "Ilocos Sur", "region_psgc": "010000000", "province_psgc":
+        "012900000"}, {"verbose_name": "La Union", "region_psgc": "010000000", "province_psgc":
+        "013300000"}, {"verbose_name": "Pangasinan", "region_psgc": "010000000", "province_psgc":
+        "015500000"}, {"verbose_name": "Batanes", "region_psgc": "020000000", "province_psgc":
+        "020900000"}, {"verbose_name": "Cagayan", "region_psgc": "020000000", "province_psgc":
+        "021500000"}, {"verbose_name": "Isabela", "region_psgc": "020000000", "province_psgc":
+        "023100000"}, {"verbose_name": "Nueva Vizcaya", "region_psgc": "020000000",
+        "province_psgc": "025000000"}, {"verbose_name": "Quirino", "region_psgc":
+        "020000000", "province_psgc": "025700000"}, {"verbose_name": "Bataan", "region_psgc":
+        "030000000", "province_psgc": "030800000"}, {"verbose_name": "Bulacan", "region_psgc":
+        "030000000", "province_psgc": "031400000"}, {"verbose_name": "Nueva Ecija",
+        "region_psgc": "030000000", "province_psgc": "034900000"}, {"verbose_name":
+        "Pampanga", "region_psgc": "030000000", "province_psgc": "035400000"}, {"verbose_name":
+        "Tarlac", "region_psgc": "030000000", "province_psgc": "036900000"}, {"verbose_name":
+        "Zambales", "region_psgc": "030000000", "province_psgc": "037100000"}, {"verbose_name":
+        "Aurora", "region_psgc": "030000000", "province_psgc": "037700000"}, {"verbose_name":
+        "Batangas", "region_psgc": "040000000", "province_psgc": "041000000"}, {"verbose_name":
+        "Cavite", "region_psgc": "040000000", "province_psgc": "042100000"}, {"verbose_name":
+        "Laguna", "region_psgc": "040000000", "province_psgc": "043400000"}, {"verbose_name":
+        "Quezon", "region_psgc": "040000000", "province_psgc": "045600000"}, {"verbose_name":
+        "Rizal", "region_psgc": "040000000", "province_psgc": "045800000"}, {"verbose_name":
+        "Albay", "region_psgc": "050000000", "province_psgc": "050500000"}, {"verbose_name":
+        "Camarines Norte", "region_psgc": "050000000", "province_psgc": "051600000"},
+        {"verbose_name": "Camarines Sur", "region_psgc": "050000000", "province_psgc":
+        "051700000"}, {"verbose_name": "Catanduanes", "region_psgc": "050000000",
+        "province_psgc": "052000000"}, {"verbose_name": "Masbate", "region_psgc":
+        "050000000", "province_psgc": "054100000"}, {"verbose_name": "Sorsogon", "region_psgc":
+        "050000000", "province_psgc": "056200000"}, {"verbose_name": "Aklan", "region_psgc":
+        "060000000", "province_psgc": "060400000"}, {"verbose_name": "Antique", "region_psgc":
+        "060000000", "province_psgc": "060600000"}, {"verbose_name": "Capiz", "region_psgc":
+        "060000000", "province_psgc": "061900000"}, {"verbose_name": "Iloilo", "region_psgc":
+        "060000000", "province_psgc": "063000000"}, {"verbose_name": "Negros Occidental",
+        "region_psgc": "060000000", "province_psgc": "064500000"}, {"verbose_name":
+        "Guimaras", "region_psgc": "060000000", "province_psgc": "067900000"}, {"verbose_name":
+        "Bohol", "region_psgc": "070000000", "province_psgc": "071200000"}, {"verbose_name":
+        "Cebu", "region_psgc": "070000000", "province_psgc": "072200000"}, {"verbose_name":
+        "Negros Oriental", "region_psgc": "070000000", "province_psgc": "074600000"},
+        {"verbose_name": "Siquijor", "region_psgc": "070000000", "province_psgc":
+        "076100000"}, {"verbose_name": "Eastern Samar", "region_psgc": "080000000",
+        "province_psgc": "082600000"}, {"verbose_name": "Leyte", "region_psgc": "080000000",
+        "province_psgc": "083700000"}, {"verbose_name": "Northern Samar", "region_psgc":
+        "080000000", "province_psgc": "084800000"}, {"verbose_name": "Samar", "region_psgc":
+        "080000000", "province_psgc": "086000000"}, {"verbose_name": "Southern Leyte",
+        "region_psgc": "080000000", "province_psgc": "086400000"}, {"verbose_name":
+        "Biliran", "region_psgc": "080000000", "province_psgc": "087800000"}, {"verbose_name":
+        "Zamboanga del Norte", "region_psgc": "090000000", "province_psgc": "097200000"},
+        {"verbose_name": "Zamboanga del Sur", "region_psgc": "090000000", "province_psgc":
+        "097300000"}, {"verbose_name": "Zamboanga Sibugay", "region_psgc": "090000000",
+        "province_psgc": "098300000"}, {"verbose_name": "City of Isabela", "region_psgc":
+        "090000000", "province_psgc": "099700000"}, {"verbose_name": "Bukidnon", "region_psgc":
+        "100000000", "province_psgc": "101300000"}, {"verbose_name": "Camiguin", "region_psgc":
+        "100000000", "province_psgc": "101800000"}, {"verbose_name": "Lanao del Norte",
+        "region_psgc": "100000000", "province_psgc": "103500000"}, {"verbose_name":
+        "Misamis Occidental", "region_psgc": "100000000", "province_psgc": "104200000"},
+        {"verbose_name": "Misamis Oriental", "region_psgc": "100000000", "province_psgc":
+        "104300000"}, {"verbose_name": "Davao del Norte", "region_psgc": "110000000",
+        "province_psgc": "112300000"}, {"verbose_name": "Davao del Sur", "region_psgc":
+        "110000000", "province_psgc": "112400000"}, {"verbose_name": "Davao Oriental",
+        "region_psgc": "110000000", "province_psgc": "112500000"}, {"verbose_name":
+        "Compostela Valley", "region_psgc": "110000000", "province_psgc": "118200000"},
+        {"verbose_name": "Davao Occidental", "region_psgc": "110000000", "province_psgc":
+        "118600000"}, {"verbose_name": "Cotabato", "region_psgc": "120000000", "province_psgc":
+        "124700000"}, {"verbose_name": "South Cotabato", "region_psgc": "120000000",
+        "province_psgc": "126300000"}, {"verbose_name": "Sultan Kudarat", "region_psgc":
+        "120000000", "province_psgc": "126500000"}, {"verbose_name": "Sarangani",
+        "region_psgc": "120000000", "province_psgc": "128000000"}, {"verbose_name":
+        "Cotabato City", "region_psgc": "120000000", "province_psgc": "129800000"},
+        {"verbose_name": "District 1", "region_psgc": "130000000", "province_psgc":
+        "133900000"}, {"verbose_name": "District 2", "region_psgc": "130000000", "province_psgc":
+        "137400000"}, {"verbose_name": "District 3", "region_psgc": "130000000", "province_psgc":
+        "137500000"}, {"verbose_name": "District 4", "region_psgc": "130000000", "province_psgc":
+        "137600000"}, {"verbose_name": "Abra", "region_psgc": "140000000", "province_psgc":
+        "140100000"}, {"verbose_name": "Benguet", "region_psgc": "140000000", "province_psgc":
+        "141100000"}, {"verbose_name": "Ifugao", "region_psgc": "140000000", "province_psgc":
+        "142700000"}, {"verbose_name": "Kalinga", "region_psgc": "140000000", "province_psgc":
+        "143200000"}, {"verbose_name": "Mountain Province", "region_psgc": "140000000",
+        "province_psgc": "144400000"}, {"verbose_name": "Apayao", "region_psgc": "140000000",
+        "province_psgc": "148100000"}, {"verbose_name": "Basilan", "region_psgc":
+        "150000000", "province_psgc": "150700000"}, {"verbose_name": "Lanao del Sur",
+        "region_psgc": "150000000", "province_psgc": "153600000"}, {"verbose_name":
+        "Maguindanao", "region_psgc": "150000000", "province_psgc": "153800000"},
+        {"verbose_name": "Sulu", "region_psgc": "150000000", "province_psgc": "156600000"},
+        {"verbose_name": "Tawi-Tawi", "region_psgc": "150000000", "province_psgc":
+        "157000000"}, {"verbose_name": "Agusan del Norte", "region_psgc": "160000000",
+        "province_psgc": "160200000"}, {"verbose_name": "Agusan del Sur", "region_psgc":
+        "160000000", "province_psgc": "160300000"}, {"verbose_name": "Surigao del
+        Norte", "region_psgc": "160000000", "province_psgc": "166700000"}, {"verbose_name":
+        "Surigao del Sur", "region_psgc": "160000000", "province_psgc": "166800000"},
+        {"verbose_name": "Dinagat Islands", "region_psgc": "160000000", "province_psgc":
+        "168500000"}, {"verbose_name": "Marinduque", "region_psgc": "170000000", "province_psgc":
+        "174000000"}, {"verbose_name": "Occidental Mindoro", "region_psgc": "170000000",
+        "province_psgc": "175100000"}, {"verbose_name": "Oriental Mindoro", "region_psgc":
+        "170000000", "province_psgc": "175200000"}, {"verbose_name": "Palawan", "region_psgc":
+        "170000000", "province_psgc": "175300000"}, {"verbose_name": "Romblon", "region_psgc":
+        "170000000", "province_psgc": "175900000"}]'
+    http_version: 
+  recorded_at: Thu, 11 Dec 2014 09:07:44 GMT
+recorded_with: VCR 2.9.3

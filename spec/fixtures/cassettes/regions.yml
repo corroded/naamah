@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://beta.noah.dost.gov.ph/api/regions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.0
+      Date:
+      - Thu, 11 Dec 2014 09:07:42 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '994'
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"69703d8fa6c9561ccc28cbed4946c967d6f2662e"'
+    body:
+      encoding: US-ASCII
+      string: ! '[{"verbose_name": "Region I", "region_psgc": "010000000"}, {"verbose_name":
+        "Region II", "region_psgc": "020000000"}, {"verbose_name": "Region III", "region_psgc":
+        "030000000"}, {"verbose_name": "Region IV-A", "region_psgc": "040000000"},
+        {"verbose_name": "Region V", "region_psgc": "050000000"}, {"verbose_name":
+        "Region VI", "region_psgc": "060000000"}, {"verbose_name": "Region VII", "region_psgc":
+        "070000000"}, {"verbose_name": "Region VIII", "region_psgc": "080000000"},
+        {"verbose_name": "Region IX", "region_psgc": "090000000"}, {"verbose_name":
+        "Region X", "region_psgc": "100000000"}, {"verbose_name": "Region XI", "region_psgc":
+        "110000000"}, {"verbose_name": "Region XII", "region_psgc": "120000000"},
+        {"verbose_name": "NCR", "region_psgc": "130000000"}, {"verbose_name": "CAR",
+        "region_psgc": "140000000"}, {"verbose_name": "ARMM", "region_psgc": "150000000"},
+        {"verbose_name": "Region XIII", "region_psgc": "160000000"}, {"verbose_name":
+        "Region IV-B", "region_psgc": "170000000"}]'
+    http_version: 
+  recorded_at: Thu, 11 Dec 2014 09:07:45 GMT
+recorded_with: VCR 2.9.3

@@ -1,3 +1,3 @@
-module Noah
+module Naamah
   VERSION = "0.0.1"
 end

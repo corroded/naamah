@@ -1,6 +1,6 @@
 require 'httparty'
 
-module Noah
+module Naamah
   class Api
     include HTTParty
 
