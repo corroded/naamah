@@ -129,4 +129,52 @@ RSpec.describe Noah::Api do
       expect(@json_data['layers']).to_not be_nil
     end
   end
+
+  describe '.storm_surge_maps' do
+    before do
+      record_api_call_for 'storm_surge_maps'
+    end
+
+    it 'should have type_id, verbose_name and layers fields' do
+      expect(@json_data['type_id']).to_not be_nil
+      expect(@json_data['verbose_name']).to_not be_nil
+      expect(@json_data['layers']).to_not be_nil
+    end
+  end
+
+  describe '.muncities' do
+    before do
+      record_api_call_for 'muncities'
+    end
+
+    it 'should return a list of municipalities/cities which contain a name and psgc codes' do
+      expect(@json_data['mun_city_psgc']).to_not be_nil
+      expect(@json_data['province_psgc']).to_not be_nil
+      expect(@json_data['region_psgc']).to_not be_nil
+      expect(@json_data['verbose_name']).to_not be_nil
+    end
+  end
+
+  describe '.provinces' do
+    before do
+      record_api_call_for 'provinces'
+    end
+
+    it 'should return a list of provinces which contain the name and psgc codes' do
+      expect(@json_data['province_psgc']).to_not be_nil
+      expect(@json_data['region_psgc']).to_not be_nil
+      expect(@json_data['verbose_name']).to_not be_nil
+    end
+  end
+
+  describe '.regions' do
+    before do
+      record_api_call_for 'regions'
+    end
+
+    it 'should return a list of regions which contain the name and psgc codes' do
+      expect(@json_data['region_psgc']).to_not be_nil
+      expect(@json_data['verbose_name']).to_not be_nil
+    end
+  end
 end
