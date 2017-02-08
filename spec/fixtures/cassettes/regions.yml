@@ -2,13 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: http://beta.noah.dost.gov.ph/api/regions
+    uri: http://noah.dost.gov.ph/api/regions
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,20 +19,20 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.6.0
+      - nginx/1.1.19
       Date:
-      - Thu, 11 Dec 2014 09:07:42 GMT
+      - Tue, 31 Jan 2017 14:00:43 GMT
       Content-Type:
       - text/html; charset=UTF-8
-      Content-Length:
-      - '994'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Etag:
-      - ! '"69703d8fa6c9561ccc28cbed4946c967d6f2662e"'
+      - '"69703d8fa6c9561ccc28cbed4946c967d6f2662e"'
     body:
-      encoding: US-ASCII
-      string: ! '[{"verbose_name": "Region I", "region_psgc": "010000000"}, {"verbose_name":
+      encoding: ASCII-8BIT
+      string: '[{"verbose_name": "Region I", "region_psgc": "010000000"}, {"verbose_name":
         "Region II", "region_psgc": "020000000"}, {"verbose_name": "Region III", "region_psgc":
         "030000000"}, {"verbose_name": "Region IV-A", "region_psgc": "040000000"},
         {"verbose_name": "Region V", "region_psgc": "050000000"}, {"verbose_name":
@@ -44,5 +46,5 @@ http_interactions:
         {"verbose_name": "Region XIII", "region_psgc": "160000000"}, {"verbose_name":
         "Region IV-B", "region_psgc": "170000000"}]'
     http_version: 
-  recorded_at: Thu, 11 Dec 2014 09:07:45 GMT
+  recorded_at: Tue, 31 Jan 2017 14:01:15 GMT
 recorded_with: VCR 2.9.3

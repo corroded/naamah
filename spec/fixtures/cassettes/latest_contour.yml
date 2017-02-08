@@ -2,13 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: http://beta.noah.dost.gov.ph/api/latest_contour
+    uri: http://noah.dost.gov.ph/api/latest_contour
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,28 +19,34 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.6.0
+      - nginx/1.1.19
       Date:
-      - Sat, 29 Nov 2014 00:19:37 GMT
+      - Tue, 31 Jan 2017 14:00:36 GMT
       Content-Type:
       - text/html; charset=UTF-8
-      Content-Length:
-      - '704'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Etag:
-      - ! '"0c9e31dc8a125af6bda755994670671fc88c3e46"'
     body:
-      encoding: US-ASCII
-      string: ! '[{"url": "http://mahar.pscigrid.gov.ph/static/img/air_temperature_contour.png",
-        "verbose_name": "Temperature Contour", "extent": [115.2, 3.89, 128.135, 21.528],
-        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/air_pressure_contour.png",
-        "verbose_name": "Pressure Contour", "extent": [115.2, 3.89, 128.135, 21.528],
-        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/air_humidity_contour.png",
-        "verbose_name": "Humidity Contour", "extent": [115.2, 3.89, 128.135, 21.528],
-        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/rain_value_contour.png",
-        "verbose_name": "Rainfall Contour", "extent": [115.2, 3.89, 128.135, 21.528],
+      encoding: ASCII-8BIT
+      string: '[{"url": "http://noah.dost.gov.ph/static/img/latest_contours/rain_value_contour.png",
+        "verbose_name": "1-hour Rainfall Contour", "extent": [115.28, 3.89, 128.285,
+        21.528], "size": [400, 549]}, {"url": "http://noah.dost.gov.ph/static/img/latest_contours/accumulated_rainfall_3.png",
+        "verbose_name": "3-hour Rainfall Contour", "extent": [115.28, 3.89, 128.285,
+        21.528], "size": [400, 549]}, {"url": "http://noah.dost.gov.ph/static/img/latest_contours/accumulated_rainfall_6.png",
+        "verbose_name": "6-hour Rainfall Contour", "extent": [115.28, 3.89, 128.285,
+        21.528], "size": [400, 549]}, {"url": "http://noah.dost.gov.ph/static/img/latest_contours/accumulated_rainfall_12.png",
+        "verbose_name": "12-hour Rainfall Contour", "extent": [115.28, 3.89, 128.285,
+        21.528], "size": [400, 549]}, {"url": "http://noah.dost.gov.ph/static/img/latest_contours/accumulated_rainfall_24.png",
+        "verbose_name": "24-hour Rainfall Contour", "extent": [115.28, 3.89, 128.285,
+        21.528], "size": [400, 549]}, {"url": "http://noah.dost.gov.ph/static/img/latest_contours/air_temperature_contour.png",
+        "verbose_name": "Temperature Contour", "extent": [115.28, 3.89, 128.285, 21.528],
+        "size": [400, 549]}, {"url": "http://noah.dost.gov.ph/static/img/latest_contours/air_pressure_contour.png",
+        "verbose_name": "Pressure Contour", "extent": [115.28, 3.89, 128.285, 21.528],
+        "size": [400, 549]}, {"url": "http://noah.dost.gov.ph/static/img/latest_contours/air_humidity_contour.png",
+        "verbose_name": "Humidity Contour", "extent": [115.28, 3.89, 128.285, 21.528],
         "size": [400, 549]}]'
     http_version: 
-  recorded_at: Sat, 29 Nov 2014 00:19:38 GMT
+  recorded_at: Tue, 31 Jan 2017 14:01:09 GMT
 recorded_with: VCR 2.9.3

@@ -2,13 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: http://beta.noah.dost.gov.ph/api/provinces
+    uri: http://noah.dost.gov.ph/api/provinces
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,20 +19,18 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.6.0
+      - nginx/1.1.19
       Date:
-      - Thu, 11 Dec 2014 09:07:41 GMT
+      - Tue, 31 Jan 2017 14:00:42 GMT
       Content-Type:
       - text/html; charset=UTF-8
-      Content-Length:
-      - '7853'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Etag:
-      - ! '"944f22511b90a41e5ee08d29ef1928e41f9a57e5"'
     body:
-      encoding: US-ASCII
-      string: ! '[{"verbose_name": "Ilocos Norte", "region_psgc": "010000000", "province_psgc":
+      encoding: ASCII-8BIT
+      string: '[{"verbose_name": "Ilocos Norte", "region_psgc": "010000000", "province_psgc":
         "012800000"}, {"verbose_name": "Ilocos Sur", "region_psgc": "010000000", "province_psgc":
         "012900000"}, {"verbose_name": "La Union", "region_psgc": "010000000", "province_psgc":
         "013300000"}, {"verbose_name": "Pangasinan", "region_psgc": "010000000", "province_psgc":
@@ -127,5 +127,5 @@ http_interactions:
         "170000000", "province_psgc": "175300000"}, {"verbose_name": "Romblon", "region_psgc":
         "170000000", "province_psgc": "175900000"}]'
     http_version: 
-  recorded_at: Thu, 11 Dec 2014 09:07:44 GMT
+  recorded_at: Tue, 31 Jan 2017 14:01:15 GMT
 recorded_with: VCR 2.9.3

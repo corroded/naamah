@@ -2,13 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: http://beta.noah.dost.gov.ph/api/mtsat
+    uri: http://noah.dost.gov.ph/api/mtsat
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,25 +19,30 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.6.0
+      - nginx/1.1.19
       Date:
-      - Sat, 29 Nov 2014 00:19:36 GMT
+      - Wed, 08 Feb 2017 18:22:14 GMT
       Content-Type:
       - text/html; charset=UTF-8
-      Content-Length:
-      - '422'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Etag:
-      - ! '"1f5e9949c44a5b705d1fe9a621073a9313743a5c"'
+      - '"14c0d8c962ecadc5dd303deab4bccf738f7a7e14"'
     body:
-      encoding: US-ASCII
-      string: ! '[{"url": "http://climatex.dost.gov.ph/img/IR_rbow5.png", "verbose_name":
-        "MTSAT", "extent": [99.6, 2.5, 148.2, 26.9], "size": [674, 337]}, {"url":
-        "http://climatex.dost.gov.ph/img/IRWV5.png", "verbose_name": "Processed MTSAT",
-        "extent": [99.6, 2.5, 148.2, 26.9], "size": [674, 337]}, {"url": "http://climatex.dost.gov.ph/img/VIS4.png",
-        "verbose_name": "MTSAT VIS", "extent": [99.6, 2.5, 148.2, 26.9], "size": [1112,
-        556]}]'
+      encoding: ASCII-8BIT
+      string: '[{"url": "http://climatex.dost.gov.ph/himawari/noah/hima_simple_trans_13.png",
+        "verbose_name": "Satellite Image (Himawari)", "extent": [100.0, 4.85, 160.0,
+        29.85], "size": [800, 334]}, {"url": "http://climatex.dost.gov.ph/gsmap/png/accum_1hr.png",
+        "verbose_name": "Accumulated GSMAP (1hr)", "extent": [89.975, -10.525, 155.075,
+        29.475], "size": [652, 400]}, {"url": "http://climatex.dost.gov.ph/gsmap/png/accum_3hr.png",
+        "verbose_name": "Accumulated GSMAP (3hr)", "extent": [89.975, -10.525, 155.075,
+        29.475], "size": [652, 400]}, {"url": "http://climatex.dost.gov.ph/gsmap/png/accum_6hr.png",
+        "verbose_name": "Accumulated GSMAP (6hr)", "extent": [89.975, -10.525, 155.075,
+        29.475], "size": [652, 400]}, {"url": "http://climatex.dost.gov.ph/gsmap/png/accum_12hr.png",
+        "verbose_name": "Accumulated GSMAP (12hr)", "extent": [89.975, -10.525, 155.075,
+        29.475], "size": [652, 400]}]'
     http_version: 
-  recorded_at: Sat, 29 Nov 2014 00:19:37 GMT
+  recorded_at: Wed, 08 Feb 2017 18:22:15 GMT
 recorded_with: VCR 2.9.3

@@ -2,13 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: http://beta.noah.dost.gov.ph/api/muncities
+    uri: http://noah.dost.gov.ph/api/muncities
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,20 +19,18 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.6.0
+      - nginx/1.1.19
       Date:
-      - Thu, 11 Dec 2014 09:04:53 GMT
+      - Tue, 31 Jan 2017 14:00:42 GMT
       Content-Type:
       - text/html; charset=UTF-8
-      Content-Length:
-      - '196884'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Etag:
-      - ! '"d05cbf58b025d741974f077850411afc45db908b"'
     body:
-      encoding: US-ASCII
-      string: ! '[{"mun_city_psgc": "012801000", "verbose_name": "Adams", "region_psgc":
+      encoding: ASCII-8BIT
+      string: '[{"mun_city_psgc": "012801000", "verbose_name": "Adams", "region_psgc":
         "010000000", "province_psgc": "012800000"}, {"mun_city_psgc": "012802000",
         "verbose_name": "Bacarra", "region_psgc": "010000000", "province_psgc": "012800000"},
         {"mun_city_psgc": "012803000", "verbose_name": "Badoc", "region_psgc": "010000000",
@@ -2471,5 +2471,5 @@ http_interactions:
         {"mun_city_psgc": "175917000", "verbose_name": "Santa Maria (Imelda)", "region_psgc":
         "170000000", "province_psgc": "175900000"}]'
     http_version: 
-  recorded_at: Thu, 11 Dec 2014 09:04:59 GMT
+  recorded_at: Tue, 31 Jan 2017 14:01:15 GMT
 recorded_with: VCR 2.9.3

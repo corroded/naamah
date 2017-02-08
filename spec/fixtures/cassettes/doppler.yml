@@ -2,13 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: http://beta.noah.dost.gov.ph/api/doppler
+    uri: http://noah.dost.gov.ph/api/doppler
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,38 +19,44 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.6.0
+      - nginx/1.1.19
       Date:
-      - Sat, 29 Nov 2014 00:19:35 GMT
+      - Tue, 31 Jan 2017 14:13:14 GMT
       Content-Type:
       - text/html; charset=UTF-8
-      Content-Length:
-      - '1457'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
-      Etag:
-      - ! '"3ab9c95c05f0c676710b3062b4f03f5fab59f4bd"'
     body:
-      encoding: US-ASCII
-      string: ! '[{"url": "http://climatex.dost.gov.ph/img/latestBAG.png", "verbose_name":
-        "Baguio Station", "extent": [118.6529, 14.5471, 122.2565, 18.1507], "size":
-        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestSUB.png", "verbose_name":
-        "Subic Station", "extent": [118.4619, 13.0203, 122.0655, 16.6239], "size":
-        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestTAG.png", "verbose_name":
+      encoding: ASCII-8BIT
+      string: '[{"url": "http://climatex.dost.gov.ph/img/latestBAG.png", "gif_url":
+        "http://climatex.dost.gov.ph/img/latestBAG.gif", "verbose_name": "Baguio Station",
+        "extent": [118.6529, 14.5471, 122.2565, 18.1507], "size": [622, 622]}, {"url":
+        "http://climatex.dost.gov.ph/img/latestSUB.png", "gif_url": "http://climatex.dost.gov.ph/img/latestSUB.gif",
+        "verbose_name": "Subic Station", "extent": [118.4619, 13.0203, 122.0655, 16.6239],
+        "size": [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestTAG.png",
+        "gif_url": "http://climatex.dost.gov.ph/img/latestTAG.gif", "verbose_name":
         "Tagaytay Station", "extent": [119.1204, 12.3403, 122.724, 15.944], "size":
-        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestCEB.png", "verbose_name":
-        "Cebu Station", "extent": [122.0784, 8.5208, 125.682, 12.1244], "size": [622,
-        622]}, {"url": "http://climatex.dost.gov.ph/img/latestHIN.png", "verbose_name":
-        "Hinatuan Station", "extent": [124.4367, 6.5655, 128.0403, 10.1691], "size":
-        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestTAM.png", "verbose_name":
+        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestCEB.png", "gif_url":
+        "http://climatex.dost.gov.ph/img/latestCEB.gif", "verbose_name": "Cebu Station",
+        "extent": [122.0784, 8.5208, 125.682, 12.1244], "size": [622, 622]}, {"url":
+        "http://climatex.dost.gov.ph/img/latestHIN.png", "gif_url": "http://climatex.dost.gov.ph/img/latestHIN.gif",
+        "verbose_name": "Hinatuan Station", "extent": [124.4367, 6.5655, 128.0403,
+        10.1691], "size": [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestTAM.png",
+        "gif_url": "http://climatex.dost.gov.ph/img/latestTAM.gif", "verbose_name":
         "Tampakan Station", "extent": [123.1206, 4.6189, 126.7406, 8.2161], "size":
-        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestAPA.png", "verbose_name":
-        "Aparri Station", "extent": [119.645, 16.551389, 123.435, 20.148611], "size":
-        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestVIR.png", "verbose_name":
-        "Virac Station", "extent": [122.37944, 11.821389, 126.080556, 15.418611],
-        "size": [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestBAL.png",
-        "verbose_name": "Baler Station", "extent": [119.695, 13.925, 123.405, 17.562],
-        "size": [622, 622]}]'
+        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestAPA.png", "gif_url":
+        "http://climatex.dost.gov.ph/img/latestAPA.gif", "verbose_name": "Aparri Station",
+        "extent": [119.645, 16.551389, 123.435, 20.148611], "size": [622, 622]}, {"url":
+        "http://climatex.dost.gov.ph/img/latestVIR.png", "gif_url": "http://climatex.dost.gov.ph/img/latestVIR.gif",
+        "verbose_name": "Virac Station", "extent": [120.68, 10.02, 127.98, 17.22],
+        "size": [1244, 1244]}, {"url": "http://climatex.dost.gov.ph/img/latestGUI.png",
+        "gif_url": "http://climatex.dost.gov.ph/img/latestGUI.gif", "verbose_name":
+        "Guiuan Station", "extent": [122.2571, 7.5463, 129.2547, 14.5439], "size":
+        [622, 622]}, {"url": "http://climatex.dost.gov.ph/img/latestBAL.png", "gif_url":
+        "http://climatex.dost.gov.ph/img/latestBAL.gif", "verbose_name": "Baler Station",
+        "extent": [119.695, 13.925, 123.405, 17.562], "size": [622, 622]}]'
     http_version: 
-  recorded_at: Sat, 29 Nov 2014 00:19:37 GMT
+  recorded_at: Tue, 31 Jan 2017 14:13:47 GMT
 recorded_with: VCR 2.9.3

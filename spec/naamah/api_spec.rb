@@ -1,32 +1,42 @@
 require 'spec_helper'
 
 RSpec.describe Naamah::Api do
-  after do
-    VCR.eject_cassette
+  subject(:api_response) { described_class.send(method_name) }
+
+  let(:code) { api_response.code }
+  let(:parsed_response) { JSON.parse(api_response) }
+
+  around do |example|
+    VCR.use_cassette method_name.to_s do
+      example.run
+    end
   end
 
   describe '.doppler' do
-    before do
-      record_api_call_for 'doppler'
-    end
+    let(:method_name) { :doppler }
 
-    it 'pulls doppler data from the project noah API' do
-      expect(@api_response).to include('Baguio Station')
-      expect(@api_response.code).to eq(200)
-    end
+    it { is_expected.to include 'Baguio Station' }
+    it { expect(code).to eq 200 }
   end
 
   describe '.mtsat' do
-    before do
-      record_api_call_for 'mtsat'
+    let(:method_name) { :mtsat }
+    let(:parsed_response) { api_response }
+    let(:satellite_names) { parsed_response.map(&:verbose_name) }
+    let(:expected_names) do
+      [
+        'Satellite Image (Himawari)',
+        'Accumulated GSMAP (1hr)',
+        'Accumulated GSMAP (3hr)',
+        'Accumulated GSMAP (6hr)',
+        'Accumulated GSMAP (12hr)',
+      ]
     end
 
-    it 'should include all three types of mtsat images' do
-      expect(@api_response).to include('MTSAT')
-      expect(@api_response).to include('Processed MTSAT')
-      expect(@api_response).to include('MTSAT VIS')
-      expect(@api_response.code).to eq(200)
-      expect(JSON.parse(@api_response).size).to eq(3)
+    it { expect(parsed_response.size).to eq 5 }
+    it { expect(parsed_response).to all( be_instance_of(Naamah::SatelliteData) ) }
+    it 'returns Himawari and GSMAP data' do
+      expect(satellite_names.sort).to eq expected_names.sort
     end
   end
 

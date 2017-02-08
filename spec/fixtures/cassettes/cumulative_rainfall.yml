@@ -2,13 +2,15 @@
 http_interactions:
 - request:
     method: get
-    uri: http://beta.noah.dost.gov.ph/api/cumulative_rainfall
+    uri: http://noah.dost.gov.ph/api/cumulative_rainfall
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,28 +19,20 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.6.0
+      - nginx/1.1.19
       Date:
-      - Sat, 29 Nov 2014 00:19:37 GMT
+      - Tue, 31 Jan 2017 14:00:14 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
-      - '708'
+      - '2'
       Connection:
       - keep-alive
       Etag:
-      - ! '"c5541cce1b492171f53fec62e02dec343b255255"'
+      - '"97d170e1550eee4afc0af065b78cda302a97674c"'
     body:
-      encoding: US-ASCII
-      string: ! '[{"url": "http://mahar.pscigrid.gov.ph/static/img/accumulated_rainfall_3.png",
-        "verbose_name": "3-hour Rainfall", "extent": [115.2, 3.89, 128.135, 21.528],
-        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/accumulated_rainfall_6.png",
-        "verbose_name": "6-hour Rainfall", "extent": [115.2, 3.89, 128.135, 21.528],
-        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/accumulated_rainfall_12.png",
-        "verbose_name": "12-hour Rainfall", "extent": [115.2, 3.89, 128.135, 21.528],
-        "size": [400, 549]}, {"url": "http://mahar.pscigrid.gov.ph/static/img/accumulated_rainfall_24.png",
-        "verbose_name": "24-hour Rainfall", "extent": [115.2, 3.89, 128.135, 21.528],
-        "size": [400, 549]}]'
+      encoding: UTF-8
+      string: "[]"
     http_version: 
-  recorded_at: Sat, 29 Nov 2014 00:19:39 GMT
+  recorded_at: Tue, 31 Jan 2017 14:00:47 GMT
 recorded_with: VCR 2.9.3

@@ -3,6 +3,7 @@ require 'vcr'
 require 'json'
 
 require_relative '../lib/naamah/api'
+require_relative '../lib/naamah/satellite_data'
 
 #VCR config
 VCR.configure do |c|

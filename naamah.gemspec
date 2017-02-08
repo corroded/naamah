@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'naamah'
   spec.version       = Naamah::VERSION
   spec.authors       = ['Eumir Gaspar']
-  spec.email         = ['eumir@aelogica.com']
+  spec.email         = ['eumir@admoolabs.com']
   spec.summary       = %q{A Ruby wrapper for the Project Noah API}
   spec.description   = %q{A Ruby wrapper for the Project Noah (http://beta.noah.dost.gov.ph/apidocs/index.html) API}
   spec.homepage      = ''
